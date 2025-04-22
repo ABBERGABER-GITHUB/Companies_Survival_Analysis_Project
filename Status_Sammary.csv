@@ -1,0 +1,8 @@
+"","  company_id","company_name","foundation_year"," closing_year","    status","  duration","duration_numeric"
+"","Min.   : 1.0  ","Length:83         ","Min.   : NA  ","Min.   : NA  ","Active :33  ","Length:83         ","Min.   :  2.00  "
+"","1st Qu.:21.5  ","Class :character  ","1st Qu.: NA  ","1st Qu.: NA  ","defunct: 1  ","Class :character  ","1st Qu.: 18.25  "
+"","Median :42.0  ","Mode  :character  ","Median : NA  ","Median : NA  ","Defunct:49  ","Mode  :character  ","Median : 36.50  "
+"","Mean   :42.0  ",NA,"Mean   :NaN  ","Mean   :NaN  ",NA,NA,"Mean   : 51.36  "
+"","3rd Qu.:62.5  ",NA,"3rd Qu.: NA  ","3rd Qu.: NA  ",NA,NA,"3rd Qu.: 73.00  "
+"","Max.   :83.0  ",NA,"Max.   : NA  ","Max.   : NA  ",NA,NA,"Max.   :149.00  "
+"",NA,NA,"NA's   :83  ","NA's   :83  ",NA,NA,"NA's   :33  "

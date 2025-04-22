@@ -1,0 +1,84 @@
+"","company_id","company_name","foundation_year","closing_year","status","duration","duration_numeric"
+"1",1,"Rite Aid",NA,NA,"Defunct","61",61
+"2",2,"Universal Display (Joled)",NA,NA,"Defunct","8",8
+"3",3,"Metro-Goldwyn-Mayer (MGM)",NA,NA,"Defunct","98",98
+"4",4,"Toys 'R' Us",NA,NA,"Defunct","69",69
+"5",5,"Eastman Kodak",NA,NA,"Defunct","124",124
+"6",6,"Pier 1 Imports",NA,NA,"Defunct","58",58
+"7",7,"Blockbuster",NA,NA,"Defunct","25",25
+"8",8,"BlackBerry",NA,NA,"Defunct","32",32
+"9",9,"Nokia",NA,NA,"Defunct","149",149
+"10",10,"Enron",NA,NA,"Defunct","16",16
+"11",11,"Woolworth",NA,NA,"Defunct","118",118
+"12",12,"Yahoo",NA,NA,"Defunct","11",11
+"13",13,"Xerox",NA,NA,"Defunct","112",112
+"14",14,"Segway",NA,NA,"Defunct","19",19
+"15",15,"Jcpenney",NA,NA,"Defunct","118",118
+"16",16,"Tie Rack",NA,NA,"Defunct","33",33
+"17",17,"Myspace",NA,NA,"Defunct","3",3
+"18",18,"Netscape",NA,NA,"Defunct","14",14
+"19",19,"America Online (Aol)",NA,NA,"Defunct","26",26
+"20",20,"Commodore Corp",NA,NA,"Defunct","24",24
+"21",21,"Sears",NA,NA,"Defunct","40",40
+"22",22,"Macy'S",NA,NA,"Defunct","147",147
+"23",23,"Hitachi",NA,NA,"Defunct","60",60
+"24",24,"Polaroid",NA,NA,"Defunct","64",64
+"25",25,"Nike Fuelband",NA,NA,"Defunct","6",6
+"26",26,"Toshiba",NA,NA,"Defunct","31",31
+"27",27,"Radioshack",NA,NA,"Defunct","96",96
+"28",28,"Motorola",NA,NA,"Defunct","73",73
+"29",29,"Borders",NA,NA,"Defunct","40",40
+"30",30,"Palm",NA,NA,"Defunct","18",18
+"31",31,"Sony Walkman",NA,NA,"Defunct","31",31
+"32",32,"Pan Am",NA,NA,"Defunct","64",64
+"33",33,"The Concorde",NA,NA,"Defunct","34",34
+"34",34,"Circuit City",NA,NA,"Defunct","41",41
+"35",35,"Abercrombie & Fitch",NA,NA,"Defunct","73",73
+"36",36,"Hummer",NA,NA,"Defunct","17",17
+"37",37,"Mapquest",NA,NA,"Defunct","9",9
+"38",38,"Atari",NA,NA,"Defunct","20",20
+"39",39,"Tower Records",NA,NA,"Defunct","46",46
+"40",40,"Hmv",NA,NA,"Defunct","96",96
+"41",41,"Compaq",NA,NA,"Defunct","31",31
+"42",42,"General Motors",NA,NA,"Defunct","99",99
+"43",43,"Delorean Motor",NA,NA,"Defunct","7",7
+"44",44,"Tivo",NA,NA,"Defunct","25",25
+"45",45,"Pebble",NA,NA,"Defunct","3",3
+"46",46,"Party City",NA,NA,"Defunct","39",39
+"47",47,"At&T",NA,NA,"Defunct","139",139
+"48",48,"Mits Micro Instrumentation",NA,NA,"defunct","8",8
+"49",49,"Crystal Pepsi",NA,NA,"Defunct","2",2
+"50",50,"Karmelkorn",NA,NA,"Defunct","91",91
+"51",51,"IBM",NA,NA,"Active","Still Active",NA
+"52",52,"Verizon",NA,NA,"Active","Still Active",NA
+"53",53,"Amscan",NA,NA,"Active","Still Active",NA
+"54",54,"Playmobil",NA,NA,"Active","Still Active",NA
+"55",55,"Coca-Cola",NA,NA,"Active","Still Active",NA
+"56",56,"Ford",NA,NA,"Active","Still Active",NA
+"57",57,"Nestle",NA,NA,"Active","Still Active",NA
+"58",58,"General Electric",NA,NA,"Active","Still Active",NA
+"59",59,"Toyota",NA,NA,"Active","Still Active",NA
+"60",60,"CVS Health",NA,NA,"Active","Still Active",NA
+"61",61,"LG Display",NA,NA,"Active","Still Active",NA
+"62",62,"Lions Gate Entertainment",NA,NA,"Active","Still Active",NA
+"63",63,"Walmart",NA,NA,"Active","Still Active",NA
+"64",64,"Fujifilm",NA,NA,"Active","Still Active",NA
+"65",65,"Dollar Tree",NA,NA,"Active","Still Active",NA
+"66",66,"Netflix",NA,NA,"Active","Still Active",NA
+"67",67,"Apple",NA,NA,"Active","Still Active",NA
+"68",68,"Barnes & Noble",NA,NA,"Active","Still Active",NA
+"69",69,"Books-A-Million (Bam!)",NA,NA,"Active","Still Active",NA
+"70",70,"Waterstones",NA,NA,"Active","Still Active",NA
+"71",71,"Indigo Books And Music",NA,NA,"Active","Still Active",NA
+"72",72,"Harley-Davidson",NA,NA,"Active","Still Active",NA
+"73",73,"Ducati",NA,NA,"Active","Still Active",NA
+"74",74,"Honda",NA,NA,"Active","Still Active",NA
+"75",75,"Yamaha",NA,NA,"Active","Still Active",NA
+"76",76,"Kawasaki",NA,NA,"Active","Still Active",NA
+"77",77,"Fedex",NA,NA,"Active","Still Active",NA
+"78",78,"Samsung Galaxy Watch Ultra",NA,NA,"Active","Still Active",NA
+"79",79,"Dell",NA,NA,"Active","Still Active",NA
+"80",80,"Google Chrome",NA,NA,"Active","Still Active",NA
+"81",81,"Zara",NA,NA,"Active","Still Active",NA
+"82",82,"Macy'S",NA,NA,"Active","Still Active",NA
+"83",83,"Alaska Airlines",NA,NA,"Active","Still Active",NA

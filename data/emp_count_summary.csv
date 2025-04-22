@@ -1,0 +1,7 @@
+"  company_id","company_name","    years","employees_number","   status"
+"Min.   : 1.00  ","Length:200        ","Min.   :2009  ","Min.   :     84  ","Length:200        "
+"1st Qu.: 5.00  ","Class :character  ","1st Qu.:2012  ","1st Qu.:   4425  ","Class :character  "
+"Median :60.00  ","Mode  :character  ","Median :2016  ","Median :  50500  ","Mode  :character  "
+"Mean   :37.05  ",NA,"Mean   :2016  ","Mean   : 244726  ",NA
+"3rd Qu.:63.00  ",NA,"3rd Qu.:2020  ","3rd Qu.: 117750  ",NA
+"Max.   :67.00  ",NA,"Max.   :2025  ","Max.   :2300000  ",NA

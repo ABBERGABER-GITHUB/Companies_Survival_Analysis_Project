@@ -1,0 +1,256 @@
+---
+title: "How to Avoid Company Closure: A Data-Driven Survival Guide"
+author: "Abeer Gaber"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: united
+    css: style.css
+---
+
+
+## Enough Falling – It’s Time to Rise
+
+Do you remember Blackberry, Metro-Goldwyn-Mayer (MGM), Toys ‘R’ Us, Atari, and Karmelkorn?
+
+Some will recognize these names—companies that were once very famous and lasted for years.
+
+What happened to them? Why did they stop? Why couldn’t they keep going?
+
+If you want to avoid the same fate, this report is for you.
+
+It analyzes financial performance, stock trends, and employee data across many companies to identify patterns of survival and closure.
+
+By understanding the traits of both successful and failed companies, I provide actionable insights and strategies to help you avoid failure and thrive in a competitive market.
+
+
+
+### Load Packages
+
+```{r}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(knitr)
+library(gt)
+library(lubridate)
+library(corrplot)
+library(tidyr)
+library(forecast)
+```
+
+
+## 📊 Company Status: Who Survived and Who Didn't
+
+**Insight:**  
+This visualizations shows various distributions of companies by their status—whether they are still operational or have closed.
+
+
+```{r}
+Status <- read.csv("D:/Data Analysis/Company_Analysis_Project/status_cleaned.csv")
+```
+
+# Data Summary
+
+```{r}
+dim(Status)          # Dimensions
+str(Status)          # Structure
+summary(Status)      # Summary statistics
+sum(is.na(Status))   # Count missing values
+```
+# Company Lifespan by Status
+The lifespan of companies shows a significant difference between those that survived and those that didn’t. Defunct companies tend to have shorter lifespans.
+Lifespan is an important measure of company health.
+Let’s compare the lifespans of active and defunct companies using the Status dataset.
+
+```{r}
+if("foundation_year" %in% colnames(Status) & "status" %in% colnames(Status)) {
+  Status <- Status %>%
+    mutate(duration = ifelse(
+      status == "Still Active" & !is.na(foundation_year),
+      year(Sys.Date()) - foundation_year,
+      ifelse(!is.na(duration), duration, NA)
+    ))
+
+  ggplot(Status[!is.na(Status$duration), ], aes(x = duration, fill = status)) +
+    geom_histogram(bins = 30) +
+    labs(title = "Company Lifespan by Status", x = "Years", y = "Count") +
+    theme_minimal()
+}
+
+```
+# Create a bar-chart for company status
+```{r}
+ggplot(Status, aes(x = duration)) +
+  geom_bar(fill = "#2c3e50") +
+  theme_minimal() +
+  labs(title = "Lifespan Including 'Still Active'", x = "Duration (Years)", y = "Count") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+**Actionable Takeaway:**  
+If your company is in the closure group, it is essential to analyze the contributing factors and take immediate action to turn the trend around.
+
+**Insight:**  
+This boxplot compares the lifespans of companies based on their status. 
+
+**Actionable Takeaway:**  
+A company’s ability to extend its lifespan depends on factors like financial management, adaptability, and market positioning. If your company is near the lower end of the lifespan spectrum, it is crucial to reassess its strategies, focusing on long-term sustainability rather than short-term gains.
+
+# Create a boxplot for company lifespan by status
+```{r boxplot-lifespan}
+ggplot(Status[!is.na(Status$duration), ], aes(x = status, y = duration, fill = status)) +
+  geom_boxplot() +
+  labs(title = "Company Lifespan by Status", x = "Status", y = "Years Active") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+
+## Employee Count: Employee Distribution by Company Status
+Employee count is another factor that can help determine company success.
+A significant drop in employee numbers is often seen in companies that are in decline.
+Companies that are growing or stable tend to have a steady increase in their employee base.
+Let’s look at how the number of employees varies based on company status.
+
+
+```{r}
+emp_count <- read.csv("D:/Data Analysis/Company_Analysis_Project/emp_count_cleaned.csv")
+```
+
+# Data Summary
+
+```{r}
+dim(emp_count)          # Dimensions
+str(emp_count)          # Structure
+summary(emp_count)      # Summary statistics
+sum(is.na(emp_count))   # Count missing values
+```
+
+# Create a histogram of employee count distribution by company status
+```{r}
+ggplot(emp_count, aes(x = employees_number, fill = status)) +
+  geom_histogram(bins = 30) +
+  theme_minimal() +
+  labs(title = "Employee Count Distribution by Company Status",
+       x = "Number of Employees", y = "Count")
+```
+
+
+## 📈 Revenue Over Time  
+Revenue is a key indicator of a company’s financial performance.
+Companies that have closed often show erratic or decreasing revenue trends, while active companies tend to have more stable or growing revenues.
+Let’s explore how revenue varies across companies based on their status (active vs. defunct).
+
+**Insight:**  
+This line chart and histogram visualize the revenue trends of companies over time, categorized by their status. Healthy companies show consistent or growing revenue over the years, while companies that close often experience sharp declines or erratic fluctuations in revenue.
+
+**Actionable Takeaway:**  
+If your revenue is showing a decline or significant fluctuation, it is a red flag. To avoid closure, consider analyzing the reasons behind these revenue drops—such as market shifts, cost inefficiencies, or competition—and make adjustments like cost-cutting, diversifying product lines, or improving marketing efforts.
+
+```{r}
+
+finance <- read.csv("D:/Data Analysis/Company_Analysis_Project/finance_cleaned.csv")
+```
+
+# Data Summary
+
+```{r}
+dim(finance)          # Dimensions
+str(finance)          # Structure
+summary(finance)      # Summary statistics
+sum(is.na(finance))   # Count missing values
+```
+
+```{r revenue-trend}
+# create a revenue- trends 
+ggplot(finance, aes(x = years, y = revenue, group = company_name, color = status)) +
+  geom_line(alpha = 0.5) +
+  theme_minimal() +
+  labs(title = "Revenue Over Time by Company", x = "Years", y = "Revenue")
+```
+
+```{r}
+# Create a histogram of revenue distribution by company status
+ggplot(finance, aes(x = revenue, fill = status)) +
+  geom_histogram(bins = 30) +
+  theme_minimal() +
+  labs(title = "Revenue Distribution by Company Status",
+       x = "Revenue", y = "Count")
+```
+
+
+## 💰 Stock Price and PE Ratio
+**Stock Trends:**
+Companies with increasing stock prices tend to have better financial performance and longevity. On the other hand, companies with fluctuating or decreasing stock prices may face challenges.
+We will analyze the stock data to visualize how different companies' stock prices have evolved over time.
+
+**Insight:**  
+This scatter plot shows the relationship between the Price-to-Earnings (PE) ratio and the average stock price. Companies that are financially healthy often have a higher PE ratio, indicating that investors have more confidence in their future earnings potential.
+
+**Actionable Takeaway:**  
+A low PE ratio can indicate that your company is undervalued or struggling. To boost the PE ratio, consider improving profitability by increasing revenue, reducing costs, or communicating your company's growth potential more effectively to investors.
+
+**Important Note:**  
+As the chart shows, the overall average revenue among companies is 5 million, reflecting the good performance of the companies that survived compared to those that closed.
+
+```{r stock-vs-pe}
+stock <- read.csv("D:/Data Analysis/Company_Analysis_Project/stock_cleaned.csv")
+```
+
+# Data Summary
+
+```{r}
+dim(stock)          # Dimensions
+str(stock)          # Structure
+summary(stock)      # Summary statistics
+sum(is.na(stock))   # Count missing values
+```
+
+# Scatter plot for stock price vs PE ratio
+```{r}
+ggplot(stock, aes(x = PE_Ratio, y = Avg_Stock_Price, color = status)) +
+  geom_point(alpha = 0.7, na.rm = TRUE) +
+  theme_minimal() +
+  labs(title = "Stock Price vs PE Ratio", x = "P/E Ratio", y = "Average Stock Price")
+```
+
+# Create a plot of stock price trends over time
+```{r}
+ggplot(stock, aes(x = years, y = Avg_Stock_Price, color = company_name)) +
+  geom_line() +
+  theme_minimal() +
+  labs(title = "Stock Price Trends by Company", x = "Year", y = "Average Stock Price")
+```
+
+
+## Key Takeaways and Survival Strategies:
+
+**Financial Health:**  
+Regularly monitor key financial metrics (e.g., revenue, profit margins, debt) to identify signs of distress early.
+
+**Customer Focus:**  
+Reassess your customer needs and the value you’re offering. Adapt to shifting market demands and invest in customer loyalty.
+
+**Case Study:**  
+Apple successfully navigated financial and market crises by embracing new technologies such as touchscreen interfaces and app ecosystems. These innovations drastically improved product appeal, operational efficiency, and customer engagement. In contrast, BlackBerry failed to adapt to changing consumer demands and technological trends, holding on to outdated features like physical keyboards and enterprise-focused software. As a result, Apple thrived while BlackBerry's market share collapsed.
+
+**Lesson:**  
+Companies that proactively adopt relevant technologies and innovate based on market needs are more likely to survive and grow, while those that resist change risk becoming obsolete.
+
+**Investor Confidence:**  
+If your PE ratio is low, focus on improving profitability and communicating your vision to investors. Strong communication about future growth can rebuild confidence.
+
+**Operational Efficiency:**  
+Short lifespans and closures often result from poor management or operational inefficiencies. Regular audits of operations, cost control measures, and innovation can prevent stagnation.
+
+**Adaptability:**  
+The ability to pivot or adapt to market conditions is essential for long-term survival. Companies that failed typically couldn’t adapt quickly enough to external changes like technology shifts, regulatory changes, or market demands.
+
+**Conclusion:**
+In conclusion, by analyzing stock trends, financial performance, employee count, and company lifespan, we can gain valuable insights into the factors that contribute to a company’s survival or closure. Understanding these factors can help in making strategic decisions to avoid company closure and ensure long-term success.
+
