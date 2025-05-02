@@ -75,16 +75,16 @@ The SQL queries explore:
 Power BI was used to build dynamic dashboards that present real-time insights with user-friendly visuals:
 
 - 📊 **Profit Trends and Forecasting**  
-  ![Profit Analysis](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/images/Powerbi_Profit_Analysis.png)
+  ![Profit Analysis](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/Images/Powerbi_Profit_Analysis.png)
 
 - 📉 **Status Breakdown by Year**  
-  ![Status Breakdown](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/images/powerbi_Status_Analysis.png)
+  ![Status Breakdown](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/Images/powerbi_Status_Analysis.png)
 
 - 💵 **Operation & Market Performance**  
-  ![Revenue Net Income](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/images/Powerbi_Stock_Analysis.png)
+  ![Revenue Net Income](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/Images/Powerbi_Stock_Analysis.png)
 
 - ⚠️ **Warning Flags and Risk Prediction**  
-  ![Revenue Net Income](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/images/Powerbi_Warning_Flags.png)
+  ![Revenue Net Income](https://github.com/ABBERGABER-GITHUB/Companies_Analysis_Project/blob/main/Images/Powerbi_Warning_Flags.png)
   
 > 🎯 The Power BI file (`Companies_Data_Analysis.pbix`) is included for exploration.
 
