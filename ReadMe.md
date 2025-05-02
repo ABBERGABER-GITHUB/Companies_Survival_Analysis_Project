@@ -128,8 +128,11 @@ This analysis leverages the following tools and technologies:
 ## 🧭 How to Run This Report
 
 1. Clone the repository or download the `.Rmd` and `.sql` files.
-2. Open the R Markdown file in **RStudio**.to view the R-based analysis.
-3. Install the necessary packages: `ggplot2`, `dplyr`, `readr`, `knitr`, `openxlsx`, `tidyverse`, `readxl`, `janitor`, `lubridate`, `gridExtra`, `scales`, `tidyr`, `ggthemes`, `kableExtra`, `DT`.
+2. Open the R Markdown file in **RStudio** to view and run the R-based analysis.
+3. Install the necessary R packages:
+   ```R
+   install.packages(c("ggplot2", "dplyr", "readr", "knitr", "openxlsx", "tidyverse", "readxl", "janitor", "lubridate", "gridExtra", "scales", "tidyr", "ggthemes", "kableExtra", "DT"))
+  ```
 4. Adjust the dataset
 
 
@@ -147,6 +150,13 @@ An aspiring Data Analyst with a passion for turning complex data into actionable
 - 🗂 **GitHub:** [github.com/ABBERGABER-GITHUB](https://github.com/ABBERGABER-GITHUB)
 
 
+### Quick Recap:
+
+1. **Add the above text** into your `README.md` file.
+2. **Upload sample images** of your reports, charts, or any relevant visuals into the `Images/` folder, then link them under the **Sample Images** section.
+
+## 🧾 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 *Feel free to explore the project and reach out for collaboration or inquiries!*
 
