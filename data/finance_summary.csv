@@ -1,7 +1,0 @@
-"","  company_id","company_name","    years","   status","   revenue","    assets","total_liabilities","holders_equity","  net_income","long_term_debt"
-"","Min.   : 1.00  ","Length:220        ","Min.   :2001  ","Length:220        ","Min.   :0.000e+00  ","Min.   :5.000e+00  ","Min.   :8.000e+00  ","Min.   :   -552000  ","Min.   : -1621100  ","Min.   :        0  "
-"","1st Qu.: 5.00  ","Class :character  ","1st Qu.:2012  ","Class :character  ","1st Qu.:1.629e+03  ","1st Qu.:2.759e+03  ","1st Qu.:1.579e+03  ","1st Qu.:       584  ","1st Qu.:      -99  ","1st Qu.:      256  "
-"","Median :60.00  ","Mode  :character  ","Median :2016  ","Mode  :character  ","Median :1.093e+04  ","Median :1.366e+04  ","Median :9.998e+03  ","Median :      4102  ","Median :      186  ","Median :     3250  "
-"","Mean   :35.53  ",NA,"Mean   :2016  ",NA,"Mean   :4.798e+07  ","Mean   :7.487e+07  ","Mean   :2.610e+07  ","Mean   :  48451430  ","Mean   :  3866606  ","Mean   : 11069210  "
-"","3rd Qu.:63.00  ",NA,"3rd Qu.:2020  ",NA,"3rd Qu.:3.214e+04  ","3rd Qu.:7.950e+04  ","3rd Qu.:3.994e+04  ","3rd Qu.:     37696  ","3rd Qu.:     3520  ","3rd Qu.:    14438  "
-"","Max.   :67.00  ",NA,"Max.   :2025  ",NA,"Max.   :2.961e+09  ","Max.   :4.783e+09  ","Max.   :1.610e+09  ","Max.   :3169247000  ","Max.   :243509000  ","Max.   :691357000  "

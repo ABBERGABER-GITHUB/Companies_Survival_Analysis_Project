@@ -1,8 +1,0 @@
-"","  company_id","company_name","foundation_year"," closing_year","   status","  duration","duration_numeric"
-"","Min.   : 1.0  ","Length:83         ","Min.   :1858  ","Min.   :1977  ","Length:83         ","Length:83         ","Min.   :  2.00  "
-"","1st Qu.:21.5  ","Class :character  ","1st Qu.:1925  ","1st Qu.:2002  ","Class :character  ","Class :character  ","1st Qu.: 18.25  "
-"","Median :42.0  ","Mode  :character  ","Median :1963  ","Median :2010  ","Mode  :character  ","Mode  :character  ","Median : 36.50  "
-"","Mean   :42.0  ",NA,"Mean   :1954  ","Mean   :2008  ",NA,NA,"Mean   : 51.36  "
-"","3rd Qu.:62.5  ",NA,"3rd Qu.:1985  ","3rd Qu.:2017  ",NA,NA,"3rd Qu.: 73.00  "
-"","Max.   :83.0  ",NA,"Max.   :2024  ","Max.   :2025  ",NA,NA,"Max.   :149.00  "
-"",NA,NA,NA,"NA's   :33  ",NA,NA,"NA's   :33  "

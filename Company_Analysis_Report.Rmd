@@ -1,5 +1,5 @@
 ---
-title: "How to Avoid Company Closure: A Data-Driven Survival Guide"
+title: "Company Analysis Report"
 author: "Abeer Gaber"
 date: "`r Sys.Date()`"
 output:
@@ -7,10 +7,25 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-    theme: united
-    css: style.css
+    number_sections: true
+    theme: cerulean
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+suppressWarnings(suppressPackageStartupMessages({
+  library(dplyr)
+  library(ggplot2)
+  library(scales)
+  library(tidyr)
+  library(ggthemes)
+  library(kableExtra)
+  library(DT)
+  library(randomForest)
+  library(caret)
+}))
+```
 
 ## Enough Falling – It’s Time to Rise
 
@@ -28,8 +43,6 @@ By understanding the traits of both successful and failed companies, I provide a
 
 
 
-### Load Packages
-
 ```{r}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
@@ -45,52 +58,40 @@ library(forecast)
 ```
 
 
+```{r load-data}
+companies_mergedData <- read.csv("D:/Data Analysis/Company_Analysis_Project/companies_mergedData.csv")
+companies_mergedData <- companies_mergedData %>% 
+  select(-X)
+```
+
+# Data Overview
+
+```{r data-glimpse}
+str(companies_mergedData)
+summary(companies_mergedData)
+```
+
+```{r show-table, results='asis'}
+head(companies_mergedData) %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
 ## 📊 Company Status: Who Survived and Who Didn't
 
 **Insight:**  
 This visualizations shows various distributions of companies by their status—whether they are still operational or have closed.
 
-
-```{r}
-Status <- read.csv("D:/Data Analysis/Company_Analysis_Project/status_cleaned.csv")
-```
-
-# Data Summary
-
-```{r}
-dim(Status)          # Dimensions
-str(Status)          # Structure
-summary(Status)      # Summary statistics
-sum(is.na(Status))   # Count missing values
-```
 # Company Lifespan by Status
 The lifespan of companies shows a significant difference between those that survived and those that didn’t. Defunct companies tend to have shorter lifespans.
 Lifespan is an important measure of company health.
 Let’s compare the lifespans of active and defunct companies using the Status dataset.
 
-```{r}
-if("foundation_year" %in% colnames(Status) & "status" %in% colnames(Status)) {
-  Status <- Status %>%
-    mutate(duration = ifelse(
-      status == "Still Active" & !is.na(foundation_year),
-      year(Sys.Date()) - foundation_year,
-      ifelse(!is.na(duration), duration, NA)
-    ))
-
-  ggplot(Status[!is.na(Status$duration), ], aes(x = duration, fill = status)) +
-    geom_histogram(bins = 30) +
-    labs(title = "Company Lifespan by Status", x = "Years", y = "Count") +
-    theme_minimal()
-}
-
-```
-# Create a bar-chart for company status
-```{r}
-ggplot(Status, aes(x = duration)) +
-  geom_bar(fill = "#2c3e50") +
-  theme_minimal() +
-  labs(title = "Lifespan Including 'Still Active'", x = "Duration (Years)", y = "Count") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```{r status-distribution}
+ggplot(companies_mergedData, aes(x = Current_Status, fill = Current_Status)) +
+  geom_bar() +
+  labs(title = "Number of Companies by Status", x = "Current_Status", y = "Count") +
+  theme_minimal()
 ```
 **Actionable Takeaway:**  
 If your company is in the closure group, it is essential to analyze the contributing factors and take immediate action to turn the trend around.
@@ -101,45 +102,29 @@ This boxplot compares the lifespans of companies based on their status.
 **Actionable Takeaway:**  
 A company’s ability to extend its lifespan depends on factors like financial management, adaptability, and market positioning. If your company is near the lower end of the lifespan spectrum, it is crucial to reassess its strategies, focusing on long-term sustainability rather than short-term gains.
 
-# Create a boxplot for company lifespan by status
-```{r boxplot-lifespan}
-ggplot(Status[!is.na(Status$duration), ], aes(x = status, y = duration, fill = status)) +
-  geom_boxplot() +
-  labs(title = "Company Lifespan by Status", x = "Status", y = "Years Active") +
-  theme_minimal() +
-  theme(legend.position = "none")
-```
-
-
 ## Employee Count: Employee Distribution by Company Status
 Employee count is another factor that can help determine company success.
 A significant drop in employee numbers is often seen in companies that are in decline.
 Companies that are growing or stable tend to have a steady increase in their employee base.
 Let’s look at how the number of employees varies based on company status.
 
-
-```{r}
-emp_count <- read.csv("D:/Data Analysis/Company_Analysis_Project/emp_count_cleaned.csv")
+# Data Summary for Employee Count
+```{r emp-count-summary}
+dim(companies_mergedData$Employee_Number)          # Dimensions
+str(companies_mergedData$Employee_Number)          # Structure
+summary(companies_mergedData$Employee_Number)      # Summary statistics
+sum(is.na(companies_mergedData$Employee_Number))   # Count missing values
 ```
 
-# Data Summary
+# Employee Count Distribution by Company Status
 
-```{r}
-dim(emp_count)          # Dimensions
-str(emp_count)          # Structure
-summary(emp_count)      # Summary statistics
-sum(is.na(emp_count))   # Count missing values
-```
-
-# Create a histogram of employee count distribution by company status
-```{r}
-ggplot(emp_count, aes(x = employees_number, fill = status)) +
+```{r emp-histogram}
+ggplot(companies_mergedData, aes(x = Employee_Number, fill = Current_Status)) +
   geom_histogram(bins = 30) +
   theme_minimal() +
-  labs(title = "Employee Count Distribution by Company Status",
+  labs(title = "Employee Count Distribution by Company Current Status",
        x = "Number of Employees", y = "Count")
 ```
-
 
 ## 📈 Revenue Over Time  
 Revenue is a key indicator of a company’s financial performance.
@@ -152,36 +137,94 @@ This line chart and histogram visualize the revenue trends of companies over tim
 **Actionable Takeaway:**  
 If your revenue is showing a decline or significant fluctuation, it is a red flag. To avoid closure, consider analyzing the reasons behind these revenue drops—such as market shifts, cost inefficiencies, or competition—and make adjustments like cost-cutting, diversifying product lines, or improving marketing efforts.
 
-```{r}
-
-finance <- read.csv("D:/Data Analysis/Company_Analysis_Project/finance_cleaned.csv")
-```
-
-# Data Summary
-
-```{r}
-dim(finance)          # Dimensions
-str(finance)          # Structure
-summary(finance)      # Summary statistics
-sum(is.na(finance))   # Count missing values
-```
-
 ```{r revenue-trend}
-# create a revenue- trends 
-ggplot(finance, aes(x = years, y = revenue, group = company_name, color = status)) +
-  geom_line(alpha = 0.5) +
-  theme_minimal() +
-  labs(title = "Revenue Over Time by Company", x = "Years", y = "Revenue")
+ggplot(companies_mergedData, aes(x = Years, y = Revenue, group = Company_Name, color = Current_Status)) +
+  geom_line(alpha = 0.6) +
+  labs(title = "Revenue Trends Over Time", x = "Year", y = "Revenue") +
+  theme_minimal()
 ```
 
-```{r}
-# Create a histogram of revenue distribution by company status
-ggplot(finance, aes(x = revenue, fill = status)) +
-  geom_histogram(bins = 30) +
-  theme_minimal() +
-  labs(title = "Revenue Distribution by Company Status",
-       x = "Revenue", y = "Count")
+# Net Income vs. Revenue
+
+```{r income-vs-revenue}
+ggplot(companies_mergedData, aes(x = Revenue, y = Net_Income, color = Current_Status)) +
+  geom_point(alpha = 0.7) +
+  labs(title = "Net Income vs Revenue", x = "Revenue", y = "Net Income") +
+  theme_minimal()
 ```
+
+## Prediction Model: Forecasting Future Company Status
+Let’s build a predictive model using the data to identify which companies are more likely to continue, and which ones might be closed.
+
+```{r}
+# Prepare data
+model_data <- companies_mergedData %>%
+  filter(Current_Status %in% c("Active", "Defunct", "Re-Opened")) %>%
+  mutate(Status_Class = as.factor(Current_Status)) %>%
+  select(Status_Class, Foundation_Year, Closing_Year, Duration, Employee_Number,
+         Revenue, Net_Income, Assets, long_Term_Debt, Total_Liabilities,
+         Holders_Equity, Avg_Stock_Price, Avg_TTM_Net_EPS, Avg_PE_Ratio) %>%
+  drop_na()
+
+# Split into train/test sets
+set.seed(42)
+trainIndex <- createDataPartition(model_data$Status_Class, p = 0.8, list = FALSE)
+train <- model_data[trainIndex, ]
+test <- model_data[-trainIndex, ]
+
+# Train random forest model
+rf_model <- randomForest(Status_Class ~ ., data = train, ntree = 300, importance = TRUE)
+
+# Predictions on test set
+test$Prediction <- predict(rf_model, newdata = test)
+
+# Confusion matrix
+confusionMatrix(test$Prediction, test$Status_Class)
+
+```
+
+## Feature Importance
+```{r}
+# Plot feature importance
+varImpPlot(rf_model)
+```
+
+## Company-Level Summaries
+```{r}
+summary_table <- companies_mergedData %>%
+  group_by(Company_Name, Status) %>%
+  summarise(
+    Avg_Revenue = mean(Revenue, na.rm = TRUE),
+    Avg_Net_Income = mean(Net_Income, na.rm = TRUE),
+    Avg_Stock_Price = mean(Avg_Stock_Price, na.rm = TRUE),
+    Avg_PE = mean(Avg_PE_Ratio, na.rm = TRUE),
+    .groups = 'drop')
+
+datatable(summary_table)
+```
+## ⚠️ Critical Warning for At-Risk Companies
+
+If your company has been flagged by the prediction model as “Defunct” or at risk, this is not just a data point—it's a wake-up call.
+
+Your financial indicators, operational trends, and employee patterns mirror those of companies that have already failed.
+
+Unless immediate and strategic actions are taken, your company may face irreversible closure.
+
+This report has highlighted the exact warning signs—declining revenue, shrinking employee numbers, rising liabilities, and reduced investor confidence.
+
+You are not out of time yet—but you're close.
+
+Take this prediction seriously:
+
+Reassess your business model.
+
+Cut non-essential costs.
+
+Innovate your offerings.
+
+Rebuild trust with investors and employees.
+
+The next move you make could decide your company’s fate. Delay is the most dangerous option.
 
 
 ## 💰 Stock Price and PE Ratio
@@ -198,35 +241,41 @@ A low PE ratio can indicate that your company is undervalued or struggling. To b
 **Important Note:**  
 As the chart shows, the overall average revenue among companies is 5 million, reflecting the good performance of the companies that survived compared to those that closed.
 
-```{r stock-vs-pe}
-stock <- read.csv("D:/Data Analysis/Company_Analysis_Project/stock_cleaned.csv")
+# Average PE Ratio by Status
+
+```{r pe-ratio-by-status}
+companies_mergedData %>%
+  group_by(Status) %>%
+  summarise(avg_pe = mean(Avg_PE_Ratio, na.rm = TRUE)) %>%
+  ggplot(aes(x = Status, y = avg_pe, fill = Status)) +
+  geom_col() +
+  labs(title = "Average PE Ratio by Company Status", x = "Status", y = "Avg PE Ratio") +
+  theme_minimal()
 ```
 
-# Data Summary
+# Average Stock Price Distribution
 
-```{r}
-dim(stock)          # Dimensions
-str(stock)          # Structure
-summary(stock)      # Summary statistics
-sum(is.na(stock))   # Count missing values
+```{r stock-price-distribution}
+ggplot(companies_mergedData, aes(x = Avg_Stock_Price, fill = Status)) +
+  geom_histogram(bins = 30, alpha = 0.7, position = "identity") +
+  labs(title = "Average Stock Price Distribution", x = "Stock Price", y = "Frequency") +
+  theme_minimal()
 ```
 
-# Scatter plot for stock price vs PE ratio
-```{r}
-ggplot(stock, aes(x = PE_Ratio, y = Avg_Stock_Price, color = status)) +
-  geom_point(alpha = 0.7, na.rm = TRUE) +
-  theme_minimal() +
-  labs(title = "Stock Price vs PE Ratio", x = "P/E Ratio", y = "Average Stock Price")
-```
+# Company-Level Summaries
 
-# Create a plot of stock price trends over time
-```{r}
-ggplot(stock, aes(x = years, y = Avg_Stock_Price, color = company_name)) +
-  geom_line() +
-  theme_minimal() +
-  labs(title = "Stock Price Trends by Company", x = "Year", y = "Average Stock Price")
-```
+```{r company-summary-table}
+summary_table <- companies_mergedData %>%
+  group_by(Company_Name, Status) %>%
+  summarise(
+    Avg_Revenue = mean(Revenue, na.rm = TRUE),
+    Avg_Net_Income = mean(Net_Income, na.rm = TRUE),
+    Avg_Stock_Price = mean(Avg_Stock_Price, na.rm = TRUE),
+    Avg_PE = mean(Avg_PE_Ratio, na.rm = TRUE),
+    .groups = 'drop')
 
+datatable(summary_table)
+```
 
 ## Key Takeaways and Survival Strategies:
 
@@ -253,4 +302,3 @@ The ability to pivot or adapt to market conditions is essential for long-term su
 
 **Conclusion:**
 In conclusion, by analyzing stock trends, financial performance, employee count, and company lifespan, we can gain valuable insights into the factors that contribute to a company’s survival or closure. Understanding these factors can help in making strategic decisions to avoid company closure and ensure long-term success.
-

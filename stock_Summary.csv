@@ -1,8 +1,0 @@
-"","  company_id","company_name","    years","Avg_Stock_Price","Avg_TTM_Net_EPS","   PE_Ratio","   status","     year"
-"","Min.   : 1.00  ","Length:203        ","Min.   :2009  ","Min.   :  2.14  ","Min.   :-65.060  ","Min.   :-239.33  ","Length:203        ","Min.   : NA  "
-"","1st Qu.: 5.00  ","Class :character  ","1st Qu.:2013  ","1st Qu.: 11.26  ","1st Qu.: -0.140  ","1st Qu.:  -0.31  ","Class :character  ","1st Qu.: NA  "
-"","Median :60.00  ","Mode  :character  ","Median :2017  ","Median : 28.37  ","Median :  1.280  ","Median :  12.58  ","Mode  :character  ","Median : NA  "
-"","Mean   :36.91  ",NA,"Mean   :2017  ","Mean   : 70.06  ","Mean   :  1.180  ","Mean   :  23.10  ",NA,"Mean   :NaN  "
-"","3rd Qu.:64.50  ",NA,"3rd Qu.:2021  ","3rd Qu.: 75.08  ","3rd Qu.:  2.975  ","3rd Qu.:  23.86  ",NA,"3rd Qu.: NA  "
-"","Max.   :67.00  ",NA,"Max.   :2025  ","Max.   :959.49  ","Max.   : 39.600  ","Max.   : 758.00  ",NA,"Max.   : NA  "
-"",NA,NA,NA,NA,NA,NA,NA,"NA's   :203  "
