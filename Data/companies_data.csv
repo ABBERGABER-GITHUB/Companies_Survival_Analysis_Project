@@ -1,0 +1,734 @@
+Company_Name,Foundation_Year,Closing_Year,Dynamic Duration,Industries,Status,Currect_Status,Notes,Years,Employee_Number, Revenue , Net_Income , Assets , long_Term_Debt , Total_Liabilities , Holders_Equity , Avg_Stock_Price , Avg_TTM_Net_EPS , Avg_PE_Ratio 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2023,47000,"$24,092.00 ",($750.00),"$7,527.00 ","$2,938.00 ","$8,169.00 ",($642.00),$2.14 ,($20.20),($0.11)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2022,53000,"$24,568.00 ",($538.00),"$8,529.00 ","$2,748.00 ","$8,430.00 ",$99.00 ,$6.74 ,($13.54),($0.50)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2021,50000,"$24,043.00 ",($91.00),"$9,335.00 ","$3,080.00 ","$8,720.00 ",$615.00 ,$16.98 ,($1.98),($8.58)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2020,48000,"$21,928.00 ",($452.00),"$9,452.00 ","$3,097.00 ","$8,778.00 ",$675.00 ,$13.24 ,($7.57),($1.75)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2019,51000,"$21,640.00 ",($422.00),"$7,591.00 ","$3,479.00 ","$6,405.00 ","$1,187.00 ",$9.50 ,($9.52),($1.00)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2018,59000,"$21,529.00 ",$943.00 ,"$8,989.00 ","$3,371.00 ","$7,388.00 ","$1,601.00 ",$30.25 ,$16.65 ,$1.82 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2017,87000,"$22,928.00 ",$4.00 ,"$11,594.00 ","$3,273.00 ","$10,980.00 ",$614.00 ,$69.20 ,$0.80 ,$86.50 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2016,88000,"$20,770.00 ",$165.00 ,"$11,277.00 ","$6,967.00 ","$10,696.00 ",$581.00 ,$155.70 ,$2.55 ,$61.06 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2015,89000,"$26,528.00 ","$2,109.00 ","$8,777.00 ","$5,459.00 ","$8,720.00 ",$57.00 ,$164.15 ,$39.60 ,$4.15 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2014,89000,"$25,526.00 ",$215.00 ,"$6,945.00 ","$5,708.00 ","$9,059.00 ","($2,114.00)",$133.25 ,$4.95 ,$26.92 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2013,89000,"$25,392.00 ",$107.00 ,"$7,079.00 ","$5,996.00 ","$9,538.00 ","($2,459.00)",$69.80 ,$4.85 ,$14.39 
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2012,90000,"$26,121.00 ",($379.00),"$7,364.00 ","$6,249.00 ","$9,951.00 ","($2,587.00)",$25.20 ,($6.55),($3.85)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2011,91800,"$25,215.00 ",($565.00),"$7,556.00 ","$6,157.00 ","$9,767.00 ","($2,211.00)",$23.40 ,($11.35),($2.06)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2010,97500,"$25,669.00 ",($516.00),"$8,050.00 ","$6,319.00 ","$9,723.00 ","($1,674.00)",$22.40 ,($12.35),($1.81)
+Rite Aid,1962,2023,61,Retail Stores,Defunct,Re_Opened,Bankruptcy protection 2023,2009,103000,"$26,289.00 ","($2,937.00)","$8,327.00 ","$5,971.00 ","$9,526.00 ","($1,200.00)",$25.60 ,($60.40),($0.42)
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$154.36 , $-   , $-   
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2024,468,$648.00 ,$222.00 ,"$1,832.00 ", $-   ,$216.00 ,"$1,617.00 ",$183.43 ,$4.72 ,$38.86 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2023,456,$576.00 ,$202.00 ,"$1,669.00 ", $-   ,$222.00 ,"$1,447.00 ",$160.37 ,$4.27 ,$37.56 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2022,445,$617.00 ,$209.00 ,"$1,533.00 ", $-   ,$257.00 ,"$1,275.00 ",$115.28 ,$4.02 ,$28.68 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2021,409,$554.00 ,$184.00 ,"$1,467.00 ", $-   ,$367.00 ,"$1,100.00 ",$193.40 ,$3.72 ,$51.99 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2020,350,$429.00 ,$132.00 ,"$1,269.00 ", $-   ,$357.00 ,$913.00 ,$167.77 ,$2.56 ,$65.54 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2019,311,$405.00 ,$137.00 ,"$1,120.00 ", $-   ,$309.00 ,$811.00 ,$172.72 ,$2.48 ,$69.65 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2018,267,$247.00 ,$58.00 ,$933.00 , $-   ,$243.00 ,$691.00 ,$96.04 ,$1.55 ,$61.96 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2017,224,$336.00 ,$102.00 ,$780.00 , $-   ,$121.00 ,$659.00 ,$119.57 ,$1.79 ,$66.80 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2016,203,$199.00 ,$47.00 ,$628.00 , $-   ,$99.00 ,$528.00 ,$56.20 ,$0.81 ,$69.38 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2015,154,$191.00 ,$15.00 ,$559.00 , $-   ,$93.00 ,$467.00 ,$44.92 ,$0.38 ,$118.21 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2014,145,$191.00 ,$42.00 ,$490.00 , $-   ,$41.00 ,$449.00 ,$29.91 ,$1.61 ,$18.58 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2013,124,$147.00 ,$74.00 ,$463.00 , $-   ,$35.00 ,$428.00 ,$29.80 ,$0.60 ,$49.67 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2012,117,$83.00 ,$10.00 ,$386.00 , $-   ,$35.00 ,$350.00 ,$31.84 ,$0.26 ,$122.46 
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2011,90,$61.00 ,$3.00 ,$374.00 , $-   ,$32.00 ,$342.00 ,$42.02 ,($0.47),($89.40)
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2010,86,$31.00 ,($20.00),$92.00 , $-   ,$35.00 ,$57.00 ,$20.17 ,($0.48),($42.02)
+Universal Display (Joled),1994,0,31,Electronics,Active,Active,,2009,84,$16.00 ,($21.00),$80.00 , $-   ,$21.00 ,$60.00 ,$11.89 ,($0.56),($21.23)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$32.53 , $-   , $-   
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2024,63000,"$17,241.00 ",$747.00 ,"$42,232.00 ","$6,362.00 ","$38,546.00 ","$3,685.00 ",$41.35 ,$2.61 ,$15.84 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2023,63000,"$16,164.00 ","$1,142.00 ","$42,369.00 ","$6,344.00 ","$38,034.00 ","$4,334.00 ",$42.44 ,$2.96 ,$14.34 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2022,64000,"$13,127.00 ","$1,473.00 ","$45,692.00 ","$7,433.00 ","$40,482.00 ","$5,210.00 ",$33.53 ,$4.13 ,$8.12 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2021,69000,"$9,680.00 ","$1,254.00 ","$40,899.00 ","$11,771.00 ","$29,922.00 ","$10,977.00 ",$42.15 ,($0.79),($53.35)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2020,52000,"$5,162.00 ","($1,033.00)","$36,495.00 ","$12,377.00 ","$25,315.00 ","$11,180.00 ",$20.45 ,$2.53 ,$8.08 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2019,70000,"$12,900.00 ","$2,049.00 ","$33,876.00 ","$11,169.00 ","$21,213.00 ","$12,663.00 ",$28.37 ,$1.19 ,$23.84 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2018,72000,"$11,763.00 ",$445.00 ,"$30,211.00 ","$15,088.00 ","$19,741.00 ","$10,470.00 ",$28.06 ,$2.69 ,$10.43 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2017,68000,"$10,797.00 ","$1,934.00 ","$29,160.00 ","$12,751.00 ","$17,549.00 ","$11,611.00 ",$29.69 ,$2.07 ,$14.34 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2016,69000,"$9,478.00 ","$1,100.00 ","$28,173.00 ","$12,979.00 ","$18,204.00 ","$9,969.00 ",$23.34 ,$0.28 ,$83.36 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2015,59500,"$9,190.00 ",($448.00),"$25,215.00 ","$12,368.00 ","$17,451.00 ","$7,764.00 ",$18.98 ,($0.32),($59.31)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2014,62000,"$10,082.00 ",($150.00),"$26,594.00 ","$12,805.00 ","$18,966.00 ","$7,628.00 ",$22.74 ,$0.03 ,$758.00 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2013,61700,"$9,810.00 ",($172.00),"$26,085.00 ","$13,447.00 ","$18,224.00 ","$7,860.00 ",$16.96 ,($2.32),($7.31)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2012,61000,"$9,161.00 ","($1,768.00)","$26,285.00 ","$13,589.00 ","$18,169.00 ","$8,116.00 ",$11.12 ,($0.22),($50.55)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2011,61000,"$7,849.00 ","$3,115.00 ","$27,766.00 ","$13,470.00 ","$17,884.00 ","$9,882.00 ",$10.87 ,$3.22 ,$3.38 
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2010,61000,"$6,056.00 ","($1,437.00)","$18,952.00 ","$12,048.00 ","$16,020.00 ","$2,932.00 ",$11.27 ,($3.89),($2.90)
+Metro-Goldwyn-Mayer (MGM),1924,2021,97,Film Production,Defunct,Re_Opened,Acquired by Amazon 2022,2009,62000,"$6,011.00 ","($1,292.00)","$22,518.00 ","$12,976.00 ","$18,648.00 ","$3,870.00 ",$8.61 ,($2.90),($2.97)
+Toys 'R' Us,1948,2018,70,Retail Stores,Defunct,Re_Opened,Relaunch underway,2024,44888,$8.00 ,($19.00),$18.00 , $-   ,$33.00 ,($15.00), $-   , $-   , $-   
+Toys 'R' Us,1948,2018,70,Retail Stores,Defunct,Re_Opened,Relaunch underway,2023,0,$22.00 ,($33.00),$35.00 ,$1.00 ,$33.00 ,$2.00 , $-   , $-   , $-   
+Toys 'R' Us,1948,2018,70,Retail Stores,Defunct,Re_Opened,Relaunch underway,2022,0,$38.00 ,($25.00),$51.00 ,$10.00 ,$17.00 ,$34.00 , $-   , $-   , $-   
+Toys 'R' Us,1948,2018,70,Retail Stores,Defunct,Re_Opened,Relaunch underway,2021,0,$22.00 ,($3.00),$64.00 , $-   ,$8.00 ,$56.00 , $-   , $-   , $-   
+Toys 'R' Us,1948,2018,70,Retail Stores,Defunct,Re_Opened,Relaunch underway,2020,64000, $-   ,($9.00),$5.00 ,$8.00 ,$14.00 ,($9.00), $-   , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$6.67 , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2024,0, $-   , $-   , $-   , $-   , $-   , $-   ,$5.40 ,$0.64 ,$8.44 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2023,4000,"$1,117.00 ",$56.00 ,"$2,355.00 ",$457.00 ,"$1,424.00 ",$931.00 ,$4.21 ,$0.62 ,$6.79 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2022,4200,"$1,205.00 ",$13.00 ,"$2,285.00 ",$316.00 ,"$1,244.00 ","$1,041.00 ",$4.09 ,$0.06 ,$68.17 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2021,4200,"$1,150.00 ",$22.00 ,"$2,171.00 ",$253.00 ,"$1,390.00 ",$781.00 ,$6.92 ,($3.25),($2.13)
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2020,4500,"$1,029.00 ",($561.00),"$1,248.00 ",$17.00 ,"$1,171.00 ",$77.00 ,$5.23 ,($5.28),($0.99)
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2019,4922,"$1,242.00 ",$96.00 ,"$1,415.00 ",$109.00 ,"$1,316.00 ",$99.00 ,$3.16 ,$2.92 ,$1.08 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2018,5400,"$1,320.00 ",($36.00),"$1,510.00 ",$5.00 ,"$1,513.00 ",($3.00),$3.70 ,$1.13 ,$3.27 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2017,5800,"$1,386.00 ",$75.00 ,"$1,707.00 ",$399.00 ,"$1,650.00 ",$57.00 ,$7.76 ,$0.50 ,$15.52 
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2016,6100,"$1,643.00 ",$15.00 ,"$1,776.00 ",$405.00 ,"$1,849.00 ",($73.00),$14.36 ,($0.06),($239.33)
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2015,6400,"$1,803.00 ",($80.00),"$2,138.00 ",$679.00 ,"$2,035.00 ",$103.00 ,$15.99 ,($2.86),($5.59)
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2014,7300,"$2,046.00 ",($123.00),"$2,556.00 ",$672.00 ,"$2,257.00 ",$299.00 ,$22.72 ,($1.56),($14.56)
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2013,8800,"$2,358.00 ","$1,985.00 ","$3,200.00 ",$674.00 ,"$2,552.00 ",$648.00 , $-   , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2012,13000,"$2,719.00 ","($1,379.00)","$4,321.00 ",$740.00 ,"$7,998.00 ","($3,677.00)", $-   , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2011,17100,"$3,585.00 ",($764.00),"$4,678.00 ","$1,363.00 ","$7,028.00 ","($2,350.00)", $-   , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2010,18800,"$5,993.00 ",($687.00),"$6,226.00 ","$1,195.00 ","$7,301.00 ","($1,075.00)", $-   , $-   , $-   
+Eastman Kodak,1888,2012,124,Photography,Defunct,Re_Opened,Restructured after bankruptcy,2009,20250,"$7,609.00 ",($210.00),"$7,691.00 ","$1,129.00 ","$7,724.00 ",($33.00), $-   , $-   , $-   
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2020,0, $-   , $-   , $-   , $-   , $-   , $-   ,$3.56 , $-   , $-   
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2019,18000,"$1,553.00 ",($199.00),$656.00 ,$246.00 ,$567.00 ,$90.00 ,$12.86 ,($65.06),($0.20)
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2018,18500,"$1,799.00 ",$12.00 ,$772.00 ,$198.00 ,$495.00 ,$278.00 ,$43.80 ,($10.85),($4.04)
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2017,20500,"$1,828.00 ",$30.00 ,$843.00 ,$199.00 ,$551.00 ,$292.00 ,$99.94 ,$7.15 ,$13.98 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2016,22000,"$1,892.00 ",$40.00 ,$819.00 ,$200.00 ,$534.00 ,$285.00 ,$94.95 ,$6.65 ,$14.28 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2015,24000,"$1,885.00 ",$75.00 ,$907.00 ,$201.00 ,$570.00 ,$337.00 ,$181.72 ,$14.45 ,$12.58 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2014,22200,"$1,791.00 ",$108.00 ,$804.00 ,$10.00 ,$354.00 ,$449.00 ,$282.74 ,$19.15 ,$14.76 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2013,21400,"$1,705.00 ",$129.00 ,$857.00 ,$10.00 ,$320.00 ,$537.00 ,$380.06 ,$23.95 ,$15.87 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2012,19700,"$1,534.00 ",$169.00 ,$823.00 ,$10.00 ,$330.00 ,$494.00 ,$298.16 ,$31.85 ,$9.36 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2011,17000,"$1,396.00 ",$100.00 ,$744.00 ,$10.00 ,$331.00 ,$413.00 ,$193.22 ,$18.10 ,$10.68 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2010,16200,"$1,291.00 ",$87.00 ,$643.00 ,$19.00 ,$340.00 ,$303.00 ,$124.95 ,$14.60 ,$8.56 
+Pier 1 Imports,1962,2020,58,Party Supplies,Defunct,Defunct,,2009,16700,"$1,321.00 ",($129.00),$655.00 ,$184.00 ,$511.00 ,$144.00 ,$63.31 ,$3.80 ,$16.66 
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2010,25000,$3.24 ,($268.00),"$1,183.50 ",,"$1,735,500.00 ","($552,000.00)", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2009,0, $-   ,($558.20),"$1,538.30 ",$836.00 ,"$1,852,600.00 ","($314,300.00)", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2008,0, $-   ,($374.10),"$2,154.50 ",$583.00 ,"$1,940,200.00 ","$214,300.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2007,0, $-   ,($73.80),"$2,733.60 ",$665.60 ,"$2,077,900.00 ","$655,700.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2006,0, $-   ,$50.50 ,"$3,134.60 ",$851.00 ,"$2,411,300.00 ","$723,300.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2005,0, $-   ,($583.90),"$3,179.60 ","$1,059.40 ","$2,548,000.00 ","$631,600.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2004,84300, $-   ,"($1,248.80)","$3,994.60 ","$1,044.90 ","$2,931,700.00 ","$1,062,900.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2003,0, $-   ,($978.70),"$4,822.00 ",$0.70 ,"$1,633,600.00 ","$3,188,400.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2002,0, $-   ,"($1,621.10)","$6,243.80 ",$328.90 ,"$2,076,800.00 ","$4,167,000.00 ", $-   , $-   , $-   
+Blockbuster,1985,2010,25,Movie Rental,Defunct,Defunct,,2001,0, $-   ,($240.30),"$7,752.40 ",$458.40 ,"$2,003,700.00 ","$5,748,700.00 ", $-   , $-   , $-   
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$4.47 , $-   , $-   
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2024,2647,$853.00 ,($130.00),"$1,395.00 ",$194.00 ,$619.00 ,$776.00 ,$2.62 ,($0.25),($10.48)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2023,3181,$656.00 ,($734.00),"$1,679.00 ", $-   ,$822.00 ,$857.00 ,$4.62 ,($1.11),($4.16)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2022,3325,$718.00 ,$12.00 ,"$2,567.00 ",$507.00 ,"$1,011.00 ","$1,556.00 ",$5.93 ,($0.55),($10.78)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2021,3497,$893.00 ,"($1,104.00)","$2,818.00 ",$720.00 ,"$1,314.00 ","$1,504.00 ",$10.26 ,($1.26),($8.14)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2020,3668,"$1,040.00 ",($152.00),"$3,888.00 ", $-   ,"$1,359.00 ","$2,529.00 ",$5.22 ,($1.13),($4.62)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2019,3945,$904.00 ,$93.00 ,"$3,968.00 ",$665.00 ,"$1,332.00 ","$2,636.00 ",$7.25 ,($0.11),($65.91)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2018,3288,$932.00 ,$405.00 ,"$3,780.00 ",$782.00 ,"$1,275.00 ","$2,505.00 ",$10.86 ,($0.28),($38.79)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2017,4044,"$1,309.00 ","($1,206.00)","$3,296.00 ",$591.00 ,"$1,239.00 ","$2,057.00 ",$9.39 ,($0.18),($52.17)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2016,4534,"$2,160.00 ",($208.00),"$5,534.00 ","$1,277.00 ","$2,326.00 ","$3,208.00 ",$7.60 ,($2.09),($3.64)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2015,6225,"$3,335.00 ",($304.00),"$6,558.00 ","$1,707.00 ","$3,127.00 ","$3,431.00 ",$9.04 ,($0.68),($13.29)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2014,8057,"$6,813.00 ","($5,873.00)","$7,552.00 ","$1,627.00 ","$3,927.00 ","$3,625.00 ",$9.54 ,($8.58),($1.11)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2013,12700,"$11,073.00 ",($646.00),"$13,165.00 ", $-   ,"$3,705.00 ","$9,460.00 ",$10.94 ,($3.40),($3.22)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2012,16500,"$18,423.00 ","$1,164.00 ","$13,731.00 ", $-   ,"$3,631.00 ","$10,100.00 ",$10.70 ,($0.17),($62.94)
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2011,17500,"$19,907.00 ","$3,411.00 ","$12,875.00 ", $-   ,"$3,937.00 ","$8,938.00 ",$39.85 ,$5.60 ,$7.12 
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2010,13873,"$14,953.00 ","$2,457.00 ","$10,205.00 ", $-   ,"$2,602.00 ","$7,603.00 ",$59.06 ,$4.99 ,$11.84 
+BlackBerry,1984,0,41,Mobile Phones,Active,Active,Switched to cybersecurity,2009,12800,"$11,065.00 ","$1,893.00 ","$8,101.00 ", $-   ,"$2,227.00 ","$5,874.00 ",$57.89 ,$3.95 ,$14.66 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$5.31 , $-   ,$21.24 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2024,80361,"$20,798.00 ","$1,382.00 ","$42,363.00 ","$3,158.00 ","$19,913.00 ","$22,450.00 ",$3.96 ,$0.14 ,$36.42 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2023,86689,"$24,090.00 ",$720.00 ,"$43,140.00 ","$3,936.00 ","$20,815.00 ","$22,326.00 ",$3.81 ,$0.59 ,$10.81 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2022,86900,"$26,246.00 ","$4,478.00 ","$45,245.00 ","$4,477.00 ","$22,670.00 ","$22,574.00 ",$4.31 ,$0.45 ,$11.06 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2021,87900,"$26,267.00 ","$1,920.00 ","$47,382.00 ","$5,368.00 ","$26,723.00 ","$20,659.00 ",$4.72 ,($0.20),$4.13 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2020,92039,"$24,962.00 ","($2,882.00)","$41,341.00 ","$5,729.00 ","$27,011.00 ","$14,330.00 ",$3.46 ,($0.04),$24.14 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2019,98322,"$26,113.00 ",$8.00 ,"$43,823.00 ","$4,463.00 ","$26,574.00 ","$17,249.00 ",$4.36 ,($0.07), $-   
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2018,103083,"$26,647.00 ",($402.00),"$46,670.00 ","$3,340.00 ","$28,516.00 ","$18,153.00 ",$4.95 ,($0.18), $-   
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2017,101731,"$26,163.00 ","($1,689.00)","$46,369.00 ","$3,907.00 ","$28,038.00 ","$18,331.00 ",$4.69 ,($0.16), $-   
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2016,101000,"$26,131.00 ",($848.00),"$49,687.00 ","$4,047.00 ","$26,477.00 ","$23,211.00 ",$4.51 ,$0.23 ,$11.02 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2015,56690,"$13,879.00 ","$2,738.00 ","$23,236.00 ","$2,246.00 ","$11,550.00 ","$11,686.00 ",$5.48 ,$0.69 ,$9.87 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2014,61656,"$16,925.00 ","$4,602.00 ","$27,999.00 ","$3,424.00 ","$16,475.00 ","$11,524.00 ",$5.87 ,$0.64 ,$5.13 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2013,86462,"$16,881.00 ",($817.00),"$33,461.00 ","$4,365.00 ","$24,615.00 ","$8,846.00 ",$3.88 ,($0.41), $-   
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2012,97798,"$38,809.00 ","($4,873.00)","$38,517.00 ","$6,542.00 ","$26,368.00 ","$12,150.00 ",$2.45 ,($1.16), $-   
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2011,130050,"$53,844.00 ","($2,072.00)","$50,426.00 ","$5,528.00 ","$31,044.00 ","$19,382.00 ",$4.14 ,$0.25 ,$8.12 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2010,129355,"$56,364.00 ","$1,783.00 ","$51,951.00 ","$5,633.00 ","$32,851.00 ","$19,101.00 ",$6.77 ,$0.55 ,$14.12 
+Nokia,1865,2014,149,Mobile Phones,Defunct,Active,Shifted focus to networks,2009,123553,"$57,156.00 ",$363.00 ,"$49,840.00 ","$6,181.00 ","$29,271.00 ","$20,569.00 ",$7.68 ,$0.29 ,$26.48 
+Enron,1985,2001,16,Energy,Defunct,Defunct,,2000,20600,"$100,789.00 ","$1,266.00 ","$65,503.00 ","$8,550.00 ","$28,406.00 ","$11,470.00 ", $-   , $-   , $-   
+Enron,1985,2001,16,Energy,Defunct,Defunct,,1999,0,"$40,112.00 ",$957.00 ,"$33,380.00 ","$7,151.00 ","$6,759.00 ","$9,570.00 ", $-   , $-   , $-   
+Enron,1985,2001,16,Energy,Defunct,Defunct,,1998,0,"$31,260.00 ",$698.00 ,"$29,350.00 ", $-   , $-   ,"$7,048.00 ", $-   , $-   , $-   
+Enron,1985,2001,16,Energy,Defunct,Defunct,,1997,0,"$20,273.00 ",$515.00 ,"$22,552.00 ", $-   , $-   , $-   , $-   , $-   , $-   
+Enron,1985,2001,16,Energy,Defunct,Defunct,,1996,0,"$13,289.00 ",$493.00 ,"$16,137.00 ", $-   , $-   , $-   , $-   , $-   , $-   
+Woolworth,1879,1997,118,Retail Stores,Defunct,Defunct,,2024,201000,"$67,922.00 ",$108.00 ,"$33,936.00 ","$16,722.00 ","$28,366.00 ","$5,408.00 ", $-   , $-   , $-   
+Woolworth,1879,1997,118,Retail Stores,Defunct,Defunct,,2023,0,"$64,294.00 ","$1,618.00 ","$33,648.00 ","$15,735.00 ","$27,083.00 ","$6,425.00 ", $-   , $-   , $-   
+Woolworth,1879,1997,118,Retail Stores,Defunct,Defunct,,2022,198000,"$60,849.00 ","$7,934.00 ","$33,273.00 ","$16,763.00 ","$27,169.00 ","$5,980.00 ", $-   , $-   , $-   
+Woolworth,1879,1997,118,Retail Stores,Defunct,Defunct,,2021,210000,"$55,694.00 ","$2,074.00 ","$39,236.00 ","$14,888.00 ","$37,497.00 ","$1,379.00 ", $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2023,0,$0.01 , $-   , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2022,0,$0.01 , $-   , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2021,0,$0.01 , $-   , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2020,10350,$0.01 , $-   , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2016,0,"$5,169.14 ",($214.32),"$45,000,000.00 ","$1,200,000.00 ","$6,000,000.00 ","$39,000,000.00 ", $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2015,0,"$4,968.30 ","($4,359.08)", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2014,0,"$4,618.13 ","$7,521.73 ", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2013,0,"$4,680.38 ","$1,366.28 ", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Yahoo,1994,0,31,Internet,Active,Active,Under Apollo Global Management,2012,0,"$4,986.57 ","$3,945.48 ", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$4.13 , $-   , $-   
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2024,16800,"$6,221.00 ","($1,335.00)","$8,365.00 ","$2,814.00 ","$7,071.00 ","$1,294.00 ",$11.27 ,($6.10), $-   
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2023,20100,"$6,886.00 ",($13.00),"$10,008.00 ","$2,710.00 ","$7,246.00 ","$2,762.00 ",$14.07 ,($0.56),$3.33 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2022,20500,"$7,107.00 ",($336.00),"$11,543.00 ","$2,866.00 ","$7,976.00 ","$3,567.00 ",$12.79 ,($4.10), $-   
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2021,23300,"$7,038.00 ",($469.00),"$13,223.00 ","$3,596.00 ","$8,566.00 ","$4,657.00 ",$17.53 ,$0.27 ,$10.22 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2020,24700,"$7,022.00 ",$178.00 ,"$14,741.00 ","$4,050.00 ","$8,931.00 ","$5,810.00 ",$14.11 ,$3.73 ,$7.24 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2019,27000,"$9,066.00 ","$1,353.00 ","$15,047.00 ","$3,233.00 ","$9,239.00 ","$5,808.00 ",$23.71 ,$3.21 ,$8.75 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2018,32400,"$9,662.00 ",$361.00 ,"$14,874.00 ","$4,269.00 ","$9,621.00 ","$5,253.00 ",$16.94 ,$0.64 ,$71.09 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2017,35300,"$9,991.00 ",$195.00 ,"$15,946.00 ","$5,235.00 ","$10,439.00 ","$5,507.00 ",$19.81 ,$1.70 ,$14.96 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2016,37600,"$10,771.00 ",($471.00),"$18,051.00 ","$5,305.00 ","$13,090.00 ","$4,961.00 ",$14.39 ,$1.82 ,$8.87 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2015,143600,"$11,465.00 ",$448.00 ,"$25,541.00 ","$6,317.00 ","$16,075.00 ","$9,466.00 ",$15.51 ,$2.03 ,$8.37 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2014,147500,"$12,679.00 ","$1,013.00 ","$27,658.00 ","$6,314.00 ","$16,556.00 ","$11,102.00 ",$17.60 ,$3.52 ,$5.03 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2013,143100,"$20,006.00 ","$1,159.00 ","$29,036.00 ","$6,904.00 ","$16,268.00 ","$12,768.00 ",$13.61 ,$3.65 ,$3.73 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2012,147600,"$20,421.00 ","$1,195.00 ","$30,015.00 ","$7,447.00 ","$18,002.00 ","$12,013.00 ",$9.95 ,$3.54 ,$2.81 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2011,139650,"$21,900.00 ","$1,271.00 ","$30,116.00 ","$7,088.00 ","$17,742.00 ","$12,374.00 ",$11.63 ,$2.98 ,$4.02 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2010,136500,"$21,633.00 ",$585.00 ,"$30,600.00 ","$7,237.00 ","$18,092.00 ","$12,508.00 ",$12.61 ,$1.82 ,$6.99 
+Xerox Holdings,1906,2018,112,Technology Solutions,Defunct,Defunct,,2009,53600,"$15,179.00 ",$485.00 ,"$24,032.00 ","$8,276.00 ","$16,841.00 ","$7,191.00 ",$10.64 ,$2.20 ,$4.83 
+Ninebot Segway Ltd,2012,0,13,Transportation,Active,Active,,2024,0,"$14,195.81 ","$1,084.13 ","$15,677.92 ",$77.20 ,"$9,443.50 ","$6,156.28 ", $-   , $-   , $-   
+Ninebot Segway Ltd,2012,0,13,Transportation,Active,Active,,2023,0,"$10,222.08 ",$597.99 ,"$10,849.63 ",$71.12 ,"$5,315.92 ","$5,456.72 ", $-   , $-   , $-   
+Ninebot Segway Ltd,2012,0,13,Transportation,Active,Active,,2022,0,"$10,124.32 ",$451.31 ,"$9,393.68 ",$85.96 ,"$4,447.34 ","$4,897.65 ", $-   , $-   , $-   
+Ninebot Segway Ltd,2012,0,13,Transportation,Active,Active,,2021,4913,"$9,146.05 ",$410.60 ,"$7,672.45 ",$109.61 ,"$3,399.56 ","$4,274.78 ", $-   , $-   , $-   
+Jcpenney,1902,2020,118,Department Stores,Defunct,Re_Opened,After bankruptcy restructuring,2020,39000,"$12,625.00 ",($513.00),"$9,442.00 ","$4,668.00 ","$8,133.00 ","$1,309.00 ", $-   , $-   , $-   
+Jcpenney,1902,2020,118,Department Stores,Defunct,Re_Opened,After bankruptcy restructuring,2019,0,"$12,547.00 ",$1.00 ,"$9,314.00 ","$4,339.00 ","$7,960.00 ","$1,354.00 ", $-   , $-   , $-   
+Jcpenney,1902,2020,118,Department Stores,Defunct,Re_Opened,After bankruptcy restructuring,2018,0,"$12,506.00 ",($116.00),"$8,413.00 ","$3,780.00 ","$7,034.00 ","$1,379.00 ", $-   , $-   , $-   
+Jcpenney,1902,2020,118,Department Stores,Defunct,Re_Opened,After bankruptcy restructuring,2017,0,"$12,019.00 ",($255.00),"$7,721.00 ","$3,716.00 ","$6,551.00 ","$1,170.00 ", $-   , $-   , $-   
+Jcpenney,1902,2020,118,Department Stores,Defunct,Re_Opened,After bankruptcy restructuring,2016,0,"$11,167.00 ",($268.00),"$7,989.00 ","$3,574.00 ","$7,160.00 ",$829.00 , $-   , $-   , $-   
+Tie Rack,1981,2013,32,Fashion,Defunct,Defunct,,1998,1500,$93.00 ,($7.20), $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Tie Rack,1981,2013,32,Fashion,Defunct,Defunct,,1997,0,$95.00 ,$2.10 , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Tie Rack,1981,2013,32,Fashion,Defunct,Defunct,,1996,0,$97.00 ,$7.90 , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Tie Rack,1981,2013,32,Fashion,Defunct,Defunct,,1995,0,$96.00 ,$5.20 , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2022,0, $-   , $-   , $-   , $-   , $-   , $-   ,$0.10 , $-   , $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2018,89000,"$16,702.00 ",($383.00),"$7,262.00 ","$2,249.00 ","$10,985.00 ","($3,723.00)",$1.90 ,($8.09), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2017,140000,"$22,138.00 ","($2,221.00)","$9,362.00 ","$3,573.00 ","$13,186.00 ","($3,824.00)",$7.86 ,($14.62), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2016,178000,"$25,146.00 ","($1,129.00)","$11,337.00 ","$2,108.00 ","$13,293.00 ","($1,956.00)",$14.96 ,($15.33), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2015,196000,"$31,198.00 ","($1,682.00)","$13,185.00 ","$3,087.00 ","$14,130.00 ",($945.00),$29.18 ,($11.29), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2014,226000,"$36,188.00 ","($1,365.00)","$18,261.00 ","$2,834.00 ","$16,078.00 ","$2,183.00 ",$32.71 ,($15.54), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2013,246000,"$39,854.00 ",($930.00),"$19,340.00 ","$1,943.00 ","$16,168.00 ","$3,172.00 ",$28.95 ,($12.46), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2012,264000,"$41,567.00 ","($3,140.00)","$21,381.00 ","$2,088.00 ","$17,040.00 ","$4,341.00 ",$28.32 ,($27.14), $-   
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2011,280000,"$42,664.00 ",$133.00 ,"$24,360.00 ","$2,344.00 ","$15,746.00 ","$8,614.00 ",$39.76 ,($1.05),$7.82 
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2010,290000,"$43,360.00 ",$235.00 ,"$24,808.00 ","$1,698.00 ","$15,373.00 ","$9,435.00 ",$45.94 ,$2.02 ,$23.26 
+Sears,1893,0,132,Department Stores,Active,Active,Only few stores left,2009,291000,"$46,770.00 ",$53.00 ,"$25,342.00 ","$2,132.00 ","$15,643.00 ","$9,699.00 ",$34.91 ,($0.11), $-   
+Macy'S,1858,0,167,Department Stores,Active,Active,,2025,94189,"$23,006.00 ",$582.00 ,"$16,402.00 ","$2,773.00 ","$11,850.00 ","$4,552.00 ",$13.09 ,$2.06 ,$6.35 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2024,85581,"$23,866.00 ",$45.00 ,"$16,246.00 ","$2,998.00 ","$12,211.00 ","$4,035.00 ",$16.65 ,$0.41 ,$171.35 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2023,94570,"$25,449.00 ","$1,146.00 ","$16,866.00 ","$2,996.00 ","$12,784.00 ","$4,082.00 ",$15.81 ,$3.28 ,$4.86 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2022,88857,"$25,399.00 ","$1,430.00 ","$17,590.00 ","$3,295.00 ","$13,969.00 ","$3,621.00 ",$19.64 ,$4.96 ,$3.99 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2021,75711,"$18,097.00 ","($3,944.00)","$17,706.00 ","$4,407.00 ","$15,153.00 ","$2,553.00 ",$16.36 ,($2.33),$4.47 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2020,123000,"$25,331.00 ",$564.00 ,"$21,172.00 ","$3,621.00 ","$14,795.00 ","$6,377.00 ",$7.27 ,($8.07),$1.83 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2019,130000,"$25,739.00 ","$1,108.00 ","$19,194.00 ","$4,708.00 ","$12,758.00 ","$6,436.00 ",$17.30 ,$3.37 ,$5.10 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2018,130000,"$25,641.00 ","$1,566.00 ","$19,583.00 ","$5,861.00 ","$13,850.00 ","$5,733.00 ",$24.61 ,$5.30 ,$4.63 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2017,148300,"$26,564.00 ",$627.00 ,"$19,851.00 ","$6,562.00 ","$15,529.00 ","$4,322.00 ",$17.91 ,$2.08 ,$8.78 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2016,157900,"$27,079.00 ","$1,072.00 ","$20,576.00 ","$6,995.00 ","$16,323.00 ","$4,253.00 ",$25.76 ,$2.77 ,$9.52 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2015,166900,"$28,105.00 ","$1,526.00 ","$21,330.00 ","$7,233.00 ","$15,952.00 ","$5,378.00 ",$40.70 ,$4.10 ,$9.92 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2014,172500,"$27,931.00 ","$1,486.00 ","$21,620.00 ","$6,714.00 ","$15,371.00 ","$6,249.00 ",$36.30 ,$4.01 ,$9.05 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2013,175700,"$27,686.00 ","$1,335.00 ","$20,991.00 ","$6,806.00 ","$14,940.00 ","$6,051.00 ",$28.09 ,$3.43 ,$8.18 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2012,171000,"$26,405.00 ","$1,256.00 ","$22,095.00 ","$6,655.00 ","$16,162.00 ","$5,933.00 ",$22.90 ,$3.08 ,$7.44 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2011,166000,"$25,003.00 ",$847.00 ,"$20,631.00 ","$6,971.00 ","$15,101.00 ","$5,530.00 ",$16.15 ,$2.33 ,$6.92 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2010,161000,"$23,489.00 ",$329.00 ,"$21,300.00 ","$8,456.00 ","$16,647.00 ","$4,653.00 ",$12.23 ,$1.22 ,$10.38 
+Macy'S,1858,0,167,Department Stores,Active,Active,,2009,167000,"$24,892.00 ","($4,775.00)","$22,145.00 ","$8,733.00 ","$17,499.00 ","$4,646.00 ",$10.48 ,$0.46 ,$22.78 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$424.16 , $-   ,$46.00 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2024,21000,"$10,817.00 ","$1,577.00 ","$14,595.00 ","$5,675.00 ","$12,876.00 ","$1,719.00 ",$410.81 ,$8.75 ,$46.83 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2023,21000,"$9,978.00 ","$1,709.00 ","$13,336.00 ","$4,705.00 ","$12,597.00 ",$739.00 ,$286.23 ,$9.16 ,$31.46 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2022,20000,"$9,112.00 ","$1,363.00 ","$12,814.00 ","$6,013.00 ","$12,683.00 ",$131.00 ,$226.41 ,$7.24 ,$31.26 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2021,18700,"$8,171.00 ","$1,245.00 ","$12,189.00 ","$5,688.00 ","$12,212.00 ",($23.00),$217.58 ,$6.70 ,$32.42 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2020,18000,"$7,414.00 ",$949.00 ,"$10,876.00 ","$5,163.00 ","$11,417.00 ",($541.00),$141.45 ,$4.98 ,$28.54 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2019,17000,"$7,887.00 ",$868.00 ,"$10,642.00 ","$5,113.00 ","$11,325.00 ",($683.00),$148.12 ,$5.66 ,$26.34 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2018,16000,"$7,343.00 ",$966.00 ,"$9,409.00 ","$5,289.00 ","$10,685.00 ","($1,276.00)",$106.56 ,$0.95 ,$4.71 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2017,15000,"$6,380.00 ",($155.00),"$8,208.00 ","$4,419.00 ","$9,935.00 ","($1,727.00)",$77.92 ,$2.56 ,$15.26 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2016,14000,"$6,038.00 ",$560.00 ,"$8,463.00 ","$4,392.00 ","$9,415.00 ",($952.00),$65.84 ,$3.11 ,$21.18 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2015,14000,"$5,695.00 ",$610.00 ,"$8,346.00 ","$4,345.00 ","$8,442.00 ",($96.00),$55.80 ,$3.28 ,$18.38 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2014,15000,"$5,881.00 ","$1,299.00 ","$10,423.00 ","$3,396.00 ","$7,657.00 ","$2,766.00 ",$54.68 ,$5.22 ,$10.78 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2013,21000,"$6,227.00 ","$1,099.00 ","$11,851.00 ","$2,457.00 ","$8,162.00 ","$3,689.00 ",$51.04 ,$3.69 ,$13.95 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2012,22000,"$6,269.00 ",$881.00 ,"$12,679.00 ","$1,859.00 ","$9,389.00 ","$3,290.00 ",$41.33 ,$2.46 ,$16.97 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2011,23000,"$8,203.00 ","$1,158.00 ","$13,929.00 ","$1,130.00 ","$8,655.00 ","$5,274.00 ",$35.39 ,$4.44 ,$8.32 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2010,51000,"$7,617.00 ",$633.00 ,"$25,577.00 ","$2,098.00 ","$14,590.00 ","$10,987.00 ",$24.80 ,$3.58 ,$7.73 
+Motorola,1928,0,97,Mobile Phones,Active,Active,Split into Mobility and Solutions,2009,53000,"$6,947.00 ",($51.00),"$25,603.00 ","$3,365.00 ","$15,720.00 ","$9,883.00 ",$24.73 ,($0.14), $-   
+Borders,1971,2011,40,Bookstore ,Defunct,Defunct,,2023,170, $-   ,$1.06 ,$295.84 , $-   ,$0.16 ,$295.69 , $-   , $-   , $-   
+Borders,1971,2011,40,Bookstore ,Defunct,Defunct,,2022,0, $-   ,($1.36),$296.53 , $-   ,$0.57 ,$295.96 , $-   , $-   , $-   
+Borders,1971,2011,40,Bookstore ,Defunct,Defunct,,2021,0, $-   ,($1.02),$293.67 ,$0.01 ,$0.13 ,$293.54 , $-   , $-   , $-   
+Borders,1971,2011,40,Bookstore ,Defunct,Defunct,,2020,0, $-   ,($1.00),$294.80 ,$0.14 ,$0.24 ,$294.56 , $-   , $-   , $-   
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$24.89 , $-   ,$20.20 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2024,113000,"$89,843.00 ","$6,697.00 ","$235,342.00 ","$14,201.00 ","$181,825.00 ","$53,517.00 ",$18.62 ,$1.16 ,$16.11 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2023,113000,"$85,395.00 ","$6,935.00 ","$237,105.00 ","$13,081.00 ","$183,172.00 ","$53,934.00 ",$17.50 ,$1.06 ,$16.49 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2022,108900,"$88,301.00 ","$7,851.00 ","$271,281.00 ","$10,712.00 ","$207,225.00 ","$64,056.00 ",$15.44 ,$1.20 ,$12.82 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2021,109700,"$84,594.00 ","$11,015.00 ","$247,736.00 ","$7,269.00 ","$194,894.00 ","$52,842.00 ",$20.58 ,$1.53 ,$13.90 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2020,111700,"$75,991.00 ","$5,356.00 ","$211,962.00 ","$5,842.00 ","$167,898.00 ","$44,064.00 ",$14.17 ,$1.21 ,$11.91 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2019,114400,"$77,991.00 ","$8,246.00 ","$188,834.00 ","$5,115.00 ","$148,904.00 ","$39,930.00 ",$10.14 ,$1.15 ,$9.08 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2018,117300,"$76,896.00 ","$4,417.00 ","$171,590.00 ","$5,611.00 ","$138,765.00 ","$32,824.00 ",$9.40 ,$0.90 ,$10.70 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2017,128400,"$70,710.00 ",$682.00 ,"$164,243.00 ","$6,338.00 ","$135,084.00 ","$29,159.00 ",$6.91 ,$0.34 ,$31.25 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2016,125300,"$67,277.00 ","$1,227.00 ","$138,389.00 ","$4,620.00 ","$112,457.00 ","$25,933.00 ",$5.10 ,$0.08 ,$37.99 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2015,131700,"$74,765.00 ","($1,146.00)","$144,092.00 ","$6,480.00 ","$117,443.00 ","$26,649.00 ",$4.47 ,($0.01),$14.42 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2014,140900,"$77,673.00 ","($1,284.00)","$153,337.00 ","$9,166.00 ","$125,506.00 ","$27,831.00 ",$3.17 ,($0.29), $-   
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2013,146300,"$72,349.00 ","$1,108.00 ","$151,131.00 ","$9,983.00 ","$122,576.00 ","$28,555.00 ",$3.17 ,$0.11 ,$34.52 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2012,162700,"$70,188.00 ","($5,060.00)","$168,855.00 ","$9,680.00 ","$136,976.00 ","$31,879.00 ",$2.32 ,($1.04), $-   
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2011,168200,"$73,761.00 ","($2,578.00)","$151,222.00 ","$9,503.00 ","$116,638.00 ","$34,584.00 ",$3.73 ,($0.91), $-   
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2010,0,"$67,964.00 ",$140.00 ,"$138,954.00 ","$9,981.00 ","$103,470.00 ","$35,484.00 ",$4.95 ,$0.08 ,$33.60 
+Sony Walkman,1979,0,46,Electronics,Active,Active,Product brand still alive,2009,171300, $-   ,"($1,010.00)","$100,228.00 ", $-   ,"$81,368.00 ","$12,997.00 ",$4.27 ,($0.30), $-   
+Circuit City,1949,2009,60,Retail Stores,Defunct,Defunct,,2007,0, $-   , $-   ,"$4,007,283.00 ", $-   ,"$2,216,039.00 ","$1,791,244.00 ", $-   , $-   , $-   
+Circuit City,1949,2009,60,Retail Stores,Defunct,Defunct,,2006,0, $-   , $-   ,"$4,069,044.00 ", $-   ,"$2,114,411.00 ","$1,954,633.00 ", $-   , $-   , $-   
+Circuit City,1949,2009,60,Retail Stores,Defunct,Defunct,,2005,0, $-   , $-   ,"$3,840.00 ", $-   ,"$1,760.00 ","$2,080.00 ", $-   , $-   , $-   
+Circuit City,1949,2009,60,Retail Stores,Defunct,Defunct,,2004,0, $-   , $-   ,"$3,808.00 ", $-   ,"$1,592.00 ","$2,216.00 ", $-   , $-   , $-   
+Circuit City,1949,2009,60,Retail Stores,Defunct,Defunct,,2003,60000, $-   , $-   ,"$3,960.00 ", $-   ,"$1,593.00 ","$2,366.00 ", $-   , $-   , $-   
+Abercrombie & Fitch,1892,0,133,Fashion,Active,Active,,2025,0,"$4,948.59 ", $-   ,"$3,299.89 ",$951.61 ,"$1,948.56 ","$1,335.63 ", $-   , $-   , $-   
+Abercrombie & Fitch,1892,0,133,Fashion,Active,Active,,2024,31700,"$4,280.68 ", $-   ,"$2,974.23 ","$1,048.37 ","$1,924.25 ","$1,035.16 ", $-   , $-   , $-   
+Abercrombie & Fitch,1892,0,133,Fashion,Active,Active,,2023,0,"$3,697.75 ", $-   ,"$2,713.10 ","$1,224.19 ","$2,006.53 ",$694.84 , $-   , $-   , $-   
+Abercrombie & Fitch,1892,0,133,Fashion,Active,Active,,2022,0,"$3,712.77 ", $-   ,"$2,939.49 ","$1,223.66 ","$2,102.17 ",$826.09 , $-   , $-   , $-   
+Hummer,1992,2010,18,Motorcycle,Defunct,Re_Opened,Relaunched as EV by GM,2000,200, $-   ,"$2,295.00 ","$380,628.00 ", $-   ,"$421,858.00 ","$380,628.00 ", $-   , $-   , $-   
+Hummer,1992,2010,18,Motorcycle,Defunct,Re_Opened,Relaunched as EV by GM,1999,0, $-   ,"($10,249.00)","$325,793.00 ", $-   ,"$369,860.00 ","$325,793.00 ", $-   , $-   , $-   
+Hummer,1992,2010,18,Motorcycle,Defunct,Re_Opened,Relaunched as EV by GM,1998,0, $-   ,"($8,315.00)", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Atari,1972,1984,12,Electronics,Defunct,Defunct,,2024,1,"$20,600.00 ","($13,500.00)","$78,100.00 ","$38,800.00 ","$71,300.00 ","$6,800.00 ", $-   , $-   , $-   
+Atari,1972,1984,12,Electronics,Defunct,Defunct,,2023,21,"$10,100.00 ","($9,500.00)","$25,200.00 ","$7,700.00 ","$17,400.00 ","$7,800.00 ", $-   , $-   , $-   
+Atari,1972,1984,12,Electronics,Defunct,Defunct,,2022,0,"$14,900.00 ","($23,800.00)","$26,000.00 ","$5,000.00 ","$21,600.00 ","$4,400.00 ", $-   , $-   , $-   
+Atari,1972,1984,12,Electronics,Defunct,Defunct,,2021,0,"$18,900.00 ","($11,900.00)","$40,400.00 ", $-   ,"$16,200.00 ","$24,200.00 ", $-   , $-   , $-   
+Tower Records,1960,2006,46,Retail Stores,Defunct,Defunct,,2003,62, $-   , $-   ,"$298,998.00 ","$176,609.00 ","$357,985.00 ","($59,987.00)", $-   , $-   , $-   
+Tower Records,1960,2006,46,Retail Stores,Defunct,Defunct,,2002,0, $-   , $-   ,"$482,523.00 ","$116,641.00 ","$480,905.00 ","$1,618.00 ", $-   , $-   , $-   
+Tower Records,1960,2006,46,Retail Stores,Defunct,Defunct,,2001,0, $-   , $-   ,"$478,004.00 ","$115,771.00 ","$518,791.00 ","($40,787.00)", $-   , $-   , $-   
+Hmv Group ,1921,2013,92,Electronics,Defunct,Re_Opened,Restructured in UK,2012,0,"$8,731.00 ",($816.00), $-   ,"$1,592.00 ",$118.90 ,($136.10), $-   , $-   , $-   
+Hmv Group,1921,2013,92,Electronics,Defunct,Re_Opened,Restructured in UK,2011,0,"$1,102.20 ",($124.00), $-   ,$7.00 ,$470.70 ,($59.60), $-   , $-   , $-   
+Hmv Group,1921,2013,92,Electronics,Defunct,Re_Opened,Restructured in UK,2010,0,"$1,281.10 ",$49.20 ,"$2,558.00 ",$118.00 ,$607.60 ,$99.40 , $-   , $-   , $-   
+Hmv Group,1921,2013,92,Electronics,Defunct,Re_Opened,Restructured in UK,2009,0, $-   , $-   ,"$5,303.00 ", $-   , $-   , $-   , $-   , $-   , $-   
+Hmv Group,1921,2013,92,Electronics,Defunct,Re_Opened,Restructured in UK,2008,2, $-   , $-   ,$707.00 , $-   , $-   , $-   , $-   , $-   , $-   
+Compaq,1982,2002,20,PC,Defunct,Defunct,Merged with HP,1999,20470,"$77,050.00 ",$569.00 ,"$27,277.00 ", $-   ,"$12,443.00 ","$14,834.00 ", $-   , $-   , $-   
+Compaq,1982,2002,20,PC,Defunct,Defunct,,1998,0,"$62,338.00 ","($2,734.00)","$23,051.00 ", $-   ,"$11,700.00 ","$11,351.00 ", $-   , $-   , $-   
+Compaq,1982,2002,20,PC,Defunct,Defunct,,1997,0,"$49,168.00 ","$1,855.00 ","$14,631.00 ", $-   ,"$5,202.00 ","$9,429.00 ", $-   , $-   , $-   
+Compaq,1982,2002,20,PC,Defunct,Defunct,,1996,0, $-   ,"$1,318.00 ","$12,331.00 ", $-   ,"$5,041.00 ","$7,290.00 ", $-   , $-   , $-   
+Compaq,1982,2002,20,PC,Defunct,Defunct,,1995,0, $-   ,$893.00 ,"$9,637.00 ", $-   ,"$3,880.00 ","$5,757.00 ", $-   , $-   , $-   
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2024,162000,"$187,442.00 ","$7,189.00 ","$279,761.00 ","$90,300.00 ","$214,171.00 ","$65,590.00 ", $-   , $-   , $-   
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2023,163000,"$171,842.00 ","$10,022.00 ","$273,064.00 ","$82,773.00 ","$204,875.00 ","$68,189.00 ",$47.20 ,$8.15 ,$6.02 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2022,167000,"$156,735.00 ","$8,915.00 ","$264,037.00 ","$75,921.00 ","$192,110.00 ","$71,927.00 ",$35.42 ,$7.01 ,$5.06 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2021,157000,"$127,004.00 ","$9,837.00 ","$244,718.00 ","$75,659.00 ","$178,903.00 ","$65,815.00 ",$34.39 ,$5.83 ,$5.89 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2020,155000,"$122,485.00 ","$6,247.00 ","$235,194.00 ","$72,981.00 ","$185,517.00 ","$49,677.00 ",$55.42 ,$7.25 ,$7.76 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2019,164000,"$137,237.00 ","$6,581.00 ","$228,037.00 ","$65,924.00 ","$182,080.00 ","$45,957.00 ",$28.52 ,$2.72 ,$12.97 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2018,173000,"$147,049.00 ","$7,916.00 ","$227,339.00 ","$73,060.00 ","$184,562.00 ","$42,777.00 ",$35.40 ,$5.83 ,$6.18 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2017,180000,"$145,588.00 ","($3,880.00)","$212,482.00 ","$67,254.00 ","$176,282.00 ","$36,200.00 ",$32.40 ,($0.29),$17.39 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2016,225000,"$149,184.00 ","$9,427.00 ","$221,690.00 ","$51,326.00 ","$177,615.00 ","$44,075.00 ",$33.11 ,$2.82 ,$7.04 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2015,215000,"$135,725.00 ","$9,687.00 ","$194,338.00 ","$43,549.00 ","$154,015.00 ","$40,323.00 ",$26.42 ,$7.30 ,$3.72 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2014,216000,"$155,929.00 ","$2,804.00 ","$177,501.00 ","$31,721.00 ","$141,477.00 ","$36,024.00 ",$26.87 ,$3.39 ,$9.24 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2013,219000,"$155,427.00 ","$3,770.00 ","$166,344.00 ","$22,025.00 ","$123,170.00 ","$43,174.00 ",$26.41 ,$1.55 ,$17.51 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2012,213000,"$152,256.00 ","$4,859.00 ","$149,422.00 ","$10,532.00 ","$112,422.00 ","$37,000.00 ",$25.92 ,$2.59 ,$10.24 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2011,207000,"$150,276.00 ","$7,585.00 ","$144,603.00 ","$8,033.00 ","$105,612.00 ","$38,991.00 ",$18.21 ,$2.97 ,$6.16 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2010,202000,"$135,592.00 ","$4,668.00 ","$138,898.00 ","$9,974.00 ","$101,739.00 ","$37,159.00 ",$15.20 ,$4.64 ,$3.28 
+General Motors,1908,0,117,Automobile Manufacturing,Active,Active,,2009,0,"$104,589.00 ","$104,690.00 ","$136,295.00 ","$5,562.00 ","$107,340.00 ","$28,955.00 ", $-   , $-   , $-   
+Tivo,1999,2024,25,Electronics,Defunct,Re_Opened,Brand merged with Xperi,2019,0,$668.13 ,($410.07),"$2,382.57 ","$1,066.27 ","$1,308.89 ","$1,073.68 ", $-   , $-   , $-   
+Tivo,1999,2024,25,Electronics,Defunct,Re_Opened,Brand merged with Xperi,2018,0,$695.87 ,($349.35),"$2,760.30 ",$995.15 ,"$1,267.36 ","$1,492.94 ", $-   , $-   , $-   
+Tivo,1999,2024,25,Electronics,Defunct,Re_Opened,Brand merged with Xperi,2017,0,$826.46 ,($37.96),"$3,163.68 ",$992.83 ,"$1,310.66 ","$1,853.02 ", $-   , $-   , $-   
+Tivo,1999,2024,25,Electronics,Defunct,Re_Opened,Brand merged with Xperi,2016,0,$649.09 ,$32.66 ,"$3,320.84 ",$994.04 ,"$1,411.21 ","$1,909.64 ", $-   , $-   , $-   
+Tivo,1999,2024,25,Electronics,Defunct,Re_Opened,Brand merged with Xperi,2015,630,$526.27 ,($4.29),"$2,199.30 ",$992.71 ,"$1,168.73 ","$1,030.57 ", $-   , $-   , $-   
+Pebble,2012,2016,4,Smartwatches,Defunct,Defunct,,2021,200,$0.01 , $-   ,$192.98 , $-   ,$74.58 ,$192.98 , $-   , $-   , $-   
+Pebble,2012,2016,4,Smartwatches,Defunct,Defunct,,2020,0,$0.01 , $-   ,$186.11 , $-   ,$66.28 ,$186.11 , $-   , $-   , $-   
+Pebble,2012,2016,4,Smartwatches,Defunct,Defunct,,2019,0,$0.01 , $-   ,, $-   , $-   , $-   , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2022,0,"$2,170.00 ", $-   ,"$2,020.00 ", $-   ,"$2,878.00 ",($858.00), $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2021,0,"$2,171.00 ", $-   ,"$2,712.00 ", $-   ,"$2,629.00 ",$83.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2020,0,"$1,851.00 ", $-   ,"$2,806.00 ", $-   ,"$2,756.00 ",$51.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2019,10000,"$2,349.00 ", $-   ,"$3,595.00 ", $-   ,"$3,066.00 ",$530.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2018,0,"$2,428.00 ", $-   ,"$3,642.00 ", $-   ,"$2,599.00 ","$1,044.00 ", $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2017,0,"$2,372.00 ", $-   ,"$3,455.00 ", $-   ,"$2,486.00 ",$969.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2016,0,"$2,283.00 ", $-   ,"$3,394.00 ", $-   ,"$2,377.00 ","$1,017.00 ", $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2015,0,"$2,295.00 ", $-   ,"$3,292.00 ", $-   ,"$2,379.00 ",$913.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2014,0,"$2,271.00 ", $-   ,"$3,336.00 ", $-   ,"$2,849.00 ",$487.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2013,0,"$2,045.00 ", $-   ,"$3,328.00 ", $-   ,"$2,871.00 ",$457.00 , $-   , $-   , $-   
+Party City,1986,2023,37,Party Supplies,Defunct,Active,"Bankruptcy in 2023, reorganization",2012,0,"$1,914.00 ", $-   , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+At&T,1885,0,140,Telecommunications,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$27.19 , $-   ,$18.25 
+At&T,1885,0,140,Telecommunications,Active,Active,,2024,140990,"$122,336.00 ","$10,746.00 ","$394,795.00 ","$118,443.00 ","$276,550.00 ","$118,245.00 ",$19.52 ,$1.58 ,$12.87 
+At&T,1885,0,140,Telecommunications,Active,Active,,2023,149900,"$122,428.00 ","$14,192.00 ","$407,060.00 ","$127,854.00 ","$289,618.00 ","$117,442.00 ",$15.00 ,($0.52),$1.97 
+At&T,1885,0,140,Telecommunications,Active,Active,,2022,160700,"$120,741.00 ","($8,727.00)","$402,853.00 ","$128,423.00 ","$296,396.00 ","$106,457.00 ",$15.28 ,$1.65 ,$4.36 
+At&T,1885,0,140,Telecommunications,Active,Active,,2021,203000,"$134,038.00 ","$19,874.00 ","$551,622.00 ","$151,011.00 ","$367,767.00 ","$183,855.00 ",$16.40 ,$0.55 ,$35.04 
+At&T,1885,0,140,Telecommunications,Active,Active,,2020,230000,"$143,050.00 ","($5,369.00)","$525,761.00 ","$153,775.00 ","$346,521.00 ","$179,240.00 ",$16.12 ,$1.09 ,$7.15 
+At&T,1885,0,140,Telecommunications,Active,Active,,2019,246000,"$181,193.00 ","$13,900.00 ","$551,669.00 ","$151,309.00 ","$349,735.00 ","$201,934.00 ",$18.46 ,$2.30 ,$8.26 
+At&T,1885,0,140,Telecommunications,Active,Active,,2018,268000,"$170,756.00 ","$19,370.00 ","$531,864.00 ","$166,250.00 ","$337,980.00 ","$193,884.00 ",$15.86 ,$4.56 ,$3.64 
+At&T,1885,0,140,Telecommunications,Active,Active,,2017,252000,"$160,546.00 ","$29,450.00 ","$444,097.00 ","$125,972.00 ","$302,090.00 ","$142,007.00 ",$18.22 ,$2.75 ,$7.53 
+At&T,1885,0,140,Telecommunications,Active,Active,,2016,268000,"$163,786.00 ","$12,976.00 ","$403,821.00 ","$113,681.00 ","$279,711.00 ","$124,110.00 ",$18.28 ,$2.27 ,$8.08 
+At&T,1885,0,140,Telecommunications,Active,Active,,2015,281000,"$146,801.00 ","$13,345.00 ","$402,672.00 ","$118,515.00 ","$279,032.00 ","$123,640.00 ",$14.16 ,$1.34 ,$12.05 
+At&T,1885,0,140,Telecommunications,Active,Active,,2014,253000,"$132,447.00 ","$6,442.00 ","$296,834.00 ","$75,778.00 ","$206,564.00 ","$90,270.00 ",$13.81 ,$2.83 ,$5.94 
+At&T,1885,0,140,Telecommunications,Active,Active,,2013,243000,"$128,752.00 ","$18,418.00 ","$277,787.00 ","$69,290.00 ","$186,305.00 ","$91,482.00 ",$13.29 ,$1.86 ,$8.39 
+At&T,1885,0,140,Telecommunications,Active,Active,,2012,242000,"$127,434.00 ","$7,264.00 ","$272,315.00 ","$66,358.00 ","$179,620.00 ","$92,695.00 ",$12.40 ,$0.86 ,$15.18 
+At&T,1885,0,140,Telecommunications,Active,Active,,2011,256000,"$126,723.00 ","$3,944.00 ","$270,442.00 ","$61,300.00 ","$164,645.00 ","$105,797.00 ",$10.23 ,$2.39 ,$6.70 
+At&T,1885,0,140,Telecommunications,Active,Active,,2010,265410,"$124,280.00 ","$19,864.00 ","$269,391.00 ","$58,971.00 ","$157,441.00 ","$111,950.00 ",$8.63 ,$2.80 ,$3.23 
+At&T,1885,0,140,Telecommunications,Active,Active,,2009,281000,"$122,513.00 ","$12,138.00 ","$268,312.00 ","$64,720.00 ","$166,323.00 ","$101,989.00 ",$8.61 ,$2.12 ,$4.06 
+IBM,1911,0,114,Technology,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$245.48 , $-   ,$38.30 
+IBM,1911,0,114,Technology,Active,Active,,2024,293400,"$62,753.00 ","$6,023.00 ","$137,175.00 ","$49,884.00 ","$109,783.00 ","$27,393.00 ",$197.50 ,$7.80 ,$26.34 
+IBM,1911,0,114,Technology,Active,Active,,2023,305300,"$61,860.00 ","$7,502.00 ","$135,241.00 ","$50,121.00 ","$112,628.00 ","$22,613.00 ",$134.10 ,$4.95 ,$39.13 
+IBM,1911,0,114,Technology,Active,Active,,2022,345000,"$60,530.00 ","$1,639.00 ","$127,243.00 ","$46,189.00 ","$105,222.00 ","$22,021.00 ",$119.07 ,$3.85 ,$47.65 
+IBM,1911,0,114,Technology,Active,Active,,2021,345000,"$57,350.00 ","$5,743.00 ","$132,001.00 ","$44,917.00 ","$113,005.00 ","$18,996.00 ",$114.08 ,$5.89 ,$19.46 
+IBM,1911,0,114,Technology,Active,Active,,2020,345900,"$55,179.00 ","$5,590.00 ","$155,971.00 ","$54,217.00 ","$135,244.00 ","$20,727.00 ",$93.03 ,$8.49 ,$11.42 
+IBM,1911,0,114,Technology,Active,Active,,2019,383800,"$57,714.00 ","$9,431.00 ","$152,186.00 ","$54,102.00 ","$131,202.00 ","$20,985.00 ",$103.24 ,$9.59 ,$10.85 
+IBM,1911,0,114,Technology,Active,Active,,2018,381100,"$79,591.00 ","$8,728.00 ","$123,382.00 ","$35,605.00 ","$106,452.00 ","$16,929.00 ",$98.33 ,$7.00 ,$14.79 
+IBM,1911,0,114,Technology,Active,Active,,2017,397800,"$79,139.00 ","$5,753.00 ","$125,356.00 ","$39,837.00 ","$107,631.00 ","$17,725.00 ",$105.94 ,$10.57 ,$10.91 
+IBM,1911,0,114,Technology,Active,Active,,2016,414400,"$79,919.00 ","$11,872.00 ","$117,470.00 ","$34,655.00 ","$99,078.00 ","$18,392.00 ",$102.51 ,$12.54 ,$8.19 
+IBM,1911,0,114,Technology,Active,Active,,2015,411798,"$81,741.00 ","$13,190.00 ","$110,495.00 ","$33,428.00 ","$96,071.00 ","$14,424.00 ",$95.19 ,$12.80 ,$7.54 
+IBM,1911,0,114,Technology,Active,Active,,2014,412775,"$92,793.00 ","$12,022.00 ","$117,271.00 ","$34,991.00 ","$105,257.00 ","$12,014.00 ",$110.59 ,$13.63 ,$8.20 
+IBM,1911,0,114,Technology,Active,Active,,2013,463785,"$98,367.00 ","$16,483.00 ","$126,223.00 ","$32,856.00 ","$103,294.00 ","$22,929.00 ",$116.11 ,$14.50 ,$8.01 
+IBM,1911,0,114,Technology,Active,Active,,2012,466995,"$102,874.00 ","$16,604.00 ","$119,213.00 ","$24,088.00 ","$100,229.00 ","$18,984.00 ",$117.89 ,$13.87 ,$8.51 
+IBM,1911,0,114,Technology,Active,Active,,2011,466385,"$106,916.00 ","$15,855.00 ","$116,433.00 ","$22,857.00 ","$96,197.00 ","$20,236.00 ",$100.12 ,$12.51 ,$8.00 
+IBM,1911,0,114,Technology,Active,Active,,2010,463869,"$99,870.00 ","$14,833.00 ","$113,452.00 ","$21,846.00 ","$90,279.00 ","$23,172.00 ",$75.58 ,$10.86 ,$6.96 
+IBM,1911,0,114,Technology,Active,Active,,2009,437776,"$95,758.00 ","$13,425.00 ","$109,022.00 ","$21,932.00 ","$86,267.00 ","$22,755.00 ",$73.40 ,$10.01 ,$7.33 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$43.67 ,$3.05 ,$14.32 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2024,99600,"$134,788.00 ","$17,506.00 ","$384,711.00 ","$121,381.00 ","$284,136.00 ","$100,575.00 ",$39.67 ,$2.95 ,$14.16 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2023,105400,"$133,974.00 ","$11,614.00 ","$380,255.00 ","$137,701.00 ","$286,456.00 ","$93,799.00 ",$32.17 ,$4.46 ,$7.79 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2022,117100,"$136,835.00 ","$21,256.00 ","$379,680.00 ","$140,676.00 ","$287,217.00 ","$92,463.00 ",$36.91 ,$4.95 ,$7.44 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2021,118400,"$133,613.00 ","$22,065.00 ","$366,596.00 ","$143,425.00 ","$283,396.00 ","$83,200.00 ",$43.28 ,$5.01 ,$8.69 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2020,132200,"$128,292.00 ","$17,801.00 ","$316,481.00 ","$123,173.00 ","$247,209.00 ","$69,272.00 ",$42.80 ,$4.44 ,$9.67 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2019,135000,"$131,868.00 ","$19,265.00 ","$291,727.00 ","$100,712.00 ","$228,892.00 ","$62,835.00 ",$42.99 ,$4.06 ,$10.63 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2018,144500,"$130,863.00 ","$15,528.00 ","$264,829.00 ","$86,670.00 ","$210,119.00 ","$54,710.00 ",$35.97 ,$6.70 ,$6.02 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2017,155400,"$126,034.00 ","$30,101.00 ","$257,143.00 ","$113,642.00 ","$212,456.00 ","$44,687.00 ",$32.32 ,$4.54 ,$7.82 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2016,160900,"$125,980.00 ","$13,127.00 ","$244,180.00 ","$105,433.00 ","$220,148.00 ","$24,032.00 ",$33.94 ,$3.65 ,$9.43 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2015,177700,"$131,620.00 ","$17,879.00 ","$244,175.00 ","$103,240.00 ","$226,333.00 ","$17,842.00 ",$27.84 ,$2.92 ,$10.16 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2014,177300,"$127,079.00 ","$9,625.00 ","$232,616.00 ","$110,536.00 ","$218,940.00 ","$13,676.00 ",$27.79 ,$4.12 ,$7.22 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2013,176800,"$120,550.00 ","$11,497.00 ","$274,098.00 ","$89,658.00 ","$178,682.00 ","$95,416.00 ",$26.89 ,$1.43 ,$39.64 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2012,183400,"$115,846.00 ",$875.00 ,"$225,222.00 ","$47,618.00 ","$139,689.00 ","$85,533.00 ",$22.60 ,$0.84 ,$35.32 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2011,193900,"$110,875.00 ","$2,404.00 ","$230,461.00 ","$50,303.00 ","$144,553.00 ","$85,908.00 ",$19.12 ,$1.84 ,$12.62 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2010,194400,"$106,565.00 ","$2,549.00 ","$220,005.00 ","$45,252.00 ","$133,093.00 ","$86,912.00 ",$14.66 ,$0.64 ,$45.57 
+Verizon,1983,0,42,Telecommunications,Active,Active,,2009,222900,"$107,808.00 ","$4,894.00 ","$226,907.00 ","$55,051.00 ","$142,764.00 ","$84,143.00 ",$14.15 ,$1.28 ,$11.05 
+Amscan,1947,0,78,Party Supplies,Active,Active,,2004,0, $-   , $-   ,$614.99 ,$400.78 , $-   , $-   , $-   , $-   , $-   
+Amscan,1947,0,78,Party Supplies,Active,Active,,2000,2000, $-   ,$8.12 ,$280.63 ,$275.90 , $-   , $-   , $-   , $-   , $-   
+Amscan,1947,0,78,Party Supplies,Active,Active,,2003,0, $-   ,$17.16 ,$382.10 ,$295.51 , $-   , $-   , $-   , $-   , $-   
+Amscan,1947,0,78,Party Supplies,Active,Active,,2002,0, $-   ,$16.47 ,$372.50 ,$298.64 , $-   , $-   , $-   , $-   , $-   
+Amscan,1947,0,78,Party Supplies,Active,Active,,2001,0, $-   ,$11.30 ,$310.47 ,$282.60 , $-   , $-   , $-   , $-   , $-   
+Amscan,1947,0,78,Party Supplies,Active,Active,,1999,0, $-   ,$10.21 ,$263.49 ,$275.14 , $-   , $-   , $-   , $-   , $-   
+Playmates Toys Limited,1966,0,59,Electronics,Active,Active,,2024,67,$931.33 ,$131.63 ,"$1,425.13 ",$11.36 ,$224.01 ,"$1,201.12 ", $-   , $-   , $-   
+Playmates Toys Limited,1966,0,59,Electronics,Active,Active,,2023,0,"$1,109.40 ",$223.75 ,"$1,568.11 ",$20.23 ,$404.19 ,"$1,163.92 ", $-   , $-   , $-   
+Playmates Toys Limited,1966,0,59,Electronics,Active,Active,,2022,0,$504.25 ,$9.72 ,"$1,177.34 ",$28.44 ,$190.54 ,$986.80 , $-   , $-   , $-   
+Playmates Toys Limited,1966,0,59,Electronics,Active,Active,,2021,0,$625.11 ,$42.98 ,"$1,259.03 ",$22.32 ,$263.83 ,$995.20 , $-   , $-   , $-   
+Coca-Cola,1886,0,139,Soft Drinks,Active,Active,,2024,70,"$47,061,000.00 ","$10,631,000.00 ","$100,549,000.00 ","$44,522,000.00 ","$74,177,000.00 ",, $-   , $-   , $-   
+Coca-Cola,1886,0,139,Soft Drinks,Active,Active,,2023,0,"$45,754,000.00 ","$10,714,000.00 ","$97,703,000.00 ","$42,064,000.00 ","$70,223,000.00 ","$25,941,000.00 ", $-   , $-   , $-   
+Coca-Cola,1886,0,139,Soft Drinks,Active,Active,,2022,0,"$43,004,000.00 ","$9,542,000.00 ","$92,763,000.00 ","$39,149,000.00 ","$66,937,000.00 ","$24,105,000.00 ", $-   , $-   , $-   
+Coca-Cola,1886,0,139,Soft Drinks,Active,Active,,2021,0,"$38,655,000.00 ","$9,771,000.00 ","$94,354,000.00 ","$42,761,000.00 ","$69,494,000.00 ","$22,999,000.00 ", $-   , $-   , $-   
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$9.78 , $-   ,$6.70 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2024,171000,"$184,992.00 ","$5,879.00 ","$285,196.00 ","$103,573.00 ","$240,338.00 ","$44,858.00 ",$10.96 ,$1.07 ,$10.76 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2023,177000,"$176,191.00 ","$4,347.00 ","$273,310.00 ","$99,562.00 ","$230,512.00 ","$42,798.00 ",$11.60 ,$1.08 ,$11.49 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2022,173000,"$158,057.00 ","($1,981.00)","$255,884.00 ","$88,805.00 ","$212,717.00 ","$43,167.00 ",$10.25 ,$1.85 ,$3.00 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2021,183000,"$136,341.00 ","$17,937.00 ","$257,035.00 ","$88,400.00 ","$208,413.00 ","$48,622.00 ",$12.26 ,$1.74 ,$10.81 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2020,186000,"$127,144.00 ","($1,279.00)","$267,261.00 ","$110,341.00 ","$236,450.00 ","$30,811.00 ",$5.20 ,($0.42), $-   
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2019,190000,"$155,900.00 ",$47.00 ,"$258,537.00 ","$101,361.00 ","$225,307.00 ","$33,230.00 ",$7.10 ,$0.44 ,$100.03 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2018,199000,"$160,338.00 ","$3,677.00 ","$256,540.00 ","$100,720.00 ","$220,574.00 ","$35,966.00 ",$6.92 ,$1.52 ,$4.73 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2017,202000,"$156,776.00 ","$7,731.00 ","$258,496.00 ","$102,666.00 ","$222,890.00 ","$35,606.00 ",$7.88 ,$1.22 ,$6.93 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2016,201000,"$151,800.00 ","$4,589.00 ","$237,951.00 ","$93,301.00 ","$208,764.00 ","$29,187.00 ",$7.93 ,$1.76 ,$4.76 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2015,199000,"$149,558.00 ","$7,373.00 ","$224,925.00 ","$89,879.00 ","$196,268.00 ","$28,657.00 ",$8.70 ,$1.13 ,$8.44 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2014,187000,"$144,077.00 ","$1,231.00 ","$208,615.00 ","$119,171.00 ","$184,150.00 ","$24,465.00 ",$9.00 ,$1.37 ,$7.17 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2013,181000,"$146,917.00 ","$11,953.00 ","$202,179.00 ","$114,688.00 ","$176,034.00 ","$26,145.00 ",$8.45 ,$1.53 ,$5.54 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2012,171000,"$133,559.00 ","$5,613.00 ","$189,406.00 ","$105,058.00 ","$173,417.00 ","$15,989.00 ",$6.07 ,$3.75 ,$2.19 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2011,164000,"$135,605.00 ","$20,213.00 ","$178,348.00 ","$99,488.00 ","$163,277.00 ","$15,071.00 ",$6.57 ,$2.51 ,$3.34 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2010,164000,"$128,954.00 ","$6,561.00 ","$164,687.00 ","$103,988.00 ","$165,329.00 ",($642.00),$6.91 ,$1.69 ,$4.12 
+Ford Motor,1903,0,122,Automobile Manufacturing,Active,Active,,2009,198000,"$116,283.00 ","$2,717.00 ","$192,040.00 ","$131,635.00 ","$199,822.00 ","($7,782.00)",$5.35 ,$0.63 ,$8.49 
+Nestle,1867,0,158,Food Industry,Active,Active,,2024,0,"$91,720.00 ","$10,884.00 ","$139,264.00 ","$63,560.00 ","$102,571.00 ","$35,917.00 ", $-   , $-   , $-   
+Nestle,1867,0,158,Food Industry,Active,Active,,2023,0,"$93,351.00 ","$11,209.00 ","$126,550.00 ","$55,241.00 ","$90,163.00 ","$35,742.00 ", $-   , $-   , $-   
+Nestle,1867,0,158,Food Industry,Active,Active,,2022,275000,"$94,780.00 ","$9,270.00 ","$135,182.00 ","$54,312.00 ","$92,390.00 ","$41,982.00 ", $-   , $-   , $-   
+Nestle,1867,0,158,Food Industry,Active,Active,,2021,0,"$87,470.00 ","$16,905.00 ","$139,142.00 ","$46,574.00 ","$85,415.00 ","$53,140.00 ", $-   , $-   , $-   
+General Electric,1892,0,133,Energy,Active,Active,,2025,0,"$38,702.00 ","$6,556.00 ","$123,140.00 ","$19,273.00 ","$103,575.00 ","$19,342.00 ", $-   , $-   , $-   
+General Electric,1892,0,133,Energy,Active,Active,,2024,0,"$35,348.00 ","$9,482.00 ","$173,300.00 ","$20,525.00 ","$144,695.00 ","$27,403.00 ", $-   , $-   , $-   
+General Electric,1892,0,133,Energy,Active,Active,,2023,125000,"$29,139.00 ",$336.00 ,"$188,851.00 ","$26,148.00 ","$153,939.00 ","$33,696.00 ", $-   , $-   , $-   
+General Electric,1892,0,133,Energy,Active,Active,,2022,0,"$56,469.00 ","($6,337.00)","$198,874.00 ","$38,032.00 ","$157,262.00 ","$40,310.00 ", $-   , $-   , $-   
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$181.48 , $-   ,$10.00 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2024,380793,"$311,158.00 ","$34,120.00 ","$621,789.00 ","$145,973.00 ","$378,637.00 ","$243,151.00 ",$214.92 ,$22.74 ,$9.56 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2023,375235,"$274,942.00 ","$18,140.00 ","$549,844.00 ","$126,352.00 ","$333,288.00 ","$216,555.00 ",$161.37 ,$18.35 ,$9.01 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2022,372817,"$279,278.00 ","$25,366.00 ","$602,430.00 ","$136,246.00 ","$360,752.00 ","$241,678.00 ",$141.30 ,$15.82 ,$8.93 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2021,366283,"$255,817.00 ","$21,105.00 ","$585,311.00 ","$126,407.00 ","$357,001.00 ","$228,310.00 ",$159.34 ,$18.98 ,$8.46 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2020,359542,"$275,356.00 ","$19,101.00 ","$484,660.00 ","$98,375.00 ","$293,873.00 ","$190,787.00 ",$118.82 ,$10.84 ,$11.22 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2019,370870,"$272,031.00 ","$16,946.00 ","$467,433.00 ","$94,959.00 ","$286,828.00 ","$180,604.00 ",$111.72 ,$12.91 ,$8.73 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2018,369124,"$264,416.00 ","$22,446.00 ","$452,774.00 ","$90,057.00 ","$277,903.00 ","$174,871.00 ",$104.49 ,$14.60 ,$7.23 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2017,364445,"$256,654.00 ","$17,029.00 ","$453,377.00 ","$92,178.00 ","$279,756.00 ","$173,621.00 ",$93.26 ,$12.11 ,$7.73 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2016,348877,"$235,746.00 ","$19,195.00 ","$393,649.00 ","$81,108.00 ","$243,517.00 ","$150,132.00 ",$86.22 ,$11.75 ,$7.37 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2015,344109,"$247,834.00 ","$19,777.00 ","$434,341.00 ","$91,131.00 ","$273,751.00 ","$160,591.00 ",$97.40 ,$12.07 ,$8.07 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2014,338875,"$256,919.00 ","$18,231.00 ","$414,375.00 ","$85,469.00 ","$262,185.00 ","$152,190.00 ",$87.81 ,$11.58 ,$7.58 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2013,333498,"$234,601.00 ","$10,230.00 ","$377,281.00 ","$78,020.00 ","$241,472.00 ","$135,809.00 ",$84.97 ,$9.16 ,$9.48 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2012,325905,"$226,106.00 ","$3,450.00 ","$372,928.00 ","$73,516.00 ","$238,283.00 ","$134,645.00 ",$59.55 ,$4.73 ,$14.70 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2011,317716,"$228,427.00 ","$4,909.00 ","$358,607.00 ","$77,561.00 ","$227,278.00 ","$131,329.00 ",$51.26 ,$1.95 ,$28.00 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2010,320590,"$203,687.00 ","$2,251.00 ","$326,196.00 ","$75,402.00 ","$208,715.00 ","$117,481.00 ",$50.82 ,$1.43 ,$21.13 
+Toyota,1937,0,88,Automobile Manufacturing,Active,Active,,2009,320808,"$208,995.00 ","($4,448.00)","$295,857.00 ","$64,150.00 ","$193,432.00 ","$102,425.00 ",$56.59 ,($2.23), $-   
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$67.91 , $-   , $-   
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2024,300000,"$372,809.00 ","$4,614.00 ","$253,215.00 ","$60,527.00 ","$177,485.00 ","$75,730.00 ",$60.51 ,$4.73 ,$12.79 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2023,300000,"$357,776.00 ","$8,344.00 ","$249,728.00 ","$58,638.00 ","$173,092.00 ","$76,636.00 ",$69.25 ,$4.60 ,$15.05 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2022,300000,"$322,467.00 ","$4,311.00 ","$228,275.00 ","$50,476.00 ","$156,506.00 ","$71,769.00 ",$88.10 ,$4.41 ,$19.98 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2021,300000,"$292,111.00 ","$8,001.00 ","$232,999.00 ","$51,971.00 ","$157,618.00 ","$75,381.00 ",$78.14 ,$5.69 ,$13.73 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2020,300000,"$268,706.00 ","$7,179.00 ","$230,715.00 ","$59,207.00 ","$161,014.00 ","$69,701.00 ",$54.97 ,$5.83 ,$9.43 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2019,290000,"$256,776.00 ","$6,634.00 ","$222,449.00 ","$64,699.00 ","$158,279.00 ","$64,170.00 ",$52.21 ,$2.90 ,$18.00 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2018,295000,"$194,579.00 ",($594.00),"$196,456.00 ","$71,444.00 ","$137,913.00 ","$58,543.00 ",$55.66 ,$2.99 ,$18.62 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2017,246000,"$184,786.00 ","$6,622.00 ","$95,131.00 ","$22,181.00 ","$57,436.00 ","$37,695.00 ",$62.53 ,$5.28 ,$11.84 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2016,250000,"$177,546.00 ","$5,317.00 ","$94,462.00 ","$25,615.00 ","$57,628.00 ","$36,834.00 ",$71.78 ,$4.64 ,$15.47 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2015,243000,"$153,290.00 ","$5,237.00 ","$92,437.00 ","$26,267.00 ","$55,234.00 ","$37,203.00 ",$77.39 ,$4.32 ,$17.91 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2014,217800,"$139,367.00 ","$4,644.00 ","$74,187.00 ","$11,630.00 ","$36,224.00 ","$37,963.00 ",$61.91 ,$3.96 ,$15.63 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2013,208000,"$126,761.00 ","$4,592.00 ","$71,526.00 ","$12,841.00 ","$33,588.00 ","$37,938.00 ",$44.97 ,$3.48 ,$12.92 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2012,203000,"$123,120.00 ","$3,864.00 ","$6,622.00 ","$9,133.00 ","$28,568.00 ","$37,653.00 ",$34.67 ,$2.86 ,$12.12 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2011,202000,"$107,080.00 ","$3,462.00 ","$64,543.00 ","$9,208.00 ","$26,492.00 ","$38,051.00 ",$26.54 ,$2.50 ,$10.62 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2010,201000,"$95,778.00 ","$3,427.00 ","$62,169.00 ","$8,652.00 ","$24,469.00 ","$37,700.00 ",$23.66 ,$2.54 ,$9.31 
+CVS Health,1963,0,62,Retail Stores,Active,Active,,2009,211000,"$98,215.00 ","$3,696.00 ","$61,641.00 ","$8,756.00 ","$25,873.00 ","$35,768.00 ",$22.92 ,$2.55 ,$8.99 
+LG Display,1987,0,38,Electronics,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$3.25 , $-   , $-   
+LG Display,1987,0,38,Electronics,Active,Active,,2024,0, $-   , $-   , $-   , $-   , $-   , $-   ,$4.09 ,($2.15),($1.90)
+LG Display,1987,0,38,Electronics,Active,Active,,2023,66418,"$17,065.00 ","($2,187.00)","$28,607.00 ","$9,152.00 ","$21,591.00 ","$7,016.00 ",$5.54 ,($4.36),($1.27)
+LG Display,1987,0,38,Electronics,Active,Active,,2022,69656,"$18,306.00 ","($2,150.00)","$24,980.00 ","$6,736.00 ","$17,057.00 ","$7,923.00 ",$5.72 ,($0.67),($8.54)
+LG Display,1987,0,38,Electronics,Active,Active,,2021,70707,"$26,890.00 ","$1,068.00 ","$34,339.00 ","$7,832.00 ","$21,053.00 ","$13,286.00 ",$9.50 ,$1.44 ,$6.60 
+LG Display,1987,0,38,Electronics,Active,Active,,2020,63360,"$19,384.00 ",($71.00),"$28,057.00 ","$8,900.00 ","$17,868.00 ","$10,190.00 ",$5.91 ,($2.49),($2.37)
+LG Display,1987,0,38,Electronics,Active,Active,,2019,60429,"$18,780.00 ","($2,264.00)","$28,460.00 ","$9,290.00 ","$18,469.00 ","$9,991.00 ",$7.14 ,($1.32),($5.41)
+LG Display,1987,0,38,Electronics,Active,Active,,2018,58947,"$22,146.00 ",($189.00),"$30,190.00 ","$6,398.00 ","$16,643.00 ","$13,546.00 ",$9.06 ,$0.22 ,$41.18 
+LG Display,1987,0,38,Electronics,Active,Active,,2017,53891,"$24,588.00 ","$1,595.00 ","$25,800.00 ","$3,672.00 ","$12,545.00 ","$13,255.00 ",$13.68 ,$2.62 ,$5.22 
+LG Display,1987,0,38,Electronics,Active,Active,,2016,49094,"$23,854.00 ",$816.00 ,"$22,396.00 ","$3,700.00 ","$10,280.00 ","$12,116.00 ",$11.50 ,$0.58 ,$19.83 
+LG Display,1987,0,38,Electronics,Active,Active,,2015,49205,"$25,546.00 ",$870.00 ,"$20,319.00 ","$2,527.00 ","$8,885.00 ","$11,434.00 ",$10.80 ,$1.73 ,$6.24 
+LG Display,1987,0,38,Electronics,Active,Active,,2014,49421,"$26,456.00 ",$917.00 ,"$22,967.00 ","$3,279.00 ","$11,184.00 ","$11,783.00 ",$13.79 ,$0.78 ,$17.68 
+LG Display,1987,0,38,Electronics,Active,Active,,2013,51205,"$24,870.00 ",$385.00 ,"$19,978.00 ","$2,755.00 ","$10,044.00 ","$9,934.00 ",$11.73 ,$0.64 ,$18.33 
+LG Display,1987,0,38,Electronics,Active,Active,,2012,55621,"$26,192.00 ",$210.00 ,"$21,765.00 ","$3,062.00 ","$12,652.00 ","$9,114.00 ",$11.21 ,($0.51),($21.98)
+LG Display,1987,0,38,Electronics,Active,Active,,2011,56029,"$22,105.00 ",($717.00),"$22,898.00 ","$2,133.00 ","$13,679.00 ","$9,219.00 ",$11.25 ,($0.51),($22.06)
+LG Display,1987,0,38,Electronics,Active,Active,,2010,46705,"$22,960.00 ","$1,043.00 ","$21,472.00 ",$851.00 ,"$11,517.00 ","$9,955.00 ",$15.90 ,$2.18 ,$7.29 
+LG Display,1987,0,38,Electronics,Active,Active,,2009,1717,"$16,491.00 ",$867.00 ,"$15,631.00 ","$1,661.00 ","$7,535.00 ","$8,096.00 ",$15.58 ,$1.25 ,$12.46 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$9.52 , $-   , $-   
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2024,1500,"$4,017.00 ","($1,115.00)","$7,093.00 ","$2,165.00 ","$7,403.00 ",($311.00),$8.93 ,($3.08),($2.90)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2023,1448,"$3,855.00 ","($2,010.00)","$7,426.00 ","$2,995.00 ","$6,640.00 ",$786.00 ,$9.82 ,($6.72),($1.46)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2022,1466,"$3,604.00 ",($188.00),"$8,991.00 ","$2,852.00 ","$6,308.00 ","$2,683.00 ",$9.68 ,($5.00),($1.94)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2021,1443,"$3,272.00 ",($19.00),"$8,306.00 ","$2,861.00 ","$5,512.00 ","$2,795.00 ",$16.62 ,($0.38),($43.74)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2020,1415,"$3,890.00 ",($188.00),"$7,951.00 ","$2,761.00 ","$5,291.00 ","$2,660.00 ",$8.59 ,($0.46),($18.67)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2019,1686,"$3,681.00 ",($284.00),"$8,409.00 ","$2,994.00 ","$5,487.00 ","$2,922.00 ",$11.95 ,($1.28),($9.34)
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2018,1427,"$4,129.00 ",$474.00 ,"$8,968.00 ","$2,650.00 ","$5,811.00 ","$3,157.00 ",$22.71 ,$0.96 ,$23.66 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2017,795,"$3,202.00 ",$15.00 ,"$9,197.00 ","$3,163.00 ","$6,683.00 ","$2,514.00 ",$33.26 ,$1.49 ,$22.32 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2016,719,"$2,347.00 ",$50.00 ,"$3,834.00 ",$877.00 ,"$2,984.00 ",$850.00 ,$92.25 ,$1.21 ,$76.24 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2015,665,"$2,400.00 ",$182.00 ,"$3,292.00 ","$1,371.00 ","$2,450.00 ",$842.00 ,$65.84 ,$2.15 ,$30.62 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2014,636,"$2,630.00 ",$152.00 ,"$2,852.00 ","$1,079.00 ","$2,267.00 ",$585.00 ,$50.44 ,$1.64 ,$30.76 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2013,607,"$2,708.00 ",$232.00 ,"$2,761.00 ",$656.00 ,"$2,404.00 ",$357.00 ,$45.56 ,$1.48 ,$30.78 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2012,486,"$1,588.00 ",($39.00),"$2,788.00 ","$1,147.00 ","$2,698.00 ",$90.00 ,$45.27 ,$1.28 ,$35.37 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2011,497,"$1,583.00 ",($30.00),"$1,569.00 ",$437.00 ,"$1,430.00 ",$139.00 ,$39.25 ,$1.97 ,$19.92 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2010,509,"$1,490.00 ",($30.00),"$1,527.00 ",$544.00 ,"$1,473.00 ",$54.00 ,$32.58 ,$1.22 ,$26.70 
+Lions Gate Entertainment,1997,0,28,Film Production,Active,Active,,2009,2100000,"$1,466.00 ",($178.00),"$1,667.00 ",$586.00 ,"$1,626.00 ",$42.00 ,$28.72 ,$0.81 ,$35.46 
+Walmart,1962,0,63,Department Stores,Active,Active,,2025,2100000,"$680,985.00 ","$19,436.00 ","$260,823.00 ","$39,324.00 ","$163,402.00 ","$97,421.00 ",$22.56 ,$1.39 ,$16.23 
+Walmart,1962,0,63,Department Stores,Active,Active,,2024,2100000,"$648,125.00 ","$15,511.00 ","$252,399.00 ","$41,841.00 ","$162,050.00 ","$90,349.00 ",$19.59 ,$1.53 ,$12.80 
+Walmart,1962,0,63,Department Stores,Active,Active,,2023,2300000,"$611,289.00 ","$11,680.00 ","$243,197.00 ","$39,492.00 ","$159,443.00 ","$83,754.00 ",$20.11 ,$1.62 ,$12.41 
+Walmart,1962,0,63,Department Stores,Active,Active,,2022,2300000,"$572,754.00 ","$13,673.00 ","$244,860.00 ","$39,107.00 ","$152,969.00 ","$91,891.00 ",$20.45 ,$1.62 ,$12.62 
+Walmart,1962,0,63,Department Stores,Active,Active,,2021,2200000,"$559,151.00 ","$13,510.00 ","$252,496.00 ","$45,041.00 ","$164,965.00 ","$87,531.00 ",$19.84 ,$1.70 ,$11.67 
+Walmart,1962,0,63,Department Stores,Active,Active,,2020,2200000,"$523,964.00 ","$14,881.00 ","$236,495.00 ","$48,021.00 ","$154,943.00 ","$81,552.00 ",$17.28 ,$1.56 ,$11.08 
+Walmart,1962,0,63,Department Stores,Active,Active,,2019,2300000,"$514,405.00 ","$6,670.00 ","$219,295.00 ","$50,203.00 ","$139,661.00 ","$79,634.00 ",$13.75 ,$1.54 ,$8.93 
+Walmart,1962,0,63,Department Stores,Active,Active,,2018,2300000,"$500,343.00 ","$9,862.00 ","$204,522.00 ","$36,825.00 ","$123,700.00 ","$80,822.00 ",$12.93 ,$1.29 ,$10.02 
+Walmart,1962,0,63,Department Stores,Active,Active,,2017,2300000,"$485,873.00 ","$13,643.00 ","$198,825.00 ","$42,018.00 ","$118,290.00 ","$80,535.00 ",$11.93 ,$1.15 ,$10.37 
+Walmart,1962,0,63,Department Stores,Active,Active,,2016,2200000,"$482,130.00 ","$14,694.00 ","$199,581.00 ","$44,030.00 ","$115,970.00 ","$83,611.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2015,2200000,"$485,651.00 ","$16,363.00 ","$203,490.00 ","$43,495.00 ","$117,553.00 ","$85,937.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2014,2200000,"$476,294.00 ","$16,022.00 ","$204,751.00 ","$44,559.00 ","$123,412.00 ","$81,339.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2013,2200000,"$468,651.00 ","$16,999.00 ","$203,105.00 ","$41,417.00 ","$121,367.00 ","$81,738.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2012,2100000,"$446,509.00 ","$15,699.00 ","$193,406.00 ","$47,079.00 ","$117,645.00 ","$75,761.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2011,2100000,"$421,849.00 ","$16,389.00 ","$180,782.00 ","$43,842.00 ","$109,535.00 ","$71,247.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2010,2100000,"$408,085.00 ","$14,370.00 ","$170,407.00 ","$36,401.00 ","$97,759.00 ","$72,648.00 ", $-   , $-   , $-   
+Walmart,1962,0,63,Department Stores,Active,Active,,2009,211826,"$404,254.00 ","$13,381.00 ","$163,429.00 ","$34,549.00 ","$96,350.00 ","$67,079.00 ", $-   , $-   , $-   
+Fujifilm,1934,0,91,Photography,Active,Active,,2024,73164,"$2,960,916.00 ","$243,509.00 ","$4,783,460.00 ","$691,357.00 ","$1,610,145.00 ","$3,169,247.00 ", $-   , $-   , $-   
+Fujifilm,1934,0,91,Photography,Active,Active,,2023,0,"$2,859,041.00 ","$219,422.00 ","$4,134,311.00 ","$536,900.00 ","$1,346,451.00 ","$2,763,145.00 ", $-   , $-   , $-   
+Fujifilm,1934,0,91,Photography,Active,Active,,2022,0,"$2,525,773.00 ","$211,180.00 ","$3,955,280.00 ","$588,820.00 ","$1,430,340.00 ","$2,502,657.00 ", $-   , $-   , $-   
+Fujifilm,1934,0,91,Photography,Active,Active,,2021,0,"$2,192,519.00 ","$181,205.00 ","$3,549,203.00 ","$609,576.00 ","$1,327,046.00 ","$2,204,566.00 ", $-   , $-   , $-   
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$64.59 , $-   , $-   
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2024,211826,"$30,604.00 ",($998.00),"$22,024.00 ","$3,426.00 ","$14,710.00 ","$7,313.00 ",$104.46 ,($4.72),($22.13)
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2023,207548,"$28,332.00 ","$1,615.00 ","$23,022.00 ","$3,422.00 ","$14,271.00 ","$8,752.00 ",$142.33 ,$6.04 ,$23.56 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2022,210565,"$26,321.00 ","$1,328.00 ","$21,722.00 ","$3,417.00 ","$14,003.00 ","$7,719.00 ",$154.38 ,$6.62 ,$23.32 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2021,199327,"$25,509.00 ","$1,342.00 ","$20,696.00 ","$3,226.00 ","$13,411.00 ","$7,285.00 ",$106.03 ,$6.04 ,$17.55 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2020,193100,"$23,611.00 ",$827.00 ,"$19,575.00 ","$3,522.00 ","$13,320.00 ","$6,255.00 ",$87.60 ,$3.67 ,$23.87 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2019,182100,"$22,823.00 ","($1,591.00)","$13,501.00 ","$4,265.00 ","$7,858.00 ","$5,643.00 ",$105.06 ,($6.54),($16.06)
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2018,176100,"$22,246.00 ","$1,714.00 ","$16,333.00 ","$4,762.00 ","$9,151.00 ","$7,182.00 ",$96.62 ,$7.20 ,$13.42 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2017,176800,"$20,719.00 ",$896.00 ,"$15,702.00 ","$6,170.00 ","$10,312.00 ","$5,390.00 ",$80.82 ,$3.88 ,$20.83 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2016,167800,"$15,498.00 ",$282.00 ,"$15,901.00 ","$7,238.00 ","$11,494.00 ","$4,407.00 ",$83.22 ,$2.36 ,$35.26 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2015,90000,"$8,602.00 ",$599.00 ,"$3,493.00 ",$683.00 ,"$1,708.00 ","$1,785.00 ",$72.76 ,$2.05 ,$35.49 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2014,87400,"$7,840.00 ",$597.00 ,"$2,772.00 ",$757.00 ,"$1,601.00 ","$1,171.00 ",$54.41 ,$2.84 ,$19.16 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2013,81920,"$7,395.00 ",$619.00 ,"$2,752.00 ",$257.00 ,"$1,085.00 ","$1,667.00 ",$49.90 ,$2.77 ,$18.01 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2012,72770,"$6,631.00 ",$488.00 ,"$2,329.00 ",$250.00 ,$984.00 ,"$1,345.00 ",$45.86 ,$2.22 ,$20.66 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2011,63860,"$5,882.00 ",$397.00 ,"$2,381.00 ",$250.00 ,$922.00 ,"$1,459.00 ",$31.78 ,$1.75 ,$18.16 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2010,54480,"$5,231.00 ",$321.00 ,"$2,290.00 ",$250.00 ,$861.00 ,"$1,429.00 ",$21.14 ,$1.28 ,$16.52 
+Dollar Tree,1986,0,39,Party Supplies,Active,Active,,2009,45840,"$4,645.00 ",$230.00 ,"$2,036.00 ",$250.00 ,$783.00 ,"$1,253.00 ",$15.04 ,$1.07 ,$14.06 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$959.49 , $-   , $-   
+Netflix,1997,0,28,Movie Rental,Active,Active,,2024,14000,"$39,001.00 ","$8,712.00 ","$53,630.00 ","$13,798.00 ","$28,887.00 ","$24,744.00 ",$720.70 ,$16.98 ,$42.44 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2023,13000,"$33,723.00 ","$5,408.00 ","$48,732.00 ","$14,143.00 ","$28,144.00 ","$20,588.00 ",$412.61 ,$10.18 ,$40.53 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2022,12800,"$31,616.00 ","$4,492.00 ","$48,595.00 ","$14,353.00 ","$27,817.00 ","$20,777.00 ",$269.94 ,$10.84 ,$24.90 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2021,11300,"$29,698.00 ","$5,116.00 ","$44,585.00 ","$14,693.00 ","$28,735.00 ","$15,849.00 ",$565.66 ,$10.06 ,$56.23 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2020,9400,"$24,996.00 ","$2,761.00 ","$39,280.00 ","$15,809.00 ","$28,215.00 ","$11,065.00 ",$467.82 ,$5.79 ,$80.80 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2019,8600,"$20,156.00 ","$1,867.00 ","$33,976.00 ","$14,759.00 ","$26,394.00 ","$7,582.00 ",$328.77 ,$3.15 ,$104.37 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2018,7300,"$15,794.00 ","$1,211.00 ","$25,974.00 ","$10,360.00 ","$20,736.00 ","$5,239.00 ",$353.64 ,$2.16 ,$163.72 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2017,5500,"$11,693.00 ",$559.00 ,"$19,013.00 ","$6,499.00 ","$15,431.00 ","$3,582.00 ",$167.63 ,$0.96 ,$174.61 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2016,4700,"$8,831.00 ",$187.00 ,"$13,587.00 ","$3,364.00 ","$10,907.00 ","$2,680.00 ",$104.02 ,$0.35 ,$297.20 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2015,3700,"$6,780.00 ",$123.00 ,"$10,203.00 ","$2,371.00 ","$7,979.00 ","$2,223.00 ",$92.75 ,$0.41 ,$226.22 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2014,2189,"$5,505.00 ",$267.00 ,"$7,043.00 ",$886.00 ,"$5,185.00 ","$1,858.00 ",$56.62 ,$0.50 ,$113.24 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2013,2022,"$4,375.00 ",$112.00 ,"$5,413.00 ",$500.00 ,"$4,079.00 ","$1,334.00 ",$38.49 ,$0.15 ,$256.60 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2012,2045,"$3,609.00 ",$17.00 ,"$3,968.00 ",$400.00 ,"$3,223.00 ",$745.00 ,$11.80 ,$0.22 ,$53.64 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2011,2348,"$3,205.00 ",$226.00 ,"$3,069.00 ",$400.00 ,"$2,426.00 ",$643.00 ,$24.40 ,$0.58 ,$42.07 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2010,2180,"$2,163.00 ",$161.00 ,$982.00 ,$200.00 ,$692.00 ,$290.00 ,$18.58 ,$0.37 ,$50.22 
+Netflix,1997,0,28,Movie Rental,Active,Active,,2009,1883,"$1,670.00 ",$116.00 ,$680.00 ,$237.00 ,$481.00 ,$199.00 ,$7.87 ,$0.28 ,$28.11 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$215.24 , $-   , $-   
+Apple,1976,0,49,Mobile Phones,Active,Active,,2024,164000,"$391,035.00 ","$93,736.00 ","$364,980.00 ","$85,750.00 ","$308,030.00 ","$56,950.00 ",$216.04 ,$6.34 ,$34.08 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2023,161000,"$383,285.00 ","$96,995.00 ","$352,583.00 ","$95,281.00 ","$290,437.00 ","$62,146.00 ",$179.43 ,$6.10 ,$29.41 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2022,164000,"$394,328.00 ","$99,803.00 ","$352,755.00 ","$98,959.00 ","$302,083.00 ","$50,672.00 ",$143.01 ,$6.06 ,$23.60 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2021,154000,"$365,817.00 ","$94,680.00 ","$351,002.00 ","$109,106.00 ","$287,912.00 ","$63,090.00 ",$141.93 ,$5.31 ,$26.73 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2020,147000,"$274,515.00 ","$57,411.00 ","$323,888.00 ","$98,667.00 ","$258,549.00 ","$65,339.00 ",$98.36 ,$3.36 ,$29.27 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2019,137000,"$260,174.00 ","$55,256.00 ","$338,516.00 ","$91,807.00 ","$248,028.00 ","$90,488.00 ",$54.62 ,$3.01 ,$18.15 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2018,132000,"$265,595.00 ","$59,531.00 ","$365,725.00 ","$93,735.00 ","$258,578.00 ","$107,147.00 ",$43.72 ,$2.84 ,$15.39 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2017,123000,"$229,234.00 ","$48,351.00 ","$375,319.00 ","$97,207.00 ","$241,272.00 ","$134,047.00 ",$35.74 ,$2.27 ,$15.74 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2016,116000,"$215,639.00 ","$45,687.00 ","$321,686.00 ","$75,427.00 ","$193,437.00 ","$128,249.00 ",$24.89 ,$2.14 ,$11.63 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2015,110000,"$233,715.00 ","$53,394.00 ","$290,345.00 ","$53,329.00 ","$170,990.00 ","$119,355.00 ",$26.15 ,$2.21 ,$11.83 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2014,97000,"$182,795.00 ","$39,510.00 ","$231,839.00 ","$28,987.00 ","$120,292.00 ","$111,547.00 ",$21.06 ,$1.63 ,$12.92 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2013,84400,"$170,910.00 ","$37,037.00 ","$207,000.00 ","$16,960.00 ","$83,451.00 ","$123,549.00 ",$14.49 ,$1.45 ,$9.99 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2012,76100,"$156,508.00 ","$41,733.00 ","$176,064.00 ", $-   ,"$57,854.00 ","$118,210.00 ",$18.00 ,$1.54 ,$11.69 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2011,63300,"$108,249.00 ","$25,922.00 ","$116,371.00 ", $-   ,"$39,756.00 ","$76,615.00 ",$11.07 ,$0.97 ,$11.41 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2010,49400,"$65,225.00 ","$14,013.00 ","$75,183.00 ", $-   ,"$27,392.00 ","$47,791.00 ",$8.23 ,$0.50 ,$16.46 
+Apple,1976,0,49,Mobile Phones,Active,Active,,2009,36800,"$42,905.00 ","$8,235.00 ","$47,501.00 ", $-   ,"$15,861.00 ","$31,640.00 ",$6.35 ,$0.31 ,$20.48 
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$10.68 ,($15.50), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2024,3750,"$1,567.00 ",($63.00),$905.00 ,$196.00 ,$835.00 ,$71.00 ,$31.49 ,($64.39),$0.26 
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2023,4620,"$1,543.00 ",($102.00),$981.00 ,$182.00 ,$850.00 ,$131.00 ,$159.00 ,($174.75), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2022,4600,"$1,496.00 ",($69.00),"$1,072.00 ",$186.00 ,$843.00 ,$228.00 ,$364.00 ,($160.50), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2021,4095,"$1,407.00 ",($140.00),"$1,031.00 ",$128.00 ,$738.00 ,$293.00 ,$812.50 ,($251.00), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2020,5500,"$1,851.00 ",($38.00),"$1,156.00 ",$100.00 ,$739.00 ,$418.00 ,$241.25 ,($114.00), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2019,6000,"$2,035.00 ",($24.00),$946.00 ,$34.00 ,$496.00 ,$451.00 ,$440.75 ,($24.50),$1.76 
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2018,6600,"$2,204.00 ",($253.00),"$1,039.00 ",$96.00 ,$571.00 ,$468.00 ,$629.25 ,($547.00), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2017,6700,"$1,874.00 ",$5.00 ,"$1,300.00 ",$60.00 ,$586.00 ,$714.00 ,$828.50 ,$12.00 ,$77.69 
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2016,5500,"$1,808.00 ", $-   ,"$1,072.00 ", $-   ,$363.00 ,$708.00 ,"$1,007.67 ",($7.67), $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2015,5300,"$1,773.00 ",$13.00 ,"$1,091.00 ", $-   ,$364.00 ,$727.00 , $-   , $-   , $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2014,0,"$1,748.00 ",$33.00 ,"$1,144.00 ", $-   ,$719.00 ,$425.00 , $-   , $-   , $-   
+Barnes & Noble Education,2015,0,10,Bookstore ,Active,Active,,2013,0,"$1,763.00 ",$29.00 , $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Books-A-Million (Bam),1917,0,108,Bookstore ,Active,Active,,2015,5000,$5.88 ,$8.94 ,$274.80 ,$5.88 ,$157.69 ,$117.12 , $-   , $-   , $-   
+Books-A-Million (Bam),1917,0,108,Bookstore ,Active,Active,,2014,0,$5.45 ,($2.82),$296.15 ,$5.45 ,$181.56 ,$114.59 , $-   , $-   , $-   
+Books-A-Million (Bam),1917,0,108,Bookstore ,Active,Active,,2013,0,$5.93 ,$2.55 ,$286.47 ,$5.93 ,$169.95 ,$116.52 , $-   , $-   , $-   
+Books-A-Million (Bam),1917,0,108,Bookstore ,Active,Active,,2012,0,$18.86 ,($7.58),$302.73 ,$18.86 ,$190.74 ,$111.99 , $-   , $-   , $-   
+Books-A-Million (Bam),1917,0,108,Bookstore ,Active,Active,,2011,0,$25.53 ,$3.54 ,$294.25 ,$25.53 ,$180.99 ,$113.26 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2024,600,$202.00 ,$19.00 ,"$2,210.00 ","$2,210.00 ","$1,870.00 ",$339.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2023,698,$180.00 ,$9.00 ,"$2,213.00 ","$2,213.00 ","$1,869.00 ",$344.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2022,742,$176.00 ,$19.00 ,"$2,032.00 ","$2,032.00 ","$1,661.00 ",$370.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2021,870,$273.00 ,$71.00 ,"$2,216.00 ","$2,216.00 ","$1,783.00 ",$433.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2020,812,$323.00 ,$81.00 ,"$2,185.00 ","$2,185.00 ","$1,771.00 ",$413.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2019,824,$210.00 ,$36.00 ,"$1,996.00 ","$1,996.00 ","$1,603.00 ",$394.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2018,888,$192.00 ,$31.00 ,"$1,915.00 ","$1,915.00 ","$1,516.00 ",$400.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2017,927,$192.00 ,$26.00 ,"$1,806.00 ","$1,806.00 ","$1,394.00 ",$412.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2016,895,$190.00 ,$26.00 ,"$1,791.00 ","$1,791.00 ","$1,380.00 ",$411.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2015,770,$166.00 ,$17.00 ,"$1,763.00 ","$1,763.00 ","$1,371.00 ",$392.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2014,731,$148.00 ,$13.00 ,"$1,783.00 ","$1,783.00 ","$1,333.00 ",$450.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2013,849,$151.00 ,$15.00 ,"$1,947.00 ","$1,947.00 ","$1,733.00 ",$214.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2012,726,$161.00 ,$35.00 ,"$1,661.00 ","$1,661.00 ","$1,458.00 ",$203.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2011,574,$123.00 ,($7.00),"$1,713.00 ","$1,713.00 ","$1,546.00 ",$166.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2010,595,$129.00 ,($2.00),"$1,809.00 ","$1,809.00 ","$1,637.00 ",$172.00 , $-   , $-   , $-   
+Waterstones,1982,0,43,Bookstore ,Active,Active,,2009,518,$111.00 ,($10.00),"$1,868.00 ","$1,868.00 ","$1,700.00 ",$169.00 , $-   , $-   , $-   
+Indigo Books And Music ,1996,0,29,Bookstore ,Active,Active,,2023,0,"$1,058.00 ",($49.57),$738.08 , $-   ,$758.06 ,($19.98), $-   , $-   , $-   
+Indigo Books And Music,1996,0,29,Bookstore ,Active,Active,,2022,0,"$1,062.00 ",$3.27 ,$809.37 ,$497.45 ,$781.55 ,$27.82 , $-   , $-   , $-   
+Indigo Books And Music,1996,0,29,Bookstore ,Active,Active,,2021,0,$905.00 ,($57.87),$799.49 ,$517.18 ,$776.91 ,$22.58 , $-   , $-   , $-   
+Indigo Books And Music,1996,0,29,Bookstore ,Active,Active,,2020,0,$958.00 ,($185.00),$882.97 ,$550.27 ,$798.97 ,$84.01 , $-   , $-   , $-   
+Indigo Books And Music,1996,0,29,Bookstore ,Active,Active,,2019,0,"$1,047.00 ",($36.80),$610.46 ,$568.62 ,$240.35 ,$370.12 , $-   , $-   , $-   
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$23.09 , $-   ,$6.93 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2024,5900,"$5,187.00 ",$455.00 ,"$11,882.00 ","$4,469.00 ","$8,723.00 ","$3,159.00 ",$35.95 ,$4.30 ,$8.45 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2023,6400,"$5,836.00 ",$707.00 ,"$12,141.00 ","$4,991.00 ","$8,888.00 ","$3,252.00 ",$34.57 ,$5.16 ,$6.72 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2022,6300,"$5,755.00 ",$741.00 ,"$11,492.00 ","$4,457.00 ","$8,586.00 ","$2,907.00 ",$35.06 ,$4.47 ,$7.90 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2021,5800,"$5,336.00 ",$650.00 ,"$11,051.00 ","$4,596.00 ","$8,498.00 ","$2,553.00 ",$37.47 ,$3.00 ,$15.58 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2020,4600,"$4,054.00 ",$1.00 ,"$12,011.00 ","$5,933.00 ","$10,288.00 ","$1,723.00 ",$24.06 ,$0.88 ,$21.00 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2019,5000,"$5,362.00 ",$424.00 ,"$10,528.00 ","$5,125.00 ","$8,724.00 ","$1,804.00 ",$32.51 ,$2.72 ,$11.98 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2018,5300,"$5,717.00 ",$531.00 ,"$10,666.00 ","$4,888.00 ","$8,892.00 ","$1,774.00 ",$35.45 ,$3.06 ,$11.59 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2017,5200,"$5,647.00 ",$522.00 ,"$9,973.00 ","$4,587.00 ","$8,128.00 ","$1,844.00 ",$44.62 ,$3.28 ,$13.60 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2016,5400,"$5,996.00 ",$692.00 ,"$9,890.00 ","$4,667.00 ","$7,970.00 ","$1,920.00 ",$42.25 ,$3.78 ,$11.18 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2015,5700,"$5,995.00 ",$752.00 ,"$9,973.00 ","$4,832.00 ","$8,133.00 ","$1,840.00 ",$42.93 ,$3.76 ,$11.39 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2014,5900,"$6,229.00 ",$845.00 ,"$9,528.00 ","$3,762.00 ","$6,619.00 ","$2,909.00 ",$50.48 ,$3.78 ,$13.38 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2013,5800,"$5,900.00 ",$734.00 ,"$9,405.00 ","$3,417.00 ","$6,396.00 ","$3,009.00 ",$46.12 ,$3.14 ,$14.64 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2012,5800,"$5,581.00 ",$624.00 ,"$9,171.00 ","$4,371.00 ","$6,613.00 ","$2,558.00 ",$34.99 ,$2.85 ,$12.31 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2011,6600,"$5,312.00 ",$599.00 ,"$9,674.00 ","$3,844.00 ","$7,254.00 ","$2,420.00 ",$29.07 ,$1.74 ,$19.18 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2010,6900,"$4,859.00 ",$147.00 ,"$9,431.00 ","$4,521.00 ","$7,224.00 ","$2,207.00 ",$20.80 ,($0.12),$10.30 
+Harley-Davidson,1903,0,122,Motorcycle,Active,Active,,2009,7300,"$4,782.00 ",($55.00),"$9,156.00 ","$4,114.00 ","$7,047.00 ","$2,108.00 ",$18.31 ,($0.25), $-   
+Ducati,1926,0,99,Motorcycle,Active,Active,,2024,1862,$1.00 ,$91.00 , $-   , $-   , $-   , $-   ,$9.10 , $-   , $-   
+Ducati,1926,0,99,Motorcycle,Active,Active,,2023,0,$1.07 ,$112.00 , $-   , $-   , $-   , $-   ,$10.50 , $-   , $-   
+Ducati,1926,0,99,Motorcycle,Active,Active,,2022,0,$676.00 , $-   ,$105.00 , $-   , $-   , $-   , $-   , $-   , $-   
+Honda,1948,0,77,Motorcycle,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$29.68 , $-   ,$8.20 
+Honda,1948,0,77,Motorcycle,Active,Active,,2024,194993,"$140,959.00 ","$7,640.00 ","$205,442.00 ","$41,800.00 ","$115,701.00 ","$89,741.00 ",$32.21 ,$4.34 ,$7.45 
+Honda,1948,0,77,Motorcycle,Active,Active,,2023,197039,"$125,117.00 ","$4,820.00 ","$182,559.00 ","$32,367.00 ","$97,442.00 ","$85,117.00 ",$29.30 ,$3.84 ,$7.68 
+Honda,1948,0,77,Motorcycle,Active,Active,,2022,218674,"$129,519.00 ","$6,293.00 ","$213,361.00 ","$44,360.00 ","$117,485.00 ","$95,876.00 ",$22.55 ,$3.27 ,$6.90 
+Honda,1948,0,77,Motorcycle,Active,Active,,2021,211374,"$123,803.00 ","$6,180.00 ","$206,058.00 ","$44,324.00 ","$117,953.00 ","$88,105.00 ",$27.36 ,$4.47 ,$6.22 
+Honda,1948,0,77,Motorcycle,Active,Active,,2020,218674,"$137,365.00 ","$4,193.00 ","$188,246.00 ","$38,835.00 ","$112,014.00 ","$76,231.00 ",$21.90 ,$1.76 ,$14.03 
+Honda,1948,0,77,Motorcycle,Active,Active,,2019,219722,"$142,998.00 ","$5,493.00 ","$183,772.00 ","$37,281.00 ","$106,680.00 ","$77,092.00 ",$22.89 ,$2.76 ,$8.37 
+Honda,1948,0,77,Motorcycle,Active,Active,,2018,215638,"$138,250.00 ","$9,534.00 ","$174,143.00 ","$34,936.00 ","$100,036.00 ","$74,107.00 ",$24.90 ,$5.06 ,$5.01 
+Honda,1948,0,77,Motorcycle,Active,Active,,2017,211915,"$130,193.00 ","$5,734.00 ","$176,311.00 ","$37,406.00 ","$105,913.00 ","$70,398.00 ",$24.41 ,$3.70 ,$6.79 
+Honda,1948,0,77,Motorcycle,Active,Active,,2016,208399,"$121,190.00 ","$2,860.00 ","$151,303.00 ","$31,014.00 ","$92,939.00 ","$58,364.00 ",$21.33 ,$1.86 ,$11.62 
+Honda,1948,0,77,Motorcycle,Active,Active,,2015,204730,"$121,286.00 ","$4,636.00 ","$167,675.00 ","$35,729.00 ","$100,491.00 ","$67,184.00 ",$23.26 ,$2.56 ,$9.09 
+Honda,1948,0,77,Motorcycle,Active,Active,,2014,198561,"$118,425.00 ","$5,741.00 ","$156,220.00 ","$32,341.00 ","$95,086.00 ","$61,134.00 ",$23.68 ,$3.21 ,$7.36 
+Honda,1948,0,77,Motorcycle,Active,Active,,2013,190338,"$119,523.00 ","$4,443.00 ","$164,988.00 ","$32,801.00 ","$102,095.00 ","$62,893.00 ",$26.32 ,$2.42 ,$10.88 
+Honda,1948,0,77,Motorcycle,Active,Active,,2012,0,"$100,941.00 ","$2,820.00 ","$149,616.00 ","$28,385.00 ","$92,106.00 ","$57,509.00 ",$22.85 ,$2.12 ,$11.31 
+Honda,1948,0,77,Motorcycle,Active,Active,,2011,179060,"$107,242.00 ","$6,762.00 ","$138,851.00 ","$24,519.00 ","$83,856.00 ","$54,995.00 ",$21.12 ,$2.06 ,$11.43 
+Honda,1948,0,77,Motorcycle,Active,Active,,2010,0,"$92,655.00 ","$3,052.00 ","$125,594.00 ","$24,981.00 ","$77,465.00 ","$48,129.00 ",$20.93 ,$1.59 ,$47.74 
+Honda,1948,0,77,Motorcycle,Active,Active,,2009,181876, $-   ,"$1,395.00 ","$44,228.00 ", $-   ,"$57,559.00 ","($10,920.00)",$19.90 ,$0.15 ,$132.66 
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2024,0,"$16,620.51 ",$101.15 ,"$17,958.07 ", $-   ,"$10,044.61 ","$7,913.46 ", $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2023,52554,"$15,579.09 ",$64.08 ,"$16,539.10 ", $-   ,"$9,220.66 ","$7,318.45 ", $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2018,0,,$350.83 ,"$3,614.09 ", $-   ,$657.76 ,"$19,131.85 ", $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2017,0,,$301.41 ,"$3,370.08 ", $-   ,$532.68 ,"$1,906.50 ", $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2016,0,,$210.54 ,"$3,030.61 ", $-   ,$486.83 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2015,0,,$160.83 ,"$3,419.57 ", $-   ,$522.43 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2014,0,,$147.73 ,"$2,831.82 ", $-   ,$471.90 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2013,0,,$26.59 ,"$2,520.06 ", $-   ,$461.61 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2012,0,,($189.55),"$2,365.23 ", $-   ,$469.86 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2011,0,,$32.76 ,"$2,521.63 ", $-   ,$482.81 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2010,0,,($31.75),"$2,594.53 ", $-   ,$485.05 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2009,0,,($133.00),"$2,638.54 ", $-   ,$580.97 , $-   , $-   , $-   , $-   
+Yamaha,1955,0,70,Motorcycle,Active,Active,,2008,0,,$255.21 ,"$3,486.11 ", $-   ,$775.32 , $-   , $-   , $-   , $-   
+Kawasaki,1896,0,129,Motorcycle,Active,Active,,2024,0,,,"$2,680.18 ",$220.19 ,"$2,025.63 ",$654.55 , $-   , $-   , $-   
+Kawasaki,1896,0,129,Motorcycle,Active,Active,,2023,0,"$1,849.29 ",$4.67 ,"$2,457.73 ",$211.08 ,"$1,860.85 ",$596.87 , $-   , $-   , $-   
+Kawasaki,1896,0,129,Motorcycle,Active,Active,,2022,38,"$1,725.61 ",$15.06 ,"$2,174.63 ",$214.50 ,"$1,649.74 ",$524.89 , $-   , $-   , $-   
+Kawasaki,1896,0,129,Motorcycle,Active,Active,,2021,0,"$1,500.88 ",$12.83 , $-   ,,, $-   , $-   , $-   , $-   
+Fedex,1971,0,54,Transportation,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$236.26 ,$15.94 ,$14.82 
+Fedex,1971,0,54,Transportation,Active,Active,,2024,430000,"$87,693.00 ","$4,331.00 ","$87,007.00 ","$20,135.00 ","$59,425.00 ","$27,582.00 ",$271.30 ,$16.62 ,$16.42 
+Fedex,1971,0,54,Transportation,Active,Active,,2023,529000,"$90,155.00 ","$3,972.00 ","$87,143.00 ","$20,453.00 ","$61,055.00 ","$26,088.00 ",$226.55 ,$15.09 ,$15.12 
+Fedex,1971,0,54,Transportation,Active,Active,,2022,249000,"$93,512.00 ","$3,826.00 ","$85,994.00 ","$20,182.00 ","$61,055.00 ","$24,939.00 ",$197.51 ,$14.91 ,$13.47 
+Fedex,1971,0,54,Transportation,Active,Active,,2021,289000,"$83,959.00 ","$5,231.00 ","$82,777.00 ","$20,733.00 ","$58,609.00 ","$24,168.00 ",$247.24 ,$16.93 ,$15.20 
+Fedex,1971,0,54,Transportation,Active,Active,,2020,245000,"$69,217.00 ","$1,286.00 ","$73,537.00 ","$21,952.00 ","$55,242.00 ","$18,295.00 ",$178.72 ,$4.86 ,$20.77 
+Fedex,1971,0,54,Transportation,Active,Active,,2019,239000,"$69,693.00 ",$540.00 ,"$54,403.00 ","$16,617.00 ","$36,646.00 ","$17,757.00 ",$147.44 ,$4.30 ,$217.17 
+Fedex,1971,0,54,Transportation,Active,Active,,2018,227000,"$65,450.00 ","$4,572.00 ","$52,330.00 ","$15,243.00 ","$32,914.00 ","$19,416.00 ",$215.64 ,$17.29 ,$12.51 
+Fedex,1971,0,54,Transportation,Active,Active,,2017,169000,"$60,319.00 ","$2,997.00 ","$48,552.00 ","$14,909.00 ","$32,479.00 ","$16,073.00 ",$183.77 ,$9.89 ,$19.07 
+Fedex,1971,0,54,Transportation,Active,Active,,2016,168000,"$50,365.00 ","$1,820.00 ","$45,959.00 ","$13,733.00 ","$32,175.00 ","$13,784.00 ",$144.05 ,$5.87 ,$25.61 
+Fedex,1971,0,54,Transportation,Active,Active,,2015,166000,"$47,453.00 ","$1,050.00 ","$36,531.00 ","$7,249.00 ","$21,538.00 ","$14,993.00 ",$143.18 ,$4.73 ,$35.47 
+Fedex,1971,0,54,Transportation,Active,Active,,2014,162000,"$45,567.00 ","$2,324.00 ","$33,070.00 ","$4,736.00 ","$17,793.00 ","$15,277.00 ",$130.43 ,$6.84 ,$19.24 
+Fedex,1971,0,54,Transportation,Active,Active,,2013,160700,"$44,287.00 ","$2,716.00 ","$33,567.00 ","$2,739.00 ","$16,169.00 ","$17,398.00 ",$96.29 ,$5.20 ,$18.56 
+Fedex,1971,0,54,Transportation,Active,Active,,2012,149000,"$42,680.00 ","$2,032.00 ","$29,903.00 ","$1,250.00 ","$15,176.00 ","$14,727.00 ",$76.16 ,$6.36 ,$11.97 
+Fedex,1971,0,54,Transportation,Active,Active,,2011,143000,"$39,304.00 ","$1,452.00 ","$27,385.00 ","$1,667.00 ","$12,165.00 ","$15,220.00 ",$73.35 ,$4.77 ,$15.62 
+Fedex,1971,0,54,Transportation,Active,Active,,2010,141000,"$34,734.00 ","$1,184.00 ","$24,902.00 ","$1,668.00 ","$11,091.00 ","$13,811.00 ",$71.26 ,$2.99 ,$13.04 
+Fedex,1971,0,54,Transportation,Active,Active,,2009,140000,"$35,497.00 ",$98.00 ,"$24,244.00 ","$1,930.00 ","$10,618.00 ","$13,626.00 ",$71.08 ,($0.83), $-   
+Samsung Galaxy ,2009,0,16,Smartwatches,Active,Active,Product line of Samsung,2024,0,"$301,000,000.00 ","$33,621,363.00 ","$515,000,000.00 ","$19,330,184.00 ","$112,000,000.00 ","$392,000,000.00 ", $-   , $-   , $-   
+Samsung Galaxy ,2009,0,16,Smartwatches,Active,Active,Product line of Samsung,2023,270320,"$259,000,000.00 ","$14,473,401.00 ","$456,000,000.00 ","$12,685,944.00 ","$92,228,115.00 ","$353,000,000.00 ", $-   , $-   , $-   
+Samsung Galaxy ,2009,0,16,Smartwatches,Active,Active,Product line of Samsung,2022,0,"$302,000,000.00 ","$54,730,018.00 ","$448,000,000.00 ","$10,333,242.00 ","$93,674,903.00 ","$345,000,000.00 ", $-   , $-   , $-   
+Samsung Galaxy ,2009,0,16,Smartwatches,Active,Active,Product line of Samsung,2021,0,"$280,000,000.00 ","$39,243,791.00 ","$427,000,000.00 ","$18,392,149.00 ","$122,000,000.00 ","$296,000,000.00 ", $-   , $-   , $-   
+Dell,1984,0,41,PC,Active,Active,,2025,108000,"$95,567.00 ","$4,592.00 ","$79,746.00 ","$19,363.00 ","$81,133.00 ","($1,387.00)",$96.05 ,$6.22 ,$15.44 
+Dell,1984,0,41,PC,Active,Active,,2024,120000,"$88,425.00 ","$3,388.00 ","$82,126.00 ","$19,012.00 ","$84,258.00 ","($2,132.00)",$109.52 ,$5.09 ,$21.45 
+Dell,1984,0,41,PC,Active,Active,,2023,133000,"$102,301.00 ","$2,442.00 ","$89,611.00 ","$23,015.00 ","$92,636.00 ","($3,025.00)",$49.28 ,$3.02 ,$16.42 
+Dell,1984,0,41,PC,Active,Active,,2022,133000,"$101,197.00 ","$5,563.00 ","$92,735.00 ","$21,131.00 ","$94,315.00 ","($1,580.00)",$43.70 ,$5.91 ,$8.70 
+Dell,1984,0,41,PC,Active,Active,,2021,158000,"$86,670.00 ","$3,250.00 ","$123,415.00 ","$32,865.00 ","$115,862.00 ","$7,553.00 ",$44.21 ,$5.70 ,$8.09 
+Dell,1984,0,41,PC,Active,Active,,2020,165000,"$84,815.00 ","$4,616.00 ","$118,861.00 ","$44,319.00 ","$115,706.00 ","$3,155.00 ",$24.75 ,$4.64 ,$6.45 
+Dell,1984,0,41,PC,Active,Active,,2019,157000,"$90,621.00 ","($2,310.00)","$111,820.00 ","$49,201.00 ","$112,762.00 ",($942.00),$26.52 ,($0.58),$3.91 
+Dell,1984,0,41,PC,Active,Active,,2018,145000,"$79,040.00 ","($2,849.00)","$124,193.00 ","$43,998.00 ","$106,708.00 ","$17,485.00 ",$21.14 ,($6.32), $-   
+Dell,1984,0,41,PC,Active,Active,,2017,138000,"$62,164.00 ","($1,167.00)","$118,206.00 ","$43,061.00 ","$99,197.00 ","$19,009.00 ",$19.05 ,($8.48), $-   
+Dell,1984,0,41,PC,Active,Active,,2016,101800,"$50,911.00 ","($1,104.00)","$45,122.00 ","$10,650.00 ","$43,656.00 ","$1,466.00 ", $-   , $-   , $-   
+Dell,1984,0,41,PC,Active,Active,,2015,0,"$54,142.00 ","($1,221.00)","$48,192.00 ","$11,234.00 ","$45,288.00 ","$2,904.00 ", $-   , $-   , $-   
+Dell,1984,0,41,PC,Active,Active,,2014,0,"$14,075.00 ","($1,612.00)", $-   , $-   , $-   , $-   , $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2024,183323,"$350,018.00 ","$100,118.00 ","$450,256.00 ","$10,883.00 ","$125,172.00 ","$325,084.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2023,182502,"$307,394.00 ","$73,795.00 ","$402,392.00 ","$11,870.00 ","$119,013.00 ","$283,379.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2022,190234,"$282,836.00 ","$59,972.00 ","$365,264.00 ","$14,701.00 ","$109,120.00 ","$256,144.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2021,156500,"$257,637.00 ","$76,033.00 ","$359,268.00 ","$14,817.00 ","$107,633.00 ","$251,635.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2020,135301,"$182,527.00 ","$40,269.00 ","$319,616.00 ","$13,932.00 ","$97,072.00 ","$222,544.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2019,118899,"$161,857.00 ","$34,343.00 ","$275,909.00 ","$4,554.00 ","$74,467.00 ","$201,442.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2018,98771,"$136,819.00 ","$30,736.00 ","$232,792.00 ","$4,012.00 ","$55,164.00 ","$177,628.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2017,80110,"$110,855.00 ","$12,662.00 ","$197,295.00 ","$3,969.00 ","$44,793.00 ","$152,502.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2016,72053,"$90,272.00 ","$19,478.00 ","$167,497.00 ","$3,935.00 ","$28,461.00 ","$139,036.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2015,61814,"$74,989.00 ","$15,826.00 ","$147,461.00 ","$1,995.00 ","$27,130.00 ","$120,331.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2014,53600,"$66,001.00 ","$14,136.00 ","$129,187.00 ","$3,228.00 ","$25,327.00 ","$103,860.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2013,47756,"$55,519.00 ","$12,733.00 ","$110,920.00 ","$2,236.00 ","$23,611.00 ","$87,309.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2012,53861,"$46,039.00 ","$10,737.00 ","$93,798.00 ","$2,988.00 ","$22,083.00 ","$71,715.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2011,32467,"$37,905.00 ","$9,737.00 ","$72,574.00 ","$2,986.00 ","$14,429.00 ","$58,145.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2010,24400,"$29,321.00 ","$8,505.00 ","$57,851.00 ", $-   ,"$11,610.00 ","$46,241.00 ", $-   , $-   , $-   
+Alphabet (Google),1998,0,27,Internet,Active,Active,,2009,19835,"$23,651.00 ","$6,520.00 ","$40,497.00 ", $-   ,"$4,493.00 ","$36,004.00 ", $-   , $-   , $-   
+Zara,1975,0,50,Fashion,Active,Active,,2023,161,$71.89 ,$5.41 ,$210.53 ,$18.17 ,$42.55 ,$167.98 , $-   , $-   , $-   
+Zara,1975,0,50,Fashion,Active,Active,,2022,0,$65.24 ,$3.63 ,$206.14 ,$18.91 ,$43.93 ,$162.21 , $-   , $-   , $-   
+Zara,1975,0,50,Fashion,Active,Active,,2021,0,$33.36 ,($6.13),$198.33 ,$12.89 ,$38.69 ,$159.63 , $-   , $-   , $-   
+Zara,1975,0,50,Fashion,Active,Active,,2020,0,$24.46 ,($14.10),$190.56 ,$6.24 ,$23.98 ,$166.58 , $-   , $-   , $-   
+Zara,1975,0,50,Fashion,Active,Active,,2019,0,$73.78 ,$5.92 ,$211.17 ,$3.14 ,$22.29 ,$188.88 , $-   , $-   , $-   
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$46.11 , $-   ,$15.12 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2024,33941,"$11,735.00 ",$395.00 ,"$19,768.00 ","$4,538.00 ","$15,396.00 ","$4,372.00 ",$48.34 ,$2.28 ,$21.48 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2023,26043,"$10,426.00 ",$235.00 ,"$14,613.00 ","$2,182.00 ","$10,500.00 ","$4,113.00 ",$42.82 ,$1.38 ,$43.65 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2022,25469,"$9,646.00 ",$58.00 ,"$14,186.00 ","$1,883.00 ","$10,370.00 ","$3,816.00 ",$45.04 ,$1.53 ,$59.56 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2021,22833,"$6,176.00 ",$478.00 ,"$13,951.00 ","$3,452.00 ","$10,150.00 ","$3,801.00 ",$60.06 ,($2.67),$95.02 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2020,22000,"$3,566.00 ","($1,324.00)","$14,046.00 ","$2,357.00 ","$11,058.00 ","$2,988.00 ",$38.34 ,($2.86),$21.36 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2019,24000,"$8,781.00 ",$769.00 ,"$12,993.00 ","$1,264.00 ","$8,662.00 ","$4,331.00 ",$62.34 ,$4.68 ,$13.71 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2018,23376,"$8,264.00 ",$437.00 ,"$10,912.00 ","$1,617.00 ","$7,161.00 ","$3,751.00 ",$60.87 ,$6.02 ,$10.98 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2017,23156,"$7,894.00 ",$960.00 ,"$10,746.00 ","$2,262.00 ","$7,286.00 ","$3,460.00 ",$78.58 ,$6.64 ,$12.16 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2016,19112,"$5,925.00 ",$797.00 ,"$9,962.00 ","$2,645.00 ","$7,031.00 ","$2,931.00 ",$68.87 ,$6.95 ,$9.98 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2015,15143,"$5,598.00 ",$848.00 ,"$6,530.00 ",$569.00 ,"$4,119.00 ","$2,411.00 ",$66.92 ,$5.76 ,$11.63 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2014,13952,"$5,368.00 ",$605.00 ,"$6,064.00 ",$686.00 ,"$3,937.00 ","$2,127.00 ",$44.98 ,$3.69 ,$12.31 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2013,13177,"$5,156.00 ",$508.00 ,"$5,838.00 ",$754.00 ,"$3,809.00 ","$2,029.00 ",$28.39 ,$2.37 ,$12.01 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2012,12932,"$4,657.00 ",$316.00 ,"$5,505.00 ",$871.00 ,"$4,084.00 ","$1,421.00 ",$16.84 ,$1.92 ,$9.05 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2011,0,"$4,318.00 ",$245.00 ,"$5,167.00 ","$1,099.00 ","$3,993.00 ","$1,174.00 ",$14.80 ,$1.87 ,$8.03 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2010,0,"$3,832.00 ",$251.00 ,"$5,017.00 ","$1,313.00 ","$3,911.00 ","$1,105.00 ",$10.90 ,$1.35 ,$8.21 
+Alaska Airlines,1932,0,93,Airline,Active,Active,,2009,0,"$3,400.00 ",$122.00 ,"$4,996.00 ","$1,699.00 ","$4,124.00 ",$872.00 ,$7.77 ,$0.85 ,$9.14 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$136.01 , $-   ,$31.34 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2024,5000,"$1,575.00 ",$87.00 ,"$1,365.00 ", $-   ,$408.00 ,$957.00 ,$156.55 ,$4.43 ,$35.32 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2023,5000,"$1,559.00 ",$79.00 ,"$1,277.00 ",$28.00 ,$366.00 ,$912.00 ,$154.48 ,$3.50 ,$45.69 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2022,5000,"$1,381.00 ",$47.00 ,"$1,217.00 ",$55.00 ,$354.00 ,$863.00 ,$136.47 ,$2.62 ,$53.05 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2021,4300,"$1,145.00 ",$56.00 ,"$1,122.00 ", $-   ,$277.00 ,$846.00 ,$150.05 ,$2.16 ,$446.53 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2020,4100,"$1,022.00 ",$18.00 ,"$1,057.00 ", $-   ,$247.00 ,$809.00 ,$122.88 ,$1.83 ,$292.81 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2019,4600,"$1,186.00 ",$95.00 ,"$1,019.00 ",$1.00 ,$186.00 ,$834.00 ,$157.73 ,$4.87 ,$32.35 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2018,4500,"$1,138.00 ",$104.00 ,$932.00 ,$1.00 ,$173.00 ,$759.00 ,$130.80 ,$5.28 ,$24.96 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2017,4200,"$1,084.00 ",$79.00 ,$867.00 ,$1.00 ,$185.00 ,$682.00 ,$121.73 ,$4.44 ,$27.66 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2016,3600,$993.00 ,$76.00 ,$790.00 ,$1.00 ,$153.00 ,$638.00 ,$104.77 ,$3.99 ,$26.25 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2015,3400,$976.00 ,$70.00 ,$740.00 ,$1.00 ,$140.00 ,$600.00 ,$96.36 ,$3.81 ,$25.28 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2014,3400,$919.00 ,$72.00 ,$705.00 , $-   ,$142.00 ,$563.00 ,$83.32 ,$3.73 ,$22.34 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2013,3400,$868.00 ,$64.00 ,$646.00 , $-   ,$129.00 ,$517.00 ,$67.92 ,$3.39 ,$20.04 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2012,3200,$831.00 ,$54.00 ,$603.00 , $-   ,$128.00 ,$475.00 ,$48.34 ,$2.90 ,$16.71 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2011,3100,$744.00 ,$55.00 ,$551.00 ,$1.00 ,$118.00 ,$432.00 ,$40.77 ,$2.83 ,$14.42 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2010,2700,$697.00 ,$48.00 ,$484.00 ,$1.00 ,$103.00 ,$381.00 ,$35.77 ,$2.53 ,$14.12 
+J & J Snack Foods JJSF,1971,0,54,Food Industry,Active,Active,,2009,2700,$653.00 ,$41.00 ,$440.00 , $-   ,$97.00 ,$343.00 ,$32.33 ,$2.36 ,$13.70 
+Nike,1964,0,61,Fashion,Active,Active,,2025,0, $-   , $-   , $-   , $-   , $-   , $-   ,$68.22 ,$3.01 ,$22.66 
+Nike,1964,0,61,Fashion,Active,Active,,2024,79400,"$51,362.00 ","$5,700.00 ","$38,110.00 ","$7,903.00 ","$23,680.00 ","$14,430.00 ",$88.76 ,$3.46 ,$25.63 
+Nike,1964,0,61,Fashion,Active,Active,,2023,83700,"$51,217.00 ","$5,070.00 ","$37,531.00 ","$8,927.00 ","$23,527.00 ","$14,004.00 ",$105.74 ,$3.34 ,$31.64 
+Nike,1964,0,61,Fashion,Active,Active,,2022,79100,"$46,710.00 ","$6,046.00 ","$40,321.00 ","$8,920.00 ","$25,040.00 ","$15,281.00 ",$113.00 ,$3.66 ,$30.84 
+Nike,1964,0,61,Fashion,Active,Active,,2021,73300,"$44,538.00 ","$5,727.00 ","$37,740.00 ","$9,413.00 ","$24,973.00 ","$12,767.00 ",$144.12 ,$3.32 ,$45.20 
+Nike,1964,0,61,Fashion,Active,Active,,2020,75400,"$37,403.00 ","$2,539.00 ","$31,342.00 ","$9,406.00 ","$23,287.00 ","$8,055.00 ",$102.65 ,$1.93 ,$56.55 
+Nike,1964,0,61,Fashion,Active,Active,,2019,76700,"$39,117.00 ","$4,029.00 ","$23,717.00 ","$3,464.00 ","$14,677.00 ","$9,040.00 ",$79.68 ,$2.65 ,$30.08 
+Nike,1964,0,61,Fashion,Active,Active,,2018,73100,"$36,397.00 ","$1,933.00 ","$22,536.00 ","$3,468.00 ","$12,724.00 ","$9,812.00 ",$68.44 ,$1.19 ,$57.48 
+Nike,1964,0,61,Fashion,Active,Active,,2017,74400,"$34,350.00 ","$4,240.00 ","$23,259.00 ","$3,471.00 ","$10,852.00 ","$12,407.00 ",$50.94 ,$2.39 ,$21.34 
+Nike,1964,0,61,Fashion,Active,Active,,2016,70700,"$32,376.00 ","$3,760.00 ","$21,379.00 ","$1,993.00 ","$9,121.00 ","$12,258.00 ",$50.50 ,$2.20 ,$22.96 
+Nike,1964,0,61,Fashion,Active,Active,,2015,62600,"$30,601.00 ","$3,273.00 ","$21,597.00 ","$1,079.00 ","$8,890.00 ","$12,707.00 ",$49.37 ,$1.91 ,$25.80 
+Nike,1964,0,61,Fashion,Active,Active,,2014,56500,"$27,799.00 ","$2,693.00 ","$18,594.00 ","$1,199.00 ","$7,770.00 ","$10,824.00 ",$36.74 ,$1.57 ,$23.43 
+Nike,1964,0,61,Fashion,Active,Active,,2013,48000,"$25,313.00 ","$2,472.00 ","$17,545.00 ","$1,210.00 ","$6,464.00 ","$11,081.00 ",$28.11 ,$1.43 ,$19.69 
+Nike,1964,0,61,Fashion,Active,Active,,2012,44000,"$23,331.00 ","$2,211.00 ","$15,465.00 ",$228.00 ,"$5,084.00 ","$10,381.00 ",$22.02 ,$1.16 ,$18.96 
+Nike,1964,0,61,Fashion,Active,Active,,2011,38000,"$20,117.00 ","$2,133.00 ","$14,998.00 ",$276.00 ,"$5,155.00 ","$9,843.00 ",$18.79 ,$1.12 ,$16.80 
+Nike,1964,0,61,Fashion,Active,Active,,2010,34400,"$19,014.00 ","$1,907.00 ","$14,419.00 ",$446.00 ,"$4,665.00 ","$9,754.00 ",$15.39 ,$0.97 ,$15.88 
+Nike,1964,0,61,Fashion,Active,Active,,2009,34300,"$19,176.00 ","$1,487.00 ","$13,250.00 ",$437.00 ,"$4,557.00 ","$8,693.00 ",$13.36 ,$0.75 ,$17.81 

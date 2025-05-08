@@ -1,5 +1,5 @@
 ---
-title: "Company Analysis Report"
+title: "Companies Survival Analysis Report"
 author: "Abeer Gaber"
 date: "`r Sys.Date()`"
 output:
@@ -59,20 +59,18 @@ library(forecast)
 
 
 ```{r load-data}
-companies_mergedData <- read.csv("D:/Data Analysis/Company_Analysis_Project/companies_mergedData.csv")
-companies_mergedData <- companies_mergedData %>% 
-  select(-X)
+companiesSurvival <- read.csv("D:/Data Analysis/Company_Analysis_Project/Data/companiesDataCleaned.csv")
 ```
 
 # Data Overview
 
 ```{r data-glimpse}
-str(companies_mergedData)
-summary(companies_mergedData)
+str(companiesSurvival)
+summary(companiesSurvival)
 ```
 
 ```{r show-table, results='asis'}
-head(companies_mergedData) %>%
+head(companiesSurvival) %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 ```
@@ -88,11 +86,48 @@ Lifespan is an important measure of company health.
 Let’s compare the lifespans of active and defunct companies using the Status dataset.
 
 ```{r status-distribution}
-ggplot(companies_mergedData, aes(x = Current_Status, fill = Current_Status)) +
+ggplot(companiesSurvival, aes(x = Current_Status, fill = Current_Status)) +
   geom_bar() +
   labs(title = "Number of Companies by Status", x = "Current_Status", y = "Count") +
   theme_minimal()
 ```
+
+## Company Lifespan by Industry
+## Warnings:
+1. **Large Outliers:**
+   - Pay attention to companies that fall at the extremes of the chart, as these may represent exceptional cases of very long or short lifespans. These outliers could indicate extraordinary circumstances or significant fluctuations in performance.
+
+2. **Variability Across Industries:**
+   - Some industries show significant variation in company lifespans. This variation may be due to factors like market changes or a sudden drop in demand for products or services, which calls for companies in these industries to review their strategies to ensure sustainability.
+
+3. **Data Limitations:**
+   - The analysis does not account for external factors that may influence company lifespans, such as economic fluctuations or technological changes. These factors should be considered when developing growth strategies.
+
+4. **Geographical and Cultural Differences:**
+   - The lifespan of companies within the same industry can vary based on location or cultural practices. Business owners should consider the local context when evaluating lifespan expectations for their companies.
+
+## Insights:
+1. **Industry Lifespan Trends:**
+   - Some industries consistently show shorter or longer lifespans. For example, [Industry X] tends to have shorter lifespans compared to [Industry Y], which could indicate rapid market changes or higher failure rates in that industry.
+
+2. **High Variability in Some Industries:**
+   - Industries with a wider range of lifespans may require a more flexible strategy to cope with the rapid changes in the market. Companies in these industries could benefit from adopting more agile business models that can adapt to challenges quickly.
+
+3. **Comparison of Lifespan Across Industries:**
+   - The chart allows for a comparison of company lifespans across industries, making it easier to understand stability in each sector. Industries with more tightly grouped values suggest greater stability.
+
+4. **Opportunities for Industry-Specific Strategies:**
+   - Based on this analysis, business owners in industries with shorter lifespans may focus on increasing flexibility and improving adaptability. On the other hand, industries with longer lifespans can concentrate on sustainable growth and innovation to ensure long-term success.
+```{r}
+duration_plot <- ggplot(companiesSurvival, aes(x = reorder(Industries, Dynamic_Duration, FUN = median), y = Dynamic_Duration)) +
+  geom_boxplot(fill = "skyblue") +
+  coord_flip() +
+  labs(title = "Company Lifespan by Industry", x = "Industry", y = "Lifespan Duration (Years)") +
+  theme_minimal()
+
+print(duration_plot)
+```
+
 **Actionable Takeaway:**  
 If your company is in the closure group, it is essential to analyze the contributing factors and take immediate action to turn the trend around.
 
@@ -110,16 +145,16 @@ Let’s look at how the number of employees varies based on company status.
 
 # Data Summary for Employee Count
 ```{r emp-count-summary}
-dim(companies_mergedData$Employee_Number)          # Dimensions
-str(companies_mergedData$Employee_Number)          # Structure
-summary(companies_mergedData$Employee_Number)      # Summary statistics
-sum(is.na(companies_mergedData$Employee_Number))   # Count missing values
+dim(companiesSurvival$Employee_Number)          # Dimensions
+str(companiesSurvival$Employee_Number)          # Structure
+summary(companiesSurvival$Employee_Number)      # Summary statistics
+sum(is.na(companiesSurvival$Employee_Number))   # Count missing values
 ```
 
 # Employee Count Distribution by Company Status
 
 ```{r emp-histogram}
-ggplot(companies_mergedData, aes(x = Employee_Number, fill = Current_Status)) +
+ggplot(companiesSurvival, aes(x = Employee_Number, fill = Current_Status)) +
   geom_histogram(bins = 30) +
   theme_minimal() +
   labs(title = "Employee Count Distribution by Company Current Status",
@@ -138,16 +173,59 @@ This line chart and histogram visualize the revenue trends of companies over tim
 If your revenue is showing a decline or significant fluctuation, it is a red flag. To avoid closure, consider analyzing the reasons behind these revenue drops—such as market shifts, cost inefficiencies, or competition—and make adjustments like cost-cutting, diversifying product lines, or improving marketing efforts.
 
 ```{r revenue-trend}
-ggplot(companies_mergedData, aes(x = Years, y = Revenue, group = Company_Name, color = Current_Status)) +
+ggplot(companiesSurvival, aes(x = Years, y = Revenue, group = Company_Name, color = Current_Status)) +
   geom_line(alpha = 0.6) +
   labs(title = "Revenue Trends Over Time", x = "Year", y = "Revenue") +
   theme_minimal()
 ```
 
+```{r}
+model <- lm(Revenue ~ Years, data = companiesSurvival)
+summary(model)
+```
+
+### Predict future revenue
+```{r}
+future_years <- data.frame(Years = 2025:2028)
+predicted_revenue <- predict(model, newdata = future_years)
+data.frame(future_years, predicted_revenue)
+```
+
+### Insights
+- Most companies show a positive revenue trend from 2018 to 2023.
+- Linear models suggest continued growth through 2028 for leading companies.
+- Some companies show volatility, which may indicate unstable markets or changing strategies.
+
+## Average Revenue and Net Income by Industry
+```{r}
+industry_summary <- companiesSurvival %>%
+  group_by(Industries) %>%
+  summarise(
+    Avg_Revenue = mean(Revenue, na.rm = TRUE),
+    Avg_Income = mean(Net_Income, na.rm = TRUE),
+    Avg_Duration = mean(Dynamic_Duration, na.rm = TRUE),
+    Company_Count = n()
+  ) %>%
+  arrange(desc(Avg_Revenue))
+
+industry_finance_long <- industry_summary %>%
+  pivot_longer(cols = c(Avg_Revenue, Avg_Income), names_to = "Metric", values_to = "Value")
+
+industry_finance_plot <- ggplot(industry_finance_long, aes(x = reorder(Industries, Value), y = Value, fill = Metric)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() +
+  labs(title = "Average Revenue and Net Income by Industry", x = "Industry", y = "Amount") +
+  scale_fill_manual(values = c("Avg_Revenue" = "blue", "Avg_Income" = "green")) +
+  theme_minimal()
+
+print(industry_finance_plot)
+
+```
+
 # Net Income vs. Revenue
 
 ```{r income-vs-revenue}
-ggplot(companies_mergedData, aes(x = Revenue, y = Net_Income, color = Current_Status)) +
+ggplot(companiesSurvival, aes(x = Revenue, y = Net_Income, color = Current_Status)) +
   geom_point(alpha = 0.7) +
   labs(title = "Net Income vs Revenue", x = "Revenue", y = "Net Income") +
   theme_minimal()
@@ -158,13 +236,14 @@ Let’s build a predictive model using the data to identify which companies are 
 
 ```{r}
 # Prepare data
-model_data <- companies_mergedData %>%
+model_data <- companiesSurvival %>%
   filter(Current_Status %in% c("Active", "Defunct", "Re-Opened")) %>%
   mutate(Status_Class = as.factor(Current_Status)) %>%
-  select(Status_Class, Foundation_Year, Closing_Year, Duration, Employee_Number,
+  select(Status_Class, Foundation_Year, Closing_Year, Dynamic_Duration, Employee_Number,
          Revenue, Net_Income, Assets, long_Term_Debt, Total_Liabilities,
          Holders_Equity, Avg_Stock_Price, Avg_TTM_Net_EPS, Avg_PE_Ratio) %>%
   drop_na()
+
 
 # Split into train/test sets
 set.seed(42)
@@ -189,40 +268,45 @@ confusionMatrix(test$Prediction, test$Status_Class)
 varImpPlot(rf_model)
 ```
 
-## Company-Level Summaries
+## Industry-Specific Insights
+### Company Status by Industry
 ```{r}
-summary_table <- companies_mergedData %>%
-  group_by(Company_Name, Status) %>%
-  summarise(
-    Avg_Revenue = mean(Revenue, na.rm = TRUE),
-    Avg_Net_Income = mean(Net_Income, na.rm = TRUE),
-    Avg_Stock_Price = mean(Avg_Stock_Price, na.rm = TRUE),
-    Avg_PE = mean(Avg_PE_Ratio, na.rm = TRUE),
-    .groups = 'drop')
+industry_status_summary <- companiesSurvival %>%
+  group_by(Industries, Current_Status) %>%
+  summarise(Count = n(), .groups = 'drop')
 
-datatable(summary_table)
+industry_status_plot <- ggplot(industry_status_summary, aes(x = reorder(Industries, -Count), y = Count, fill = Current_Status)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() + 
+  labs(title = "Company Status by Industry", x = "Industries", y = "Count") +
+  scale_fill_manual(values = c("Active" = "green", "Defunct" = "red", "Re-Opened" = "blue")) +
+  theme_minimal()
+
+print(industry_status_plot)
 ```
+
+
 ## ⚠️ Critical Warning for At-Risk Companies
 
-If your company has been flagged by the prediction model as “Defunct” or at risk, this is not just a data point—it's a wake-up call.
+- If your company has been flagged by the prediction model as “Defunct” or at risk, this is not just a data point—it's a wake-up call.
 
-Your financial indicators, operational trends, and employee patterns mirror those of companies that have already failed.
+- Your financial indicators, operational trends, and employee patterns mirror those of companies that have already failed.
 
-Unless immediate and strategic actions are taken, your company may face irreversible closure.
+- Unless immediate and strategic actions are taken, your company may face irreversible closure.
 
-This report has highlighted the exact warning signs—declining revenue, shrinking employee numbers, rising liabilities, and reduced investor confidence.
+- This report has highlighted the exact warning signs—declining revenue, shrinking employee numbers, rising liabilities, and reduced investor confidence.
 
-You are not out of time yet—but you're close.
+**You are not out of time yet—but you're close:**
 
-Take this prediction seriously:
+- Take this prediction seriously:
 
-Reassess your business model.
+- Reassess your business model.
 
-Cut non-essential costs.
+- Cut non-essential costs.
 
-Innovate your offerings.
+- Innovate your offerings.
 
-Rebuild trust with investors and employees.
+- Rebuild trust with investors and employees.
 
 The next move you make could decide your company’s fate. Delay is the most dangerous option.
 
@@ -244,7 +328,7 @@ As the chart shows, the overall average revenue among companies is 5 million, re
 # Average PE Ratio by Status
 
 ```{r pe-ratio-by-status}
-companies_mergedData %>%
+companiesSurvival %>%
   group_by(Status) %>%
   summarise(avg_pe = mean(Avg_PE_Ratio, na.rm = TRUE)) %>%
   ggplot(aes(x = Status, y = avg_pe, fill = Status)) +
@@ -256,7 +340,7 @@ companies_mergedData %>%
 # Average Stock Price Distribution
 
 ```{r stock-price-distribution}
-ggplot(companies_mergedData, aes(x = Avg_Stock_Price, fill = Status)) +
+ggplot(companiesSurvival, aes(x = Avg_Stock_Price, fill = Status)) +
   geom_histogram(bins = 30, alpha = 0.7, position = "identity") +
   labs(title = "Average Stock Price Distribution", x = "Stock Price", y = "Frequency") +
   theme_minimal()
@@ -265,7 +349,7 @@ ggplot(companies_mergedData, aes(x = Avg_Stock_Price, fill = Status)) +
 # Company-Level Summaries
 
 ```{r company-summary-table}
-summary_table <- companies_mergedData %>%
+summary_table <- companiesSurvival %>%
   group_by(Company_Name, Status) %>%
   summarise(
     Avg_Revenue = mean(Revenue, na.rm = TRUE),
@@ -277,28 +361,80 @@ summary_table <- companies_mergedData %>%
 datatable(summary_table)
 ```
 
-## Key Takeaways and Survival Strategies:
+# 8.1 Key Takeaways and Survival Strategies
 
-**Financial Health:**  
-Regularly monitor key financial metrics (e.g., revenue, profit margins, debt) to identify signs of distress early.
+## 1. Financial Health:
+   - Regularly monitor key financial metrics (e.g., revenue, profit margins, debt) to identify signs of distress early. Financial health is crucial for making proactive adjustments before issues escalate into crises.
+   - **Tip:** Set up automated financial alerts to track deviations from key performance indicators (KPIs).
 
-**Customer Focus:**  
-Reassess your customer needs and the value you’re offering. Adapt to shifting market demands and invest in customer loyalty.
+## 2. Customer Focus:
+   - Reassess your customer needs and the value you’re offering. Adapt to shifting market demands and invest in customer loyalty. Focus on enhancing the customer experience and responding to feedback.
+   - **Tip:** Leverage customer surveys and feedback loops to stay aligned with market demands.
 
-**Case Study:**  
-Apple successfully navigated financial and market crises by embracing new technologies such as touchscreen interfaces and app ecosystems. These innovations drastically improved product appeal, operational efficiency, and customer engagement. In contrast, BlackBerry failed to adapt to changing consumer demands and technological trends, holding on to outdated features like physical keyboards and enterprise-focused software. As a result, Apple thrived while BlackBerry's market share collapsed.
+## 3. Case Study:
+   - **Apple** successfully navigated financial and market crises by embracing new technologies such as touchscreen interfaces and app ecosystems. These innovations drastically improved product appeal, operational efficiency, and customer engagement.
+   - In contrast, **BlackBerry** failed to adapt to changing consumer demands and technological trends, holding on to outdated features like physical keyboards and enterprise-focused software. As a result, Apple thrived, while BlackBerry’s market share collapsed.
+   
+   - **Insight:** Technology and customer preferences evolve quickly; companies must stay agile to meet these changes.
 
-**Lesson:**  
-Companies that proactively adopt relevant technologies and innovate based on market needs are more likely to survive and grow, while those that resist change risk becoming obsolete.
+## 4. Lesson Learned:
+   - Companies that proactively adopt relevant technologies and innovate based on market needs are more likely to survive and grow. Those that resist change or fail to anticipate shifts in consumer behavior risk becoming obsolete.
+   - **Action Point:** Regularly assess emerging technologies and industry trends to remain competitive.
 
-**Investor Confidence:**  
-If your PE ratio is low, focus on improving profitability and communicating your vision to investors. Strong communication about future growth can rebuild confidence.
+## 5. Investor Confidence:
+   - If your PE ratio is low, focus on improving profitability and clearly communicating your vision for growth to investors. Transparency about future strategies and clear milestones can help rebuild investor confidence.
+   - **Tip:** Develop a clear roadmap of your company’s growth and communicate this regularly to your investors to build trust.
 
-**Operational Efficiency:**  
-Short lifespans and closures often result from poor management or operational inefficiencies. Regular audits of operations, cost control measures, and innovation can prevent stagnation.
+## 6. Operational Efficiency:
+   - Short lifespans and closures often result from poor management or operational inefficiencies. Regular audits of operations, cost-control measures, and continuous innovation can prevent stagnation and ensure long-term success.
+   - **Action Point:** Implement Lean or Six Sigma practices to streamline processes and eliminate waste.
 
-**Adaptability:**  
-The ability to pivot or adapt to market conditions is essential for long-term survival. Companies that failed typically couldn’t adapt quickly enough to external changes like technology shifts, regulatory changes, or market demands.
+## 7. Adaptability:
+   - The ability to pivot or adapt to market conditions is essential for long-term survival. Companies that failed typically couldn’t adapt quickly enough to external changes like technology shifts, regulatory changes, or market demands.
+   - **Tip:** Build a culture of flexibility within your organization, ensuring your team is prepared to react swiftly to market changes.
 
-**Conclusion:**
-In conclusion, by analyzing stock trends, financial performance, employee count, and company lifespan, we can gain valuable insights into the factors that contribute to a company’s survival or closure. Understanding these factors can help in making strategic decisions to avoid company closure and ensure long-term success.
+---
+
+# 8.2 Industry-Specific Insights: Most Affected by Closures
+
+## 1. Industries Most Affected by Company Closures:
+   - Some industries are more vulnerable to closures due to rapid technological changes, shifts in consumer behavior, and economic disruptions. These industries often experience a higher number of business failures due to their inability to adapt to external changes.
+   
+   - **Retail Industry:**
+     - Retail has seen a significant number of closures in recent years, especially brick-and-mortar stores, as consumer preferences shift towards online shopping. Companies that fail to invest in e-commerce or adopt omni-channel strategies risk closure.
+   
+   - **Technology Industry:**
+     - The fast pace of technological innovation poses both opportunities and threats. Startups and even established companies can be wiped out if they fail to innovate or keep up with new technologies, like the rise of mobile apps, AI, or cloud computing.
+   
+   - **Hospitality and Travel:**
+     - The hospitality and travel sectors are highly vulnerable to external factors such as economic downturns, pandemics, and geopolitical instability. The COVID-19 pandemic, for example, led to massive closures in this industry.
+   
+   - **Manufacturing Industry:**
+     - In some regions, the manufacturing industry has seen closures due to automation, shifting labor costs, and competition from low-cost countries. Companies that fail to innovate and adopt efficient technologies face an increased risk of shutting down.
+
+## 2. Industries with the Highest Number of Closures:
+   - Some industries show higher rates of company closures due to inherent challenges such as market saturation, regulatory pressure, and limited differentiation among companies. For example:
+   
+   - **Construction and Real Estate:**
+     - The construction and real estate sectors often see high turnover due to fluctuating demand and market conditions. Economic recessions, shifting housing prices, and the difficulty of securing financing contribute to the closure of companies within this industry.
+
+   - **Restaurants and Food Services:**
+     - The foodservice industry is notoriously unstable, with many restaurants and cafes closing due to high competition, changing consumer tastes, and economic pressures. The pandemic has further exacerbated these closures, with many small businesses unable to recover.
+
+   - **Transportation and Logistics:**
+     - Companies in the transportation and logistics sector often face challenges from rising fuel costs, regulatory changes, and market volatility. The demand for transportation services can fluctuate dramatically, leading to company closures during economic downturns.
+
+## 3. Lessons for Business Owners in Affected Industries:
+   - **Adapting to Market Shifts:**
+     - Industries prone to closures need to stay agile and adapt quickly to market shifts, whether they’re technological advancements, changing customer preferences, or external crises. The key is to continuously innovate and stay ahead of the competition.
+   
+   - **Diversification:**
+     - For industries with high closure rates, diversifying revenue streams and exploring new markets can be critical. Companies should consider expanding their offerings or targeting new customer segments to reduce reliance on a single market.
+   
+   - **Technology Adoption:**
+     - Industries like retail, technology, and manufacturing can significantly benefit from adopting the latest technologies. Automation, e-commerce platforms, and AI can help streamline operations and enhance customer experience, reducing the risk of closure.
+
+---
+
+### Conclusion:
+In conclusion, analyzing financial performance, customer needs, technological trends, and operational efficiency provides valuable insights into a company’s potential for survival or closure. Proactive monitoring of these factors, combined with a willingness to adapt and innovate, can significantly increase a company's chances of thriving in a competitive and ever-changing marketplace. By making strategic decisions based on these insights, business owners can avoid closure and secure long-term success.

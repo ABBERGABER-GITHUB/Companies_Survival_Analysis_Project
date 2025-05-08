@@ -1,11 +1,13 @@
 use companies_analysis;
 
+
 CREATE TABLE companies_mergedData (
     Company_ID INT,
     Company_Name VARCHAR(255),
     Foundation_Year INT,
     Closing_Year INT,
-    Duration INT,
+    Dynamic_Duration INT,
+    Industries VARCHAR(255),
     Status VARCHAR(50),
     Current_Status VARCHAR(50),
     Notes VARCHAR(255),

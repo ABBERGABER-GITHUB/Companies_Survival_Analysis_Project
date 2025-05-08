@@ -1,3 +1,9 @@
+# Load necessary libraries
+library(gridExtra)
+library(caret)
+library(randomForest)
+library(GGally)
+library(corrplot)
 library(tidyverse)
 library(ggplot2)
 library(ggcorrplot)
@@ -7,183 +13,156 @@ library(janitor)
 library(dplyr)
 library(readr)
 library(lubridate)
-library(gridExtra)
+library(stringr)
+library(tidyr)
+library(stringi)
 
-company_mergedData <- read.csv("D:/Data Analysis/Company_Analysis_Project/companies_mergedData.csv")
-names(company_mergedData)
+# Load cleaned companies data
+companiesData <- read.csv("D:/Data Analysis/Company_Analysis_Project/Data/companiesDataCleaned.csv")
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# save the pdf file
+# Check the structure and column names
+names(companiesData)
+str(companiesData)
 
-pdf("D:/Data Analysis/Company_Analysis_Project/companies_Financial_plots.pdf", width = 15, height = 10)
+# Open PDF device to save the plots
+pdf(file = "D:/Data Analysis/Company_Analysis_Project/Visuals/Company_Analysis_Plots.pdf", width = 8, height = 6)
 
-# --- 1. Financial Plots ---
+# --- Company Status Prediction Model (Active, Defunct, Re-Opened) ---
+industry_status_summary <- companiesData %>%
+  group_by(Industries, Current_Status) %>%
+  summarise(Count = n(), .groups = 'drop')
 
-# Revenue vs Net Income
-p1 <- ggplot(company_mergedData, aes(x = Years)) +
-  geom_line(aes(y = Revenue, color = "Revenue")) +
-  geom_line(aes(y = Net_Income, color = "Net Income")) +
-  labs(title = "Revenue vs Net Income Over Years", x = "Years", y = "Amount") +
-  scale_color_manual(name = "Metrics", values = c("Revenue" = "blue", "Net Income" = "green")) +
-  theme_minimal()
-print(p1)
-summary1 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This plot compares the company’s revenue and net income over the years./nIt helps identify profitability trends and assess financial performance.", 
-           hjust = 0.5, size = 5) +
-  theme_void()
-print(summary1)
-
-
-# Assets vs Total Liabilities
-p2 <- ggplot(company_mergedData, aes(x = Years)) +
-  geom_line(aes(y = Assets, color = "Assets")) +
-  geom_line(aes(y = Total_Liabilities, color = "Total Liabilities")) +
-  labs(title = "Assets vs Total Liabilities", x = "Years", y = "Amount") +
-  scale_color_manual(name = "Metrics", values = c("Assets" = "red", "Total Liabilities" = "orange")) +
-  theme_minimal()
-print(p2)
-
-summary2 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This plot shows how the company's assets and liabilities evolved over time./nIt provides insight into financial stability and risk exposure.", 
-           hjust = 0.5, size = 5) +
-  theme_void()
-print(summary2)
-
-# Average Stock Price
-p3 <- ggplot(company_mergedData, aes(x = Years, y = Avg_Stock_Price)) +
-  geom_line(color = "purple") +
-  labs(title = "Average Stock Price Over Years", x = "Years", y = "Average Stock Price") +
-  theme_minimal()
-print(p3)
-
-summary3 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This plot tracks the average stock price of the company across years,/nreflecting investor confidence and market perception.", 
-           hjust = 0.5, size = 5) +
-  theme_void()
-print(summary3)
-
-# Number of Employees
-p4 <- ggplot(company_mergedData, aes(x = Years, y = Employee_Number)) +
-  geom_line(color = "brown") +
-  labs(title = "Number of Employees Over Years", x = "Years", y = "Employees Number") +
-  theme_minimal()
-print(p4)
-
-summary4 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This plot shows workforce growth./nIncreasing employee numbers often indicate expansion and investment in human capital.", 
-           hjust = 0.5, size = 4) +
-  theme_void()
-print(summary4)
-
-# --- 2. Company Status Plots ---
-
-# Scatter Plot: Foundation vs Closing Year
-p5 <- ggplot(company_mergedData, aes(x = Foundation_Year, y = Closing_Year, color = Current_Status)) +
-  geom_point() +
-  labs(title = "Company Status by Foundation and Closing Year", 
-       x = "Foundation Year", y = "Closing Year") +
-  scale_color_manual(values = c("Active" = "green", "Defunct" = "red", "Re-Opened" = "blue")) +
-  theme_minimal()
-print(p5)
-
-summary5 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This scatter plot shows company statuses (Active, Defunct, Re-Opened)\nby their foundation and closing years.\nUseful to detect trends in longevity and restarts.", 
-           hjust = 0.5, size = 4) +
-  theme_void()
-print(summary5)
-
-# Pie Chart: Proportion of Status
-p6 <- company_mergedData %>%
-  distinct(Company_Name, .keep_all = TRUE) %>%
-  count(Current_Status) %>%
-  ggplot(aes(x = "", y = n, fill = Current_Status)) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar("y") +
-  labs(title = "Company Status Proportions") +
+# Create plot for Company Status by Industry
+industry_status_plot <- ggplot(industry_status_summary, aes(x = reorder(Industries, -Count), y = Count, fill = Current_Status)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() + 
+  labs(title = "Company Status by Industry", x = "Industries", y = "Count") +
   scale_fill_manual(values = c("Active" = "green", "Defunct" = "red", "Re-Opened" = "blue")) +
-  theme_void()
-print(p6)
-
-summary6 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This pie chart shows the proportion of Active,\nDefunct, and Re-Opened companies,\noffering a quick overview of company lifecycles.", 
-           hjust = 0.5, size = 5) +
-  theme_void()
-print(summary6)
-
-
-# Histogram: Distribution by Foundation Year
-p7 <- ggplot(company_mergedData %>% distinct(Company_Name, .keep_all = TRUE), 
-             aes(x = Foundation_Year, fill = Status)) +
-  geom_histogram(binwidth = 1, position = "dodge", color = "black") +
-  labs(title = "Distribution of Companies by Foundation Year", x = "Foundation Year", y = "Count of Companies") +
-  scale_fill_manual(values = c("Active" = "green", "Defunct" = "red")) +
   theme_minimal()
-print(p7)
 
-summary7 <- ggplot() +
-  annotate("text", x = 0.5, y = 0.5, 
-           label = "This histogram reveals the frequency of company foundations over time,/nhelping spot peaks in entrepreneurship.", 
-           hjust = 0.5, size = 5) +
-  theme_void()
-print(summary7)
-dev.off()
+# Print to PDF
+print(industry_status_plot)
 
-
-
-# --- 3. Statistics ---
-pdf("D:/Data Analysis/Company_Analysis_Project/companies_Statistical_plots.pdf", width = 15, height = 10)
-# Descriptive Statistics
-summary_stats <- company_mergedData %>%
+# --- Average Revenue and Net Income by Industry ---
+industry_summary <- companiesData %>%
+  group_by(Industries) %>%
   summarise(
-    Mean_Revenue = mean(Revenue, na.rm = TRUE),
-    SD_Revenue = sd(Revenue, na.rm = TRUE),
-    Mean_Income = mean(Net_Income, na.rm = TRUE),
-    SD_Income = sd(Net_Income, na.rm = TRUE),
-    Mean_Assets = mean(Assets, na.rm = TRUE),
-    SD_Assets = sd(Assets, na.rm = TRUE),
-    Mean_Liabilities = mean(Total_Liabilities, na.rm = TRUE),
-    SD_Liabilities = sd(Total_Liabilities, na.rm = TRUE)
-  )
-print(gridExtra::grid.table(summary_stats))
+    Avg_Revenue = mean(Revenue, na.rm = TRUE),
+    Avg_Income = mean(Net_Income, na.rm = TRUE),
+    Avg_Duration = mean(Dynamic_Duration, na.rm = TRUE),
+    Company_Count = n()
+  ) %>%
+  arrange(desc(Avg_Revenue))
 
-# Correlation
-cor_val <- cor(company_mergedData$Revenue, company_mergedData$Net_Income, use = "complete.obs")
-cor_text_plot <- ggplot() +
-  annotate("text", x = 1, y = 1, 
-           label = paste("Correlation between Revenue and Net Income:/n", round(cor_val, 2)), 
-           size = 6) +
-  theme_void()
-print(cor_text_plot)
+# Reshape the data into long format for better handling in ggplot
+industry_finance_long <- industry_summary %>%
+  pivot_longer(cols = c(Avg_Revenue, Avg_Income), names_to = "Metric", values_to = "Value")
 
-# Linear Regression
-lm_model <- lm(Net_Income ~ Revenue, data = company_mergedData)
-reg_summary <- summary(lm_model)
-reg_text <- paste0(
-  "Linear Regression:/n",
-  "Intercept: ", round(reg_summary$coefficients[1,1], 2), "/n",
-  "Slope: ", round(reg_summary$coefficients[2,1], 2), "/n",
-  "R-squared: ", round(reg_summary$r.squared, 2), "/n",
-  "p-value: ", signif(reg_summary$coefficients[2,4], 3)
-)
-reg_text_plot <- ggplot() +
-  annotate("text", x = 1, y = 1, label = reg_text, size = 5, hjust = 5) +
-  theme_void()
-print(reg_text_plot)
-
-# Regression Line Plot
-reg_line_plot <- ggplot(company_mergedData, aes(x = Revenue, y = Net_Income)) +
-  geom_point(color = "blue") +
-  geom_smooth(method = "lm", se = TRUE, color = "red") +
-  labs(title = "Linear Regression: Revenue vs Net Income", 
-       x = "Revenue", y = "Net Income") +
+# Create the plot for Average Revenue and Net Income by Industry
+industry_plot <- ggplot(industry_finance_long, aes(x = reorder(Industries, Value), y = Value, fill = Metric)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() +
+  labs(title = "Average Revenue and Net Income by Industry", x = "Industry", y = "Amount") +
+  scale_fill_manual(values = c("Avg_Revenue" = "blue", "Avg_Income" = "green")) +
   theme_minimal()
-print(reg_line_plot)
-dev.off()
 
+# Print to PDF
+print(industry_plot)
 
+# --- Company Lifespan (Dynamic Duration) by Industry ---
+duration_plot <- ggplot(companiesData, aes(x = reorder(Industries, Dynamic_Duration, FUN = median), y = Dynamic_Duration)) +
+  geom_boxplot(fill = "skyblue") +
+  coord_flip() +
+  labs(title = "Company Lifespan by Industry", x = "Industries", y = "Dynamic Duration (Years)") +
+  theme_minimal()
+
+# Print to PDF
+print(duration_plot)
+
+# --- Correlation Analysis ---
+num_data <- companiesData %>%
+  select_if(is.numeric) %>%
+  drop_na()
+
+# Calculate correlation matrix
+cor_matrix <- cor(num_data)
+
+# Plot the correlation matrix
+corrplot(cor_matrix, method = "color", type = "upper", tl.cex = 0.7, title = "Correlation Matrix", mar = c(0,0,1,0))
+
+# Print to PDF
+grid.newpage()
+grid.text("Correlation Matrix", y = 0.95, gp = gpar(fontsize = 16, fontface = "bold"))
+
+# --- Linear Regression Model for Net Income Prediction ---
+lm_model <- lm(Net_Income ~ Revenue + Assets + Total_Liabilities + Dynamic_Duration + Industries, data = companiesData)
+summary(lm_model)
+
+# --- Random Forest Classification Model to Predict Company Status ---
+classification_data <- companiesData %>%
+  select(Current_Status, Revenue, Net_Income, Assets, Total_Liabilities, Dynamic_Duration, Industries) %>%
+  drop_na()
+
+classification_data$Current_Status <- as.factor(classification_data$Current_Status)
+classification_data$Industries <- as.factor(classification_data$Industries)
+
+# Split the data into training and test sets
+set.seed(123)
+splitIndex <- createDataPartition(classification_data$Current_Status, p = 0.7, list = FALSE)
+train_data <- classification_data[splitIndex, ]
+test_data <- classification_data[-splitIndex, ]
+
+# Train the Random Forest model
+rf_model <- randomForest(Current_Status ~ ., data = train_data, importance = TRUE)
+
+# Make predictions on the test data
+pred <- predict(rf_model, newdata = test_data)
+
+# Display the confusion matrix
+confusionMatrix(pred, test_data$Current_Status)
+
+# Display variable importance plot
+varImpPlot(rf_model, main = "Variable Importance - Random Forest")
+
+# --- Additional Analysis ---
+
+# Average Revenue and Net Income by Industry
+industry_finance <- companiesData %>%
+  group_by(Industries) %>%
+  summarise(Avg_Revenue = mean(Revenue, na.rm = TRUE),
+            Avg_Net_Income = mean(Net_Income, na.rm = TRUE)) %>%
+  arrange(desc(Avg_Revenue))
+
+# Reshape the data into long format for better handling in ggplot
+industry_finance_long <- industry_finance %>%
+  pivot_longer(cols = c(Avg_Revenue, Avg_Net_Income), 
+               names_to = "Metric", values_to = "Value")
+
+# Create the plot for Average Revenue and Net Income by Industry
+ggplot(industry_finance_long, aes(x = reorder(Industries, Value), y = Value, fill = Metric)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  coord_flip() +
+  labs(title = "Average Revenue and Net Income by Industry", x = "Industry", y = "Amount") +
+  scale_fill_manual(values = c("Avg_Revenue" = "blue", "Avg_Net_Income" = "green")) +
+  theme_minimal()
+
+# Print to PDF
+grid.newpage()
+
+# Company Survival Analysis (Lifespan by Industry)
+survival_analysis <- companiesData %>%
+  distinct(Company_Name, .keep_all = TRUE) %>%
+  group_by(Industries) %>%
+  summarise(Avg_Duration = mean(Dynamic_Duration, na.rm = TRUE),
+            Count = n()) %>%
+  arrange(desc(Avg_Duration))
+
+# Create plot for Average Duration by Industry
+ggplot(survival_analysis, aes(x = reorder(Industries, Avg_Duration), y = Avg_Duration)) +
+  geom_col(fill = "darkorange") +
+  coord_flip() +
+  labs(title = "Average Company Lifespan by Industry", x = "Industry", y = "Average Duration (Years)") +
+  theme_minimal()
+
+# Print to PDF
+dev.off()  # Close the PDF device to save the file
